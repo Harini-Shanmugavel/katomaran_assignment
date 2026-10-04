@@ -2,7 +2,7 @@
 
 Processes a video file (or a live RTSP stream), detects faces with **YOLOv8-face**, creates **InsightFace (ArcFace)** embeddings, tracks faces across frames, auto-registers new people, logs every **entry** and **exit** (image + timestamp + DB row + log line), and counts **unique visitors**.
 
-Demo video: **<ADD YOUR LOOM / YOUTUBE LINK HERE>**
+Demo video: **https://youtu.be/vsvfVyFNvCk**
 
 ## Features
 - YOLOv8 face detection, run every `skip_frames + 1` frames (set in `config.json`)
