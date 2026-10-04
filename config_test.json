@@ -1,0 +1,38 @@
+{
+  "source": "C:\\Users\\LENOVO\\Downloads\\dataset\\record_20250620_183903.mp4",
+  "device": "auto",
+  "detection": {
+    "model_path": "models/yolov8n-face.pt",
+    "confidence": 0.5,
+    "iou": 0.5,
+    "imgsz": 640,
+    "skip_frames": 2,
+    "min_face_size": 40
+  },
+  "recognition": {
+    "model_name": "buffalo_l",
+    "similarity_threshold": 0.45,
+    "embedding_samples": 3,
+    "min_blur_score": 20.0,
+    "crop_margin": 0.3
+  },
+  "tracking": {
+    "iou_threshold": 0.25,
+    "exit_after_frames": 30
+  },
+  "storage": {
+    "db_path": "data/face_tracker.db",
+    "logs_dir": "logs",
+    "log_file": "logs/events.log",
+    "reset_db_on_start": true
+  },
+  "stream": {
+    "rtsp_tcp": true,
+    "reconnect_delay_seconds": 3,
+    "max_reconnect_attempts": 0
+  },
+  "output": {
+    "show_window": true,
+    "save_annotated_video": null
+  }
+}

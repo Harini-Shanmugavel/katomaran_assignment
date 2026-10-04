@@ -1,0 +1,2274 @@
+2026-10-02 17:57:17,204 | INFO | CONFIG source=data/sample.mp4 skip_frames=2
+2026-10-02 17:58:46,668 | INFO | PIPELINE_START known_faces=0 skip_frames=2
+2026-10-02 17:58:46,688 | INFO | SOURCE_OPENED source=data/sample.mp4 fps=25.0 stream=False
+2026-10-02 17:58:50,194 | INFO | TRACK_STARTED track=1 frame=0
+2026-10-02 17:58:51,034 | INFO | EMBEDDING track=1 sample=1/3
+2026-10-02 17:58:51,912 | INFO | EMBEDDING track=1 sample=2/3
+2026-10-02 17:58:52,866 | INFO | EMBEDDING track=1 sample=3/3
+2026-10-02 17:58:52,900 | INFO | REGISTERED face_id=1 track=1 embedding_dim=512 image=logs/registered/2026-10-02/face_0001_175846_668.jpg
+2026-10-02 17:58:52,956 | INFO | ENTRY face_id=1 track=1 frame=0 event_ts=2026-10-02T17:58:46.668 image=logs/entries/2026-10-02/face_0001_175846_668.jpg
+2026-10-02 17:58:55,006 | INFO | TRACK_STARTED track=2 frame=48
+2026-10-02 17:58:55,625 | INFO | EMBEDDING track=2 sample=1/3
+2026-10-02 17:58:56,947 | INFO | EXIT face_id=1 track=1 frame=73 event_ts=2026-10-02T17:58:48.346 image=logs/exits/2026-10-02/face_0001_175848_346.jpg
+2026-10-02 17:58:57,198 | INFO | REGISTERED face_id=2 track=2 embedding_dim=512 image=logs/registered/2026-10-02/face_0002_175848_586.jpg
+2026-10-02 17:58:57,202 | INFO | ENTRY face_id=2 track=2 frame=48 event_ts=2026-10-02T17:58:48.586 image=logs/entries/2026-10-02/face_0002_175848_586.jpg
+2026-10-02 17:58:57,205 | INFO | EXIT face_id=2 track=2 frame=79 event_ts=2026-10-02T17:58:48.586 image=logs/exits/2026-10-02/face_0002_175848_586.jpg
+2026-10-02 17:59:09,231 | INFO | TRACK_STARTED track=3 frame=375
+2026-10-02 17:59:09,811 | INFO | EMBEDDING track=3 sample=1/3
+2026-10-02 17:59:10,769 | INFO | TRACK_STARTED track=4 frame=393
+2026-10-02 17:59:11,302 | INFO | EMBEDDING track=4 sample=1/3
+2026-10-02 17:59:12,241 | INFO | EMBEDDING track=4 sample=2/3
+2026-10-02 17:59:13,279 | INFO | EMBEDDING track=4 sample=3/3
+2026-10-02 17:59:13,304 | INFO | REGISTERED face_id=3 track=4 embedding_dim=512 image=logs/registered/2026-10-02/face_0003_175902_368.jpg
+2026-10-02 17:59:13,311 | INFO | ENTRY face_id=3 track=4 frame=393 event_ts=2026-10-02T17:59:02.368 image=logs/entries/2026-10-02/face_0003_175902_368.jpg
+2026-10-02 17:59:13,864 | INFO | REGISTERED face_id=4 track=3 embedding_dim=512 image=logs/registered/2026-10-02/face_0004_175901_648.jpg
+2026-10-02 17:59:13,867 | INFO | ENTRY face_id=4 track=3 frame=375 event_ts=2026-10-02T17:59:01.648 image=logs/entries/2026-10-02/face_0004_175901_648.jpg
+2026-10-02 17:59:13,875 | INFO | EXIT face_id=4 track=3 frame=406 event_ts=2026-10-02T17:59:01.648 image=logs/exits/2026-10-02/face_0004_175901_648.jpg
+2026-10-02 17:59:15,084 | INFO | TRACK_STARTED track=5 frame=435
+2026-10-02 17:59:15,547 | INFO | EMBEDDING track=5 sample=1/3
+2026-10-02 17:59:16,398 | INFO | EMBEDDING track=5 sample=2/3
+2026-10-02 17:59:17,594 | INFO | EMBEDDING track=5 sample=3/3
+2026-10-02 17:59:17,623 | INFO | REGISTERED face_id=5 track=5 embedding_dim=512 image=logs/registered/2026-10-02/face_0005_175904_045.jpg
+2026-10-02 17:59:17,630 | INFO | ENTRY face_id=5 track=5 frame=435 event_ts=2026-10-02T17:59:04.045 image=logs/entries/2026-10-02/face_0005_175904_045.jpg
+2026-10-02 17:59:17,631 | INFO | TRACK_STARTED track=6 frame=441
+2026-10-02 17:59:18,144 | INFO | EMBEDDING track=6 sample=1/3
+2026-10-02 17:59:19,157 | INFO | TRACK_STARTED track=7 frame=456
+2026-10-02 17:59:19,807 | INFO | EMBEDDING track=7 sample=1/3
+2026-10-02 17:59:20,641 | INFO | EMBEDDING track=7 sample=2/3
+2026-10-02 17:59:21,604 | INFO | EMBEDDING track=7 sample=3/3
+2026-10-02 17:59:21,631 | INFO | REGISTERED face_id=6 track=7 embedding_dim=512 image=logs/registered/2026-10-02/face_0006_175904_884.jpg
+2026-10-02 17:59:21,665 | INFO | ENTRY face_id=6 track=7 frame=456 event_ts=2026-10-02T17:59:04.884 image=logs/entries/2026-10-02/face_0006_175904_884.jpg
+2026-10-02 17:59:21,698 | INFO | EXIT face_id=3 track=4 frame=463 event_ts=2026-10-02T17:59:03.925 image=logs/exits/2026-10-02/face_0003_175903_925.jpg
+2026-10-02 17:59:22,347 | INFO | RECOGNIZED face_id=6 track=6 similarity=0.644
+2026-10-02 17:59:22,348 | INFO | TRACK_MERGED face_id=6 old_track=7 new_track=6
+2026-10-02 17:59:22,351 | INFO | EXIT face_id=6 track=6 frame=472 event_ts=2026-10-02T17:59:04.285 image=logs/exits/2026-10-02/face_0006_175904_285.jpg
+2026-10-02 17:59:22,457 | INFO | TRACK_STARTED track=8 frame=474
+2026-10-02 17:59:22,993 | INFO | EMBEDDING track=8 sample=1/3
+2026-10-02 17:59:24,139 | INFO | EMBEDDING track=8 sample=2/3
+2026-10-02 17:59:24,919 | INFO | EMBEDDING track=8 sample=3/3
+2026-10-02 17:59:24,936 | INFO | RECOGNIZED face_id=6 track=8 similarity=0.661
+2026-10-02 17:59:24,957 | INFO | ENTRY face_id=6 track=8 frame=474 event_ts=2026-10-02T17:59:05.603 image=logs/entries/2026-10-02/face_0006_175905_603.jpg
+2026-10-02 17:59:25,635 | INFO | TRACK_STARTED track=9 frame=486
+2026-10-02 17:59:26,181 | INFO | EMBEDDING track=9 sample=1/3
+2026-10-02 17:59:27,322 | INFO | EMBEDDING track=9 sample=2/3
+2026-10-02 17:59:28,343 | INFO | EMBEDDING track=9 sample=3/3
+2026-10-02 17:59:28,360 | INFO | REGISTERED face_id=7 track=9 embedding_dim=512 image=logs/registered/2026-10-02/face_0007_175906_083.jpg
+2026-10-02 17:59:28,373 | INFO | ENTRY face_id=7 track=9 frame=486 event_ts=2026-10-02T17:59:06.083 image=logs/entries/2026-10-02/face_0007_175906_083.jpg
+2026-10-02 17:59:29,068 | INFO | EXIT face_id=5 track=5 frame=505 event_ts=2026-10-02T17:59:05.603 image=logs/exits/2026-10-02/face_0005_175905_603.jpg
+2026-10-02 17:59:37,048 | INFO | TRACK_STARTED track=10 frame=699
+2026-10-02 17:59:37,616 | INFO | EMBEDDING track=10 sample=1/3
+2026-10-02 17:59:37,637 | INFO | EXIT face_id=6 track=8 frame=700 event_ts=2026-10-02T17:59:13.393 image=logs/exits/2026-10-02/face_0006_175913_393.jpg
+2026-10-02 17:59:38,149 | INFO | TRACK_STARTED track=11 frame=705
+2026-10-02 17:59:38,874 | INFO | EMBEDDING track=11 sample=1/3
+2026-10-02 17:59:39,565 | INFO | EMBEDDING track=11 sample=2/3
+2026-10-02 17:59:39,599 | INFO | EXIT face_id=7 track=9 frame=709 event_ts=2026-10-02T17:59:13.752 image=logs/exits/2026-10-02/face_0007_175913_752.jpg
+2026-10-02 17:59:40,160 | INFO | TRACK_STARTED track=12 frame=714
+2026-10-02 17:59:40,749 | INFO | EMBEDDING track=12 sample=1/3
+2026-10-02 17:59:40,751 | INFO | TRACK_STARTED track=13 frame=714
+2026-10-02 17:59:41,166 | INFO | EMBEDDING track=13 sample=1/3
+2026-10-02 17:59:42,221 | INFO | EMBEDDING track=13 sample=2/3
+2026-10-02 17:59:43,235 | INFO | EMBEDDING track=13 sample=3/3
+2026-10-02 17:59:43,264 | INFO | REGISTERED face_id=8 track=13 embedding_dim=512 image=logs/registered/2026-10-02/face_0008_175915_190.jpg
+2026-10-02 17:59:43,279 | INFO | ENTRY face_id=8 track=13 frame=714 event_ts=2026-10-02T17:59:15.190 image=logs/entries/2026-10-02/face_0008_175915_190.jpg
+2026-10-02 17:59:43,283 | INFO | TRACK_STARTED track=14 frame=720
+2026-10-02 17:59:43,752 | INFO | EMBEDDING track=14 sample=1/3
+2026-10-02 17:59:44,740 | INFO | EMBEDDING track=14 sample=2/3
+2026-10-02 17:59:45,870 | INFO | EMBEDDING track=14 sample=3/3
+2026-10-02 17:59:45,873 | INFO | REGISTERED face_id=9 track=14 embedding_dim=512 image=logs/registered/2026-10-02/face_0009_175915_430.jpg
+2026-10-02 17:59:45,881 | INFO | ENTRY face_id=9 track=14 frame=720 event_ts=2026-10-02T17:59:15.430 image=logs/entries/2026-10-02/face_0009_175915_430.jpg
+2026-10-02 17:59:46,245 | INFO | RECOGNIZED face_id=9 track=10 similarity=0.707
+2026-10-02 17:59:46,246 | INFO | TRACK_MERGED face_id=9 old_track=14 new_track=10
+2026-10-02 17:59:46,249 | INFO | EXIT face_id=9 track=10 frame=730 event_ts=2026-10-02T17:59:14.591 image=logs/exits/2026-10-02/face_0009_175914_591.jpg
+2026-10-02 17:59:46,405 | INFO | TRACK_STARTED track=15 frame=732
+2026-10-02 17:59:47,086 | INFO | EMBEDDING track=15 sample=1/3
+2026-10-02 17:59:47,720 | INFO | TRACK_STARTED track=16 frame=738
+2026-10-02 17:59:48,319 | INFO | EMBEDDING track=16 sample=1/3
+2026-10-02 17:59:48,367 | INFO | RECOGNIZED face_id=9 track=11 similarity=0.814
+2026-10-02 17:59:48,398 | INFO | ENTRY face_id=9 track=11 frame=705 event_ts=2026-10-02T17:59:14.831 image=logs/entries/2026-10-02/face_0009_175914_831.jpg
+2026-10-02 17:59:48,408 | INFO | EXIT face_id=9 track=11 frame=739 event_ts=2026-10-02T17:59:14.951 image=logs/exits/2026-10-02/face_0009_175914_951.jpg
+2026-10-02 17:59:49,610 | INFO | EMBEDDING track=16 sample=2/3
+2026-10-02 17:59:50,948 | INFO | EMBEDDING track=16 sample=3/3
+2026-10-02 17:59:50,949 | INFO | RECOGNIZED face_id=9 track=16 similarity=0.780
+2026-10-02 17:59:50,961 | INFO | ENTRY face_id=9 track=16 frame=738 event_ts=2026-10-02T17:59:16.149 image=logs/entries/2026-10-02/face_0009_175916_149.jpg
+2026-10-02 17:59:50,977 | INFO | RECOGNIZED face_id=9 track=12 similarity=0.861
+2026-10-02 17:59:50,979 | INFO | TRACK_MERGED face_id=9 old_track=16 new_track=12
+2026-10-02 17:59:50,982 | INFO | EXIT face_id=9 track=12 frame=745 event_ts=2026-10-02T17:59:15.190 image=logs/exits/2026-10-02/face_0009_175915_190.jpg
+2026-10-02 17:59:51,219 | INFO | TRACK_STARTED track=17 frame=747
+2026-10-02 17:59:51,842 | INFO | EMBEDDING track=17 sample=1/3
+2026-10-02 17:59:52,334 | INFO | TRACK_STARTED track=18 frame=750
+2026-10-02 17:59:53,149 | INFO | EMBEDDING track=18 sample=1/3
+2026-10-02 17:59:54,265 | INFO | EMBEDDING track=18 sample=2/3
+2026-10-02 17:59:55,239 | INFO | EMBEDDING track=18 sample=3/3
+2026-10-02 17:59:55,275 | INFO | RECOGNIZED face_id=9 track=18 similarity=0.757
+2026-10-02 17:59:55,304 | INFO | ENTRY face_id=9 track=18 frame=750 event_ts=2026-10-02T17:59:16.628 image=logs/entries/2026-10-02/face_0009_175916_628.jpg
+2026-10-02 17:59:56,050 | INFO | RECOGNIZED face_id=9 track=15 similarity=0.704
+2026-10-02 17:59:56,051 | INFO | TRACK_MERGED face_id=9 old_track=18 new_track=15
+2026-10-02 17:59:56,053 | INFO | EXIT face_id=9 track=15 frame=763 event_ts=2026-10-02T17:59:15.909 image=logs/exits/2026-10-02/face_0009_175915_909.jpg
+2026-10-02 17:59:56,164 | INFO | TRACK_STARTED track=19 frame=765
+2026-10-02 17:59:56,770 | INFO | EMBEDDING track=19 sample=1/3
+2026-10-02 17:59:58,335 | INFO | EMBEDDING track=19 sample=2/3
+2026-10-02 18:00:00,154 | INFO | EMBEDDING track=19 sample=3/3
+2026-10-02 18:00:00,155 | INFO | RECOGNIZED face_id=9 track=19 similarity=0.789
+2026-10-02 18:00:00,158 | INFO | ENTRY face_id=9 track=19 frame=765 event_ts=2026-10-02T17:59:17.228 image=logs/entries/2026-10-02/face_0009_175917_228.jpg
+2026-10-02 18:00:00,741 | INFO | RECOGNIZED face_id=9 track=17 similarity=0.758
+2026-10-02 18:00:00,742 | INFO | TRACK_MERGED face_id=9 old_track=19 new_track=17
+2026-10-02 18:00:00,745 | INFO | EXIT face_id=9 track=17 frame=778 event_ts=2026-10-02T17:59:16.509 image=logs/exits/2026-10-02/face_0009_175916_509.jpg
+2026-10-02 18:00:00,855 | INFO | TRACK_STARTED track=20 frame=780
+2026-10-02 18:00:01,425 | INFO | EMBEDDING track=20 sample=1/3
+2026-10-02 18:00:02,464 | INFO | EMBEDDING track=20 sample=2/3
+2026-10-02 18:00:03,535 | INFO | EMBEDDING track=20 sample=3/3
+2026-10-02 18:00:03,539 | INFO | RECOGNIZED face_id=9 track=20 similarity=0.771
+2026-10-02 18:00:03,543 | INFO | ENTRY face_id=9 track=20 frame=780 event_ts=2026-10-02T17:59:17.827 image=logs/entries/2026-10-02/face_0009_175917_827.jpg
+2026-10-02 18:00:07,952 | INFO | EXIT face_id=9 track=20 frame=886 event_ts=2026-10-02T17:59:20.823 image=logs/exits/2026-10-02/face_0009_175920_823.jpg
+2026-10-02 18:00:08,091 | INFO | EXIT face_id=8 track=13 frame=889 event_ts=2026-10-02T17:59:20.943 image=logs/exits/2026-10-02/face_0008_175920_943.jpg
+2026-10-02 18:00:30,405 | INFO | TRACK_STARTED track=21 frame=1443
+2026-10-02 18:00:30,937 | INFO | EMBEDDING track=21 sample=1/3
+2026-10-02 18:00:31,309 | INFO | TRACK_STARTED track=22 frame=1446
+2026-10-02 18:00:31,868 | INFO | EMBEDDING track=22 sample=1/3
+2026-10-02 18:00:32,314 | INFO | TRACK_STARTED track=23 frame=1449
+2026-10-02 18:00:32,755 | INFO | EMBEDDING track=23 sample=1/3
+2026-10-02 18:00:33,194 | INFO | TRACK_STARTED track=24 frame=1452
+2026-10-02 18:00:33,676 | INFO | EMBEDDING track=24 sample=1/3
+2026-10-02 18:00:34,099 | INFO | TRACK_STARTED track=25 frame=1455
+2026-10-02 18:00:34,647 | INFO | EMBEDDING track=25 sample=1/3
+2026-10-02 18:00:35,067 | INFO | TRACK_STARTED track=26 frame=1458
+2026-10-02 18:00:35,644 | INFO | EMBEDDING track=26 sample=1/3
+2026-10-02 18:00:36,043 | INFO | TRACK_STARTED track=27 frame=1461
+2026-10-02 18:00:36,631 | INFO | EMBEDDING track=27 sample=1/3
+2026-10-02 18:00:37,317 | INFO | TRACK_STARTED track=28 frame=1470
+2026-10-02 18:00:37,925 | INFO | EMBEDDING track=28 sample=1/3
+2026-10-02 18:00:38,133 | INFO | TRACK_STARTED track=29 frame=1473
+2026-10-02 18:00:38,767 | INFO | EMBEDDING track=29 sample=1/3
+2026-10-02 18:00:38,788 | INFO | REGISTERED face_id=10 track=21 embedding_dim=512 image=logs/registered/2026-10-02/face_0010_175944_312.jpg
+2026-10-02 18:00:38,792 | INFO | ENTRY face_id=10 track=21 frame=1443 event_ts=2026-10-02T17:59:44.312 image=logs/entries/2026-10-02/face_0010_175944_312.jpg
+2026-10-02 18:00:38,796 | INFO | EXIT face_id=10 track=21 frame=1474 event_ts=2026-10-02T17:59:44.312 image=logs/exits/2026-10-02/face_0010_175944_312.jpg
+2026-10-02 18:00:39,101 | INFO | RECOGNIZED face_id=10 track=22 similarity=0.622
+2026-10-02 18:00:39,112 | INFO | ENTRY face_id=10 track=22 frame=1446 event_ts=2026-10-02T17:59:44.431 image=logs/entries/2026-10-02/face_0010_175944_431.jpg
+2026-10-02 18:00:39,116 | INFO | EXIT face_id=10 track=22 frame=1477 event_ts=2026-10-02T17:59:44.431 image=logs/exits/2026-10-02/face_0010_175944_431.jpg
+2026-10-02 18:00:39,355 | INFO | RECOGNIZED face_id=10 track=23 similarity=0.459
+2026-10-02 18:00:39,358 | INFO | ENTRY face_id=10 track=23 frame=1449 event_ts=2026-10-02T17:59:44.551 image=logs/entries/2026-10-02/face_0010_175944_551.jpg
+2026-10-02 18:00:39,361 | INFO | EXIT face_id=10 track=23 frame=1480 event_ts=2026-10-02T17:59:44.551 image=logs/exits/2026-10-02/face_0010_175944_551.jpg
+2026-10-02 18:00:39,482 | INFO | RECOGNIZED face_id=10 track=24 similarity=0.559
+2026-10-02 18:00:39,486 | INFO | ENTRY face_id=10 track=24 frame=1452 event_ts=2026-10-02T17:59:44.671 image=logs/entries/2026-10-02/face_0010_175944_671.jpg
+2026-10-02 18:00:39,495 | INFO | EXIT face_id=10 track=24 frame=1483 event_ts=2026-10-02T17:59:44.671 image=logs/exits/2026-10-02/face_0010_175944_671.jpg
+2026-10-02 18:00:39,618 | INFO | RECOGNIZED face_id=10 track=25 similarity=0.518
+2026-10-02 18:00:39,622 | INFO | ENTRY face_id=10 track=25 frame=1455 event_ts=2026-10-02T17:59:44.791 image=logs/entries/2026-10-02/face_0010_175944_791.jpg
+2026-10-02 18:00:39,625 | INFO | EXIT face_id=10 track=25 frame=1486 event_ts=2026-10-02T17:59:44.791 image=logs/exits/2026-10-02/face_0010_175944_791.jpg
+2026-10-02 18:00:39,749 | INFO | RECOGNIZED face_id=10 track=26 similarity=0.667
+2026-10-02 18:00:39,752 | INFO | ENTRY face_id=10 track=26 frame=1458 event_ts=2026-10-02T17:59:44.911 image=logs/entries/2026-10-02/face_0010_175944_911.jpg
+2026-10-02 18:00:39,762 | INFO | EXIT face_id=10 track=26 frame=1489 event_ts=2026-10-02T17:59:44.911 image=logs/exits/2026-10-02/face_0010_175944_911.jpg
+2026-10-02 18:00:39,894 | INFO | RECOGNIZED face_id=10 track=27 similarity=0.478
+2026-10-02 18:00:39,897 | INFO | ENTRY face_id=10 track=27 frame=1461 event_ts=2026-10-02T17:59:45.031 image=logs/entries/2026-10-02/face_0010_175945_031.jpg
+2026-10-02 18:00:39,900 | INFO | EXIT face_id=10 track=27 frame=1492 event_ts=2026-10-02T17:59:45.031 image=logs/exits/2026-10-02/face_0010_175945_031.jpg
+2026-10-02 18:00:40,282 | INFO | REGISTERED face_id=11 track=28 embedding_dim=512 image=logs/registered/2026-10-02/face_0011_175945_390.jpg
+2026-10-02 18:00:40,296 | INFO | ENTRY face_id=11 track=28 frame=1470 event_ts=2026-10-02T17:59:45.390 image=logs/entries/2026-10-02/face_0011_175945_390.jpg
+2026-10-02 18:00:40,299 | INFO | EXIT face_id=11 track=28 frame=1501 event_ts=2026-10-02T17:59:45.390 image=logs/exits/2026-10-02/face_0011_175945_390.jpg
+2026-10-02 18:00:40,340 | INFO | RECOGNIZED face_id=11 track=29 similarity=0.792
+2026-10-02 18:00:40,343 | INFO | ENTRY face_id=11 track=29 frame=1473 event_ts=2026-10-02T17:59:45.510 image=logs/entries/2026-10-02/face_0011_175945_510.jpg
+2026-10-02 18:00:40,348 | INFO | EXIT face_id=11 track=29 frame=1502 event_ts=2026-10-02T17:59:45.510 image=logs/exits/2026-10-02/face_0011_175945_510.jpg
+2026-10-02 18:00:40,349 | INFO | PIPELINE_END unique_visitors=11 events={'entry': 24, 'exit': 24}
+2026-10-02 18:32:06,574 | INFO | CONFIG source=data/sample.mp4 skip_frames=2
+2026-10-02 18:32:12,294 | INFO | PIPELINE_START known_faces=0 skip_frames=2
+2026-10-02 18:32:12,310 | INFO | SOURCE_OPENED source=data/sample.mp4 fps=25.0 stream=False
+2026-10-02 18:32:15,443 | INFO | TRACK_STARTED track=1 frame=0
+2026-10-02 18:32:15,996 | INFO | EMBEDDING track=1 sample=1/3
+2026-10-02 18:32:16,727 | INFO | EMBEDDING track=1 sample=2/3
+2026-10-02 18:32:17,482 | INFO | EMBEDDING track=1 sample=3/3
+2026-10-02 18:32:17,500 | INFO | REGISTERED face_id=1 track=1 embedding_dim=512 image=logs/registered/2026-10-02/face_0001_183212_294.jpg
+2026-10-02 18:32:17,517 | INFO | IDENTITY_CREATED face_id=1 track=1
+2026-10-02 18:32:17,539 | INFO | ENTRY face_id=1 track=1 frame=0 event_ts=2026-10-02T18:32:12.294 image=logs/entries/2026-10-02/face_0001_183212_294.jpg
+2026-10-02 18:32:19,098 | INFO | TRACK_STARTED track=2 frame=48
+2026-10-02 18:32:19,397 | INFO | EMBEDDING track=2 sample=1/3
+2026-10-02 18:32:20,544 | INFO | EXIT face_id=1 track=1 frame=73 event_ts=2026-10-02T18:32:13.972 image=logs/exits/2026-10-02/face_0001_183213_972.jpg
+2026-10-02 18:32:20,709 | INFO | REGISTERED face_id=2 track=2 embedding_dim=512 image=logs/registered/2026-10-02/face_0002_183214_211.jpg
+2026-10-02 18:32:20,710 | INFO | IDENTITY_CREATED face_id=2 track=2
+2026-10-02 18:32:20,713 | INFO | ENTRY face_id=2 track=2 frame=48 event_ts=2026-10-02T18:32:14.211 image=logs/entries/2026-10-02/face_0002_183214_211.jpg
+2026-10-02 18:32:20,715 | INFO | EXIT face_id=2 track=2 frame=79 event_ts=2026-10-02T18:32:14.211 image=logs/exits/2026-10-02/face_0002_183214_211.jpg
+2026-10-02 18:32:27,740 | INFO | TRACK_STARTED track=3 frame=375
+2026-10-02 18:32:28,271 | INFO | EMBEDDING track=3 sample=1/3
+2026-10-02 18:32:28,981 | INFO | TRACK_STARTED track=4 frame=393
+2026-10-02 18:32:29,248 | INFO | EMBEDDING track=4 sample=1/3
+2026-10-02 18:32:30,261 | INFO | EMBEDDING track=4 sample=2/3
+2026-10-02 18:32:31,111 | INFO | EMBEDDING track=4 sample=3/3
+2026-10-02 18:32:31,162 | INFO | REGISTERED face_id=3 track=4 embedding_dim=512 image=logs/registered/2026-10-02/face_0003_183227_993.jpg
+2026-10-02 18:32:31,197 | INFO | IDENTITY_CREATED face_id=3 track=4
+2026-10-02 18:32:31,255 | INFO | ENTRY face_id=3 track=4 frame=393 event_ts=2026-10-02T18:32:27.993 image=logs/entries/2026-10-02/face_0003_183227_993.jpg
+2026-10-02 18:32:31,696 | INFO | REGISTERED face_id=4 track=3 embedding_dim=512 image=logs/registered/2026-10-02/face_0004_183227_274.jpg
+2026-10-02 18:32:31,697 | INFO | IDENTITY_CREATED face_id=4 track=3
+2026-10-02 18:32:31,699 | INFO | ENTRY face_id=4 track=3 frame=375 event_ts=2026-10-02T18:32:27.274 image=logs/entries/2026-10-02/face_0004_183227_274.jpg
+2026-10-02 18:32:31,701 | INFO | EXIT face_id=4 track=3 frame=406 event_ts=2026-10-02T18:32:27.274 image=logs/exits/2026-10-02/face_0004_183227_274.jpg
+2026-10-02 18:32:32,450 | INFO | TRACK_STARTED track=5 frame=435
+2026-10-02 18:32:32,726 | INFO | EMBEDDING track=5 sample=1/3
+2026-10-02 18:32:33,671 | INFO | EMBEDDING track=5 sample=2/3
+2026-10-02 18:32:34,513 | INFO | EMBEDDING track=5 sample=3/3
+2026-10-02 18:32:34,550 | INFO | REGISTERED face_id=5 track=5 embedding_dim=512 image=logs/registered/2026-10-02/face_0005_183229_671.jpg
+2026-10-02 18:32:34,589 | INFO | IDENTITY_CREATED face_id=5 track=5
+2026-10-02 18:32:34,632 | INFO | ENTRY face_id=5 track=5 frame=435 event_ts=2026-10-02T18:32:29.671 image=logs/entries/2026-10-02/face_0005_183229_671.jpg
+2026-10-02 18:32:34,668 | INFO | TRACK_STARTED track=6 frame=441
+2026-10-02 18:32:35,133 | INFO | EMBEDDING track=6 sample=1/3
+2026-10-02 18:32:35,864 | INFO | TRACK_STARTED track=7 frame=456
+2026-10-02 18:32:36,441 | INFO | EMBEDDING track=7 sample=1/3
+2026-10-02 18:32:36,882 | INFO | EMBEDDING track=7 sample=2/3
+2026-10-02 18:32:37,832 | INFO | EMBEDDING track=7 sample=3/3
+2026-10-02 18:32:37,875 | INFO | REGISTERED face_id=6 track=7 embedding_dim=512 image=logs/registered/2026-10-02/face_0006_183230_510.jpg
+2026-10-02 18:32:37,902 | INFO | IDENTITY_CREATED face_id=6 track=7
+2026-10-02 18:32:37,904 | INFO | ENTRY face_id=6 track=7 frame=456 event_ts=2026-10-02T18:32:30.510 image=logs/entries/2026-10-02/face_0006_183230_510.jpg
+2026-10-02 18:32:37,915 | INFO | EXIT face_id=3 track=4 frame=463 event_ts=2026-10-02T18:32:29.551 image=logs/exits/2026-10-02/face_0003_183229_551.jpg
+2026-10-02 18:32:38,482 | INFO | RECOGNIZED face_id=6 track=6 similarity=0.644
+2026-10-02 18:32:38,483 | INFO | TRACK_MERGED face_id=6 old_track=7 new_track=6
+2026-10-02 18:32:38,485 | INFO | EXIT face_id=6 track=6 frame=472 event_ts=2026-10-02T18:32:29.911 image=logs/exits/2026-10-02/face_0006_183229_911.jpg
+2026-10-02 18:32:38,551 | INFO | TRACK_STARTED track=8 frame=474
+2026-10-02 18:32:38,862 | INFO | EMBEDDING track=8 sample=1/3
+2026-10-02 18:32:39,855 | INFO | EMBEDDING track=8 sample=2/3
+2026-10-02 18:32:40,718 | INFO | EMBEDDING track=8 sample=3/3
+2026-10-02 18:32:40,758 | INFO | RECOGNIZED face_id=6 track=8 similarity=0.661
+2026-10-02 18:32:40,793 | INFO | RECONNECTED face_id=6 track=8 (no new entry)
+2026-10-02 18:32:41,305 | INFO | TRACK_STARTED track=9 frame=486
+2026-10-02 18:32:41,589 | INFO | EMBEDDING track=9 sample=1/3
+2026-10-02 18:32:42,528 | INFO | EMBEDDING track=9 sample=2/3
+2026-10-02 18:32:43,365 | INFO | EMBEDDING track=9 sample=3/3
+2026-10-02 18:32:43,395 | INFO | REGISTERED face_id=7 track=9 embedding_dim=512 image=logs/registered/2026-10-02/face_0007_183231_708.jpg
+2026-10-02 18:32:43,432 | INFO | IDENTITY_CREATED face_id=7 track=9
+2026-10-02 18:32:43,495 | INFO | ENTRY face_id=7 track=9 frame=486 event_ts=2026-10-02T18:32:31.708 image=logs/entries/2026-10-02/face_0007_183231_708.jpg
+2026-10-02 18:32:44,073 | INFO | EXIT face_id=5 track=5 frame=505 event_ts=2026-10-02T18:32:31.229 image=logs/exits/2026-10-02/face_0005_183231_229.jpg
+2026-10-02 18:32:48,887 | INFO | TRACK_STARTED track=10 frame=699
+2026-10-02 18:32:49,225 | INFO | EMBEDDING track=10 sample=1/3
+2026-10-02 18:32:49,302 | INFO | EXIT_ALREADY_LOGGED face_id=6 track=8
+2026-10-02 18:32:49,808 | INFO | TRACK_STARTED track=11 frame=705
+2026-10-02 18:32:50,128 | INFO | EMBEDDING track=11 sample=1/3
+2026-10-02 18:32:50,963 | INFO | EMBEDDING track=11 sample=2/3
+2026-10-02 18:32:51,031 | INFO | EXIT face_id=7 track=9 frame=709 event_ts=2026-10-02T18:32:39.378 image=logs/exits/2026-10-02/face_0007_183239_378.jpg
+2026-10-02 18:32:51,562 | INFO | TRACK_STARTED track=12 frame=714
+2026-10-02 18:32:51,824 | INFO | EMBEDDING track=12 sample=1/3
+2026-10-02 18:32:51,888 | INFO | TRACK_STARTED track=13 frame=714
+2026-10-02 18:32:52,228 | INFO | EMBEDDING track=13 sample=1/3
+2026-10-02 18:32:53,017 | INFO | EMBEDDING track=13 sample=2/3
+2026-10-02 18:32:53,748 | INFO | EMBEDDING track=13 sample=3/3
+2026-10-02 18:32:53,770 | INFO | REGISTERED face_id=8 track=13 embedding_dim=512 image=logs/registered/2026-10-02/face_0008_183240_816.jpg
+2026-10-02 18:32:53,778 | INFO | IDENTITY_CREATED face_id=8 track=13
+2026-10-02 18:32:53,787 | INFO | ENTRY face_id=8 track=13 frame=714 event_ts=2026-10-02T18:32:40.816 image=logs/entries/2026-10-02/face_0008_183240_816.jpg
+2026-10-02 18:32:53,793 | INFO | TRACK_STARTED track=14 frame=720
+2026-10-02 18:32:54,159 | INFO | EMBEDDING track=14 sample=1/3
+2026-10-02 18:32:54,979 | INFO | EMBEDDING track=14 sample=2/3
+2026-10-02 18:32:55,733 | INFO | EMBEDDING track=14 sample=3/3
+2026-10-02 18:32:55,772 | INFO | REGISTERED face_id=9 track=14 embedding_dim=512 image=logs/registered/2026-10-02/face_0009_183241_056.jpg
+2026-10-02 18:32:55,813 | INFO | IDENTITY_CREATED face_id=9 track=14
+2026-10-02 18:32:55,831 | INFO | ENTRY face_id=9 track=14 frame=720 event_ts=2026-10-02T18:32:41.056 image=logs/entries/2026-10-02/face_0009_183241_056.jpg
+2026-10-02 18:32:56,264 | INFO | RECOGNIZED face_id=9 track=10 similarity=0.707
+2026-10-02 18:32:56,265 | INFO | TRACK_MERGED face_id=9 old_track=14 new_track=10
+2026-10-02 18:32:56,273 | INFO | EXIT face_id=9 track=10 frame=730 event_ts=2026-10-02T18:32:40.217 image=logs/exits/2026-10-02/face_0009_183240_217.jpg
+2026-10-02 18:32:56,359 | INFO | TRACK_STARTED track=15 frame=732
+2026-10-02 18:32:56,920 | INFO | EMBEDDING track=15 sample=1/3
+2026-10-02 18:32:57,235 | INFO | TRACK_STARTED track=16 frame=738
+2026-10-02 18:32:57,595 | INFO | EMBEDDING track=16 sample=1/3
+2026-10-02 18:32:57,639 | INFO | RECOGNIZED face_id=9 track=11 similarity=0.814
+2026-10-02 18:32:57,671 | INFO | RECONNECTED face_id=9 track=11 (no new entry)
+2026-10-02 18:32:57,706 | INFO | EXIT_ALREADY_LOGGED face_id=9 track=11
+2026-10-02 18:32:58,720 | INFO | EMBEDDING track=16 sample=2/3
+2026-10-02 18:32:59,243 | INFO | EMBEDDING track=16 sample=3/3
+2026-10-02 18:32:59,244 | INFO | RECOGNIZED face_id=9 track=16 similarity=0.780
+2026-10-02 18:32:59,245 | INFO | RECONNECTED face_id=9 track=16 (no new entry)
+2026-10-02 18:32:59,257 | INFO | RECOGNIZED face_id=9 track=12 similarity=0.861
+2026-10-02 18:32:59,258 | INFO | TRACK_MERGED face_id=9 old_track=16 new_track=12
+2026-10-02 18:32:59,258 | INFO | EXIT_ALREADY_LOGGED face_id=9 track=12
+2026-10-02 18:32:59,788 | INFO | TRACK_STARTED track=17 frame=747
+2026-10-02 18:33:00,199 | INFO | EMBEDDING track=17 sample=1/3
+2026-10-02 18:33:00,560 | INFO | TRACK_STARTED track=18 frame=750
+2026-10-02 18:33:00,831 | INFO | EMBEDDING track=18 sample=1/3
+2026-10-02 18:33:01,843 | INFO | EMBEDDING track=18 sample=2/3
+2026-10-02 18:33:02,469 | INFO | EMBEDDING track=18 sample=3/3
+2026-10-02 18:33:02,486 | INFO | RECOGNIZED face_id=9 track=18 similarity=0.757
+2026-10-02 18:33:02,513 | INFO | RECONNECTED face_id=9 track=18 (no new entry)
+2026-10-02 18:33:03,023 | INFO | RECOGNIZED face_id=9 track=15 similarity=0.704
+2026-10-02 18:33:03,024 | INFO | TRACK_MERGED face_id=9 old_track=18 new_track=15
+2026-10-02 18:33:03,024 | INFO | EXIT_ALREADY_LOGGED face_id=9 track=15
+2026-10-02 18:33:03,098 | INFO | TRACK_STARTED track=19 frame=765
+2026-10-02 18:33:03,392 | INFO | EMBEDDING track=19 sample=1/3
+2026-10-02 18:33:04,274 | INFO | EMBEDDING track=19 sample=2/3
+2026-10-02 18:33:05,430 | INFO | EMBEDDING track=19 sample=3/3
+2026-10-02 18:33:05,453 | INFO | RECOGNIZED face_id=9 track=19 similarity=0.789
+2026-10-02 18:33:05,457 | INFO | RECONNECTED face_id=9 track=19 (no new entry)
+2026-10-02 18:33:05,799 | INFO | RECOGNIZED face_id=9 track=17 similarity=0.758
+2026-10-02 18:33:05,799 | INFO | TRACK_MERGED face_id=9 old_track=19 new_track=17
+2026-10-02 18:33:05,800 | INFO | EXIT_ALREADY_LOGGED face_id=9 track=17
+2026-10-02 18:33:05,906 | INFO | TRACK_STARTED track=20 frame=780
+2026-10-02 18:33:06,260 | INFO | EMBEDDING track=20 sample=1/3
+2026-10-02 18:33:07,010 | INFO | EMBEDDING track=20 sample=2/3
+2026-10-02 18:33:07,799 | INFO | EMBEDDING track=20 sample=3/3
+2026-10-02 18:33:07,819 | INFO | RECOGNIZED face_id=9 track=20 similarity=0.771
+2026-10-02 18:33:07,833 | INFO | RECONNECTED face_id=9 track=20 (no new entry)
+2026-10-02 18:33:10,555 | INFO | EXIT_ALREADY_LOGGED face_id=9 track=20
+2026-10-02 18:33:10,627 | INFO | EXIT face_id=8 track=13 frame=889 event_ts=2026-10-02T18:32:46.568 image=logs/exits/2026-10-02/face_0008_183246_568.jpg
+2026-10-02 18:33:23,667 | INFO | TRACK_STARTED track=21 frame=1443
+2026-10-02 18:33:23,932 | INFO | EMBEDDING track=21 sample=1/3
+2026-10-02 18:33:24,541 | INFO | TRACK_STARTED track=22 frame=1446
+2026-10-02 18:33:24,874 | INFO | EMBEDDING track=22 sample=1/3
+2026-10-02 18:33:25,443 | INFO | TRACK_STARTED track=23 frame=1449
+2026-10-02 18:33:25,904 | INFO | EMBEDDING track=23 sample=1/3
+2026-10-02 18:33:26,428 | INFO | TRACK_STARTED track=24 frame=1452
+2026-10-02 18:33:26,931 | INFO | EMBEDDING track=24 sample=1/3
+2026-10-02 18:33:27,319 | INFO | TRACK_STARTED track=25 frame=1455
+2026-10-02 18:33:27,644 | INFO | EMBEDDING track=25 sample=1/3
+2026-10-02 18:33:28,160 | INFO | TRACK_STARTED track=26 frame=1458
+2026-10-02 18:33:28,594 | INFO | EMBEDDING track=26 sample=1/3
+2026-10-02 18:33:28,999 | INFO | TRACK_STARTED track=27 frame=1461
+2026-10-02 18:33:29,378 | INFO | EMBEDDING track=27 sample=1/3
+2026-10-02 18:33:30,098 | INFO | TRACK_STARTED track=28 frame=1470
+2026-10-02 18:33:30,365 | INFO | EMBEDDING track=28 sample=1/3
+2026-10-02 18:33:30,954 | INFO | TRACK_STARTED track=29 frame=1473
+2026-10-02 18:33:31,349 | INFO | EMBEDDING track=29 sample=1/3
+2026-10-02 18:33:31,398 | INFO | REGISTERED face_id=10 track=21 embedding_dim=512 image=logs/registered/2026-10-02/face_0010_183309_937.jpg
+2026-10-02 18:33:31,434 | INFO | IDENTITY_CREATED face_id=10 track=21
+2026-10-02 18:33:31,471 | INFO | ENTRY face_id=10 track=21 frame=1443 event_ts=2026-10-02T18:33:09.937 image=logs/entries/2026-10-02/face_0010_183309_937.jpg
+2026-10-02 18:33:31,514 | INFO | EXIT face_id=10 track=21 frame=1474 event_ts=2026-10-02T18:33:09.937 image=logs/exits/2026-10-02/face_0010_183309_937.jpg
+2026-10-02 18:33:31,835 | INFO | RECOGNIZED face_id=10 track=22 similarity=0.622
+2026-10-02 18:33:31,835 | INFO | RECONNECTED face_id=10 track=22 (no new entry)
+2026-10-02 18:33:31,835 | INFO | EXIT_ALREADY_LOGGED face_id=10 track=22
+2026-10-02 18:33:31,928 | INFO | RECOGNIZED face_id=10 track=23 similarity=0.459
+2026-10-02 18:33:31,928 | INFO | RECONNECTED face_id=10 track=23 (no new entry)
+2026-10-02 18:33:31,928 | INFO | EXIT_ALREADY_LOGGED face_id=10 track=23
+2026-10-02 18:33:32,012 | INFO | RECOGNIZED face_id=10 track=24 similarity=0.559
+2026-10-02 18:33:32,013 | INFO | RECONNECTED face_id=10 track=24 (no new entry)
+2026-10-02 18:33:32,013 | INFO | EXIT_ALREADY_LOGGED face_id=10 track=24
+2026-10-02 18:33:32,090 | INFO | RECOGNIZED face_id=10 track=25 similarity=0.518
+2026-10-02 18:33:32,090 | INFO | RECONNECTED face_id=10 track=25 (no new entry)
+2026-10-02 18:33:32,091 | INFO | EXIT_ALREADY_LOGGED face_id=10 track=25
+2026-10-02 18:33:32,164 | INFO | RECOGNIZED face_id=10 track=26 similarity=0.667
+2026-10-02 18:33:32,164 | INFO | RECONNECTED face_id=10 track=26 (no new entry)
+2026-10-02 18:33:32,165 | INFO | EXIT_ALREADY_LOGGED face_id=10 track=26
+2026-10-02 18:33:32,248 | INFO | RECOGNIZED face_id=10 track=27 similarity=0.478
+2026-10-02 18:33:32,248 | INFO | RECONNECTED face_id=10 track=27 (no new entry)
+2026-10-02 18:33:32,248 | INFO | EXIT_ALREADY_LOGGED face_id=10 track=27
+2026-10-02 18:33:32,471 | INFO | REGISTERED face_id=11 track=28 embedding_dim=512 image=logs/registered/2026-10-02/face_0011_183311_016.jpg
+2026-10-02 18:33:32,472 | INFO | IDENTITY_CREATED face_id=11 track=28
+2026-10-02 18:33:32,474 | INFO | ENTRY face_id=11 track=28 frame=1470 event_ts=2026-10-02T18:33:11.016 image=logs/entries/2026-10-02/face_0011_183311_016.jpg
+2026-10-02 18:33:32,476 | INFO | EXIT face_id=11 track=28 frame=1501 event_ts=2026-10-02T18:33:11.016 image=logs/exits/2026-10-02/face_0011_183311_016.jpg
+2026-10-02 18:33:32,500 | INFO | RECOGNIZED face_id=11 track=29 similarity=0.792
+2026-10-02 18:33:32,500 | INFO | RECONNECTED face_id=11 track=29 (no new entry)
+2026-10-02 18:33:32,500 | INFO | EXIT_ALREADY_LOGGED face_id=11 track=29
+2026-10-02 18:33:32,501 | INFO | PIPELINE_END unique_visitors=11 events={'entry': 11, 'exit': 11}
+2026-10-02 21:15:27,613 | INFO | CONFIG source=data/sample.mp4 skip_frames=2
+2026-10-02 21:15:35,367 | INFO | PIPELINE_START known_faces=0 skip_frames=2
+2026-10-02 21:15:35,562 | INFO | SOURCE_OPENED source=data/sample.mp4 fps=25.0 stream=False
+2026-10-02 21:15:37,924 | INFO | TRACK_STARTED track=1 frame=0
+2026-10-02 21:15:38,412 | INFO | EMBEDDING track=1 sample=1/3
+2026-10-02 21:15:39,322 | INFO | EMBEDDING track=1 sample=2/3
+2026-10-02 21:15:40,040 | INFO | EMBEDDING track=1 sample=3/3
+2026-10-02 21:15:40,042 | INFO | REGISTERED face_id=1 track=1 embedding_dim=512 image=logs/registered/2026-10-02/face_0001_211535_368.jpg
+2026-10-02 21:15:40,043 | INFO | IDENTITY_CREATED face_id=1 track=1
+2026-10-02 21:15:40,045 | INFO | ENTRY face_id=1 track=1 frame=0 event_ts=2026-10-02T21:15:35.368 image=logs/entries/2026-10-02/face_0001_211535_368.jpg
+2026-10-02 21:15:41,998 | INFO | TRACK_STARTED track=2 frame=48
+2026-10-02 21:15:42,475 | INFO | EMBEDDING track=2 sample=1/3
+2026-10-02 21:15:43,629 | INFO | EXIT face_id=1 track=1 frame=73 event_ts=2026-10-02T21:15:37.046 image=logs/exits/2026-10-02/face_0001_211537_046.jpg
+2026-10-02 21:15:43,873 | INFO | REGISTERED face_id=2 track=2 embedding_dim=512 image=logs/registered/2026-10-02/face_0002_211537_285.jpg
+2026-10-02 21:15:43,873 | INFO | IDENTITY_CREATED face_id=2 track=2
+2026-10-02 21:15:43,875 | INFO | ENTRY face_id=2 track=2 frame=48 event_ts=2026-10-02T21:15:37.285 image=logs/entries/2026-10-02/face_0002_211537_285.jpg
+2026-10-02 21:15:43,877 | INFO | EXIT face_id=2 track=2 frame=79 event_ts=2026-10-02T21:15:37.285 image=logs/exits/2026-10-02/face_0002_211537_285.jpg
+2026-10-02 21:15:53,658 | INFO | TRACK_STARTED track=3 frame=375
+2026-10-02 21:15:53,853 | INFO | EMBEDDING track=3 sample=1/3
+2026-10-02 21:15:54,955 | INFO | TRACK_STARTED track=4 frame=393
+2026-10-02 21:15:55,493 | INFO | EMBEDDING track=4 sample=1/3
+2026-10-02 21:15:55,972 | INFO | EMBEDDING track=4 sample=2/3
+2026-10-02 21:15:56,792 | INFO | EMBEDDING track=4 sample=3/3
+2026-10-02 21:15:57,034 | INFO | REGISTERED face_id=3 track=4 embedding_dim=512 image=logs/registered/2026-10-02/face_0003_211551_067.jpg
+2026-10-02 21:15:57,038 | INFO | IDENTITY_CREATED face_id=3 track=4
+2026-10-02 21:15:57,040 | INFO | ENTRY face_id=3 track=4 frame=393 event_ts=2026-10-02T21:15:51.067 image=logs/entries/2026-10-02/face_0003_211551_067.jpg
+2026-10-02 21:15:57,391 | INFO | REGISTERED face_id=4 track=3 embedding_dim=512 image=logs/registered/2026-10-02/face_0004_211550_348.jpg
+2026-10-02 21:15:57,392 | INFO | IDENTITY_CREATED face_id=4 track=3
+2026-10-02 21:15:57,393 | INFO | ENTRY face_id=4 track=3 frame=375 event_ts=2026-10-02T21:15:50.348 image=logs/entries/2026-10-02/face_0004_211550_348.jpg
+2026-10-02 21:15:57,394 | INFO | EXIT face_id=4 track=3 frame=406 event_ts=2026-10-02T21:15:50.348 image=logs/exits/2026-10-02/face_0004_211550_348.jpg
+2026-10-02 21:15:58,291 | INFO | TRACK_STARTED track=5 frame=435
+2026-10-02 21:15:58,551 | INFO | EMBEDDING track=5 sample=1/3
+2026-10-02 21:15:59,564 | INFO | EMBEDDING track=5 sample=2/3
+2026-10-02 21:16:00,042 | INFO | EMBEDDING track=5 sample=3/3
+2026-10-02 21:16:00,057 | INFO | REGISTERED face_id=5 track=5 embedding_dim=512 image=logs/registered/2026-10-02/face_0005_211552_745.jpg
+2026-10-02 21:16:00,059 | INFO | IDENTITY_CREATED face_id=5 track=5
+2026-10-02 21:16:00,063 | INFO | ENTRY face_id=5 track=5 frame=435 event_ts=2026-10-02T21:15:52.745 image=logs/entries/2026-10-02/face_0005_211552_745.jpg
+2026-10-02 21:16:00,065 | INFO | TRACK_STARTED track=6 frame=441
+2026-10-02 21:16:00,318 | INFO | EMBEDDING track=6 sample=1/3
+2026-10-02 21:16:01,237 | INFO | TRACK_STARTED track=7 frame=456
+2026-10-02 21:16:01,668 | INFO | EMBEDDING track=7 sample=1/3
+2026-10-02 21:16:02,298 | INFO | EMBEDDING track=7 sample=2/3
+2026-10-02 21:16:02,921 | INFO | EMBEDDING track=7 sample=3/3
+2026-10-02 21:16:02,932 | INFO | REGISTERED face_id=6 track=7 embedding_dim=512 image=logs/registered/2026-10-02/face_0006_211553_584.jpg
+2026-10-02 21:16:02,937 | INFO | IDENTITY_CREATED face_id=6 track=7
+2026-10-02 21:16:02,956 | INFO | ENTRY face_id=6 track=7 frame=456 event_ts=2026-10-02T21:15:53.584 image=logs/entries/2026-10-02/face_0006_211553_584.jpg
+2026-10-02 21:16:03,012 | INFO | EXIT face_id=3 track=4 frame=463 event_ts=2026-10-02T21:15:52.625 image=logs/exits/2026-10-02/face_0003_211552_625.jpg
+2026-10-02 21:16:03,634 | INFO | RECOGNIZED face_id=6 track=6 similarity=0.644
+2026-10-02 21:16:03,635 | INFO | TRACK_MERGED face_id=6 old_track=7 new_track=6
+2026-10-02 21:16:03,636 | INFO | EXIT face_id=6 track=6 frame=472 event_ts=2026-10-02T21:15:52.984 image=logs/exits/2026-10-02/face_0006_211552_984.jpg
+2026-10-02 21:16:03,716 | INFO | TRACK_STARTED track=8 frame=474
+2026-10-02 21:16:03,978 | INFO | EMBEDDING track=8 sample=1/3
+2026-10-02 21:16:04,750 | INFO | EMBEDDING track=8 sample=2/3
+2026-10-02 21:16:05,493 | INFO | EMBEDDING track=8 sample=3/3
+2026-10-02 21:16:05,520 | INFO | RECOGNIZED face_id=6 track=8 similarity=0.661
+2026-10-02 21:16:05,534 | INFO | RECONNECTED face_id=6 track=8 (no new entry)
+2026-10-02 21:16:06,147 | INFO | TRACK_STARTED track=9 frame=486
+2026-10-02 21:16:06,663 | INFO | EMBEDDING track=9 sample=1/3
+2026-10-02 21:16:07,457 | INFO | EMBEDDING track=9 sample=2/3
+2026-10-02 21:16:08,472 | INFO | EMBEDDING track=9 sample=3/3
+2026-10-02 21:16:08,474 | INFO | REGISTERED face_id=7 track=9 embedding_dim=512 image=logs/registered/2026-10-02/face_0007_211554_782.jpg
+2026-10-02 21:16:08,474 | INFO | IDENTITY_CREATED face_id=7 track=9
+2026-10-02 21:16:08,476 | INFO | ENTRY face_id=7 track=9 frame=486 event_ts=2026-10-02T21:15:54.782 image=logs/entries/2026-10-02/face_0007_211554_782.jpg
+2026-10-02 21:16:09,066 | INFO | EXIT face_id=5 track=5 frame=505 event_ts=2026-10-02T21:15:54.303 image=logs/exits/2026-10-02/face_0005_211554_303.jpg
+2026-10-02 21:16:14,802 | INFO | TRACK_STARTED track=10 frame=699
+2026-10-02 21:16:15,101 | INFO | EMBEDDING track=10 sample=1/3
+2026-10-02 21:16:15,330 | INFO | EXIT_ALREADY_LOGGED face_id=6 track=8
+2026-10-02 21:16:15,685 | INFO | TRACK_STARTED track=11 frame=705
+2026-10-02 21:16:15,895 | INFO | EMBEDDING track=11 sample=1/3
+2026-10-02 21:16:16,775 | INFO | EMBEDDING track=11 sample=2/3
+2026-10-02 21:16:17,034 | INFO | EXIT face_id=7 track=9 frame=709 event_ts=2026-10-02T21:16:02.452 image=logs/exits/2026-10-02/face_0007_211602_452.jpg
+2026-10-02 21:16:17,321 | INFO | TRACK_STARTED track=12 frame=714
+2026-10-02 21:16:17,690 | INFO | EMBEDDING track=12 sample=1/3
+2026-10-02 21:16:17,824 | INFO | TRACK_STARTED track=13 frame=714
+2026-10-02 21:16:18,036 | INFO | EMBEDDING track=13 sample=1/3
+2026-10-02 21:16:18,920 | INFO | EMBEDDING track=13 sample=2/3
+2026-10-02 21:16:19,632 | INFO | EMBEDDING track=13 sample=3/3
+2026-10-02 21:16:19,637 | INFO | REGISTERED face_id=8 track=13 embedding_dim=512 image=logs/registered/2026-10-02/face_0008_211603_890.jpg
+2026-10-02 21:16:19,645 | INFO | IDENTITY_CREATED face_id=8 track=13
+2026-10-02 21:16:19,657 | INFO | ENTRY face_id=8 track=13 frame=714 event_ts=2026-10-02T21:16:03.890 image=logs/entries/2026-10-02/face_0008_211603_890.jpg
+2026-10-02 21:16:19,665 | INFO | TRACK_STARTED track=14 frame=720
+2026-10-02 21:16:19,958 | INFO | EMBEDDING track=14 sample=1/3
+2026-10-02 21:16:20,669 | INFO | EMBEDDING track=14 sample=2/3
+2026-10-02 21:16:21,353 | INFO | EMBEDDING track=14 sample=3/3
+2026-10-02 21:16:21,381 | INFO | REGISTERED face_id=9 track=14 embedding_dim=512 image=logs/registered/2026-10-02/face_0009_211604_129.jpg
+2026-10-02 21:16:21,384 | INFO | IDENTITY_CREATED face_id=9 track=14
+2026-10-02 21:16:21,389 | INFO | ENTRY face_id=9 track=14 frame=720 event_ts=2026-10-02T21:16:04.129 image=logs/entries/2026-10-02/face_0009_211604_129.jpg
+2026-10-02 21:16:21,841 | INFO | RECOGNIZED face_id=9 track=10 similarity=0.707
+2026-10-02 21:16:21,841 | INFO | TRACK_MERGED face_id=9 old_track=14 new_track=10
+2026-10-02 21:16:21,843 | INFO | EXIT face_id=9 track=10 frame=730 event_ts=2026-10-02T21:16:03.291 image=logs/exits/2026-10-02/face_0009_211603_291.jpg
+2026-10-02 21:16:21,947 | INFO | TRACK_STARTED track=15 frame=732
+2026-10-02 21:16:22,188 | INFO | EMBEDDING track=15 sample=1/3
+2026-10-02 21:16:22,812 | INFO | TRACK_STARTED track=16 frame=738
+2026-10-02 21:16:23,089 | INFO | EMBEDDING track=16 sample=1/3
+2026-10-02 21:16:23,154 | INFO | RECOGNIZED face_id=9 track=11 similarity=0.814
+2026-10-02 21:16:23,183 | INFO | RECONNECTED face_id=9 track=11 (no new entry)
+2026-10-02 21:16:23,207 | INFO | EXIT_ALREADY_LOGGED face_id=9 track=11
+2026-10-02 21:16:23,916 | INFO | EMBEDDING track=16 sample=2/3
+2026-10-02 21:16:24,739 | INFO | EMBEDDING track=16 sample=3/3
+2026-10-02 21:16:24,750 | INFO | RECOGNIZED face_id=9 track=16 similarity=0.780
+2026-10-02 21:16:24,772 | INFO | RECONNECTED face_id=9 track=16 (no new entry)
+2026-10-02 21:16:24,808 | INFO | RECOGNIZED face_id=9 track=12 similarity=0.861
+2026-10-02 21:16:24,841 | INFO | TRACK_MERGED face_id=9 old_track=16 new_track=12
+2026-10-02 21:16:24,844 | INFO | EXIT_ALREADY_LOGGED face_id=9 track=12
+2026-10-02 21:16:25,111 | INFO | TRACK_STARTED track=17 frame=747
+2026-10-02 21:16:25,502 | INFO | EMBEDDING track=17 sample=1/3
+2026-10-02 21:16:25,897 | INFO | TRACK_STARTED track=18 frame=750
+2026-10-02 21:16:26,192 | INFO | EMBEDDING track=18 sample=1/3
+2026-10-02 21:16:26,873 | INFO | EMBEDDING track=18 sample=2/3
+2026-10-02 21:16:27,608 | INFO | EMBEDDING track=18 sample=3/3
+2026-10-02 21:16:27,636 | INFO | RECOGNIZED face_id=9 track=18 similarity=0.757
+2026-10-02 21:16:27,641 | INFO | RECONNECTED face_id=9 track=18 (no new entry)
+2026-10-02 21:16:28,210 | INFO | RECOGNIZED face_id=9 track=15 similarity=0.704
+2026-10-02 21:16:28,210 | INFO | TRACK_MERGED face_id=9 old_track=18 new_track=15
+2026-10-02 21:16:28,210 | INFO | EXIT_ALREADY_LOGGED face_id=9 track=15
+2026-10-02 21:16:28,284 | INFO | TRACK_STARTED track=19 frame=765
+2026-10-02 21:16:28,681 | INFO | EMBEDDING track=19 sample=1/3
+2026-10-02 21:16:29,355 | INFO | EMBEDDING track=19 sample=2/3
+2026-10-02 21:16:30,360 | INFO | EMBEDDING track=19 sample=3/3
+2026-10-02 21:16:30,360 | INFO | RECOGNIZED face_id=9 track=19 similarity=0.789
+2026-10-02 21:16:30,361 | INFO | RECONNECTED face_id=9 track=19 (no new entry)
+2026-10-02 21:16:30,721 | INFO | RECOGNIZED face_id=9 track=17 similarity=0.758
+2026-10-02 21:16:30,722 | INFO | TRACK_MERGED face_id=9 old_track=19 new_track=17
+2026-10-02 21:16:30,723 | INFO | EXIT_ALREADY_LOGGED face_id=9 track=17
+2026-10-02 21:16:30,860 | INFO | TRACK_STARTED track=20 frame=780
+2026-10-02 21:16:31,112 | INFO | EMBEDDING track=20 sample=1/3
+2026-10-02 21:16:31,884 | INFO | EMBEDDING track=20 sample=2/3
+2026-10-02 21:16:32,629 | INFO | EMBEDDING track=20 sample=3/3
+2026-10-02 21:16:32,649 | INFO | RECOGNIZED face_id=9 track=20 similarity=0.771
+2026-10-02 21:16:32,656 | INFO | RECONNECTED face_id=9 track=20 (no new entry)
+2026-10-02 21:16:35,758 | INFO | EXIT_ALREADY_LOGGED face_id=9 track=20
+2026-10-02 21:16:35,841 | INFO | EXIT face_id=8 track=13 frame=889 event_ts=2026-10-02T21:16:09.642 image=logs/exits/2026-10-02/face_0008_211609_642.jpg
+2026-10-02 21:16:50,781 | INFO | TRACK_STARTED track=21 frame=1443
+2026-10-02 21:16:51,037 | INFO | EMBEDDING track=21 sample=1/3
+2026-10-02 21:16:51,573 | INFO | TRACK_STARTED track=22 frame=1446
+2026-10-02 21:16:51,999 | INFO | EMBEDDING track=22 sample=1/3
+2026-10-02 21:16:52,332 | INFO | TRACK_STARTED track=23 frame=1449
+2026-10-02 21:16:52,647 | INFO | EMBEDDING track=23 sample=1/3
+2026-10-02 21:16:53,075 | INFO | TRACK_STARTED track=24 frame=1452
+2026-10-02 21:16:53,402 | INFO | EMBEDDING track=24 sample=1/3
+2026-10-02 21:16:53,795 | INFO | TRACK_STARTED track=25 frame=1455
+2026-10-02 21:16:54,100 | INFO | EMBEDDING track=25 sample=1/3
+2026-10-02 21:16:54,501 | INFO | TRACK_STARTED track=26 frame=1458
+2026-10-02 21:16:54,829 | INFO | EMBEDDING track=26 sample=1/3
+2026-10-02 21:16:55,246 | INFO | TRACK_STARTED track=27 frame=1461
+2026-10-02 21:16:55,539 | INFO | EMBEDDING track=27 sample=1/3
+2026-10-02 21:16:56,187 | INFO | TRACK_STARTED track=28 frame=1470
+2026-10-02 21:16:56,578 | INFO | EMBEDDING track=28 sample=1/3
+2026-10-02 21:16:56,876 | INFO | TRACK_STARTED track=29 frame=1473
+2026-10-02 21:16:57,101 | INFO | EMBEDDING track=29 sample=1/3
+2026-10-02 21:16:57,127 | INFO | REGISTERED face_id=10 track=21 embedding_dim=512 image=logs/registered/2026-10-02/face_0010_211633_011.jpg
+2026-10-02 21:16:57,127 | INFO | IDENTITY_CREATED face_id=10 track=21
+2026-10-02 21:16:57,129 | INFO | ENTRY face_id=10 track=21 frame=1443 event_ts=2026-10-02T21:16:33.011 image=logs/entries/2026-10-02/face_0010_211633_011.jpg
+2026-10-02 21:16:57,130 | INFO | EXIT face_id=10 track=21 frame=1474 event_ts=2026-10-02T21:16:33.011 image=logs/exits/2026-10-02/face_0010_211633_011.jpg
+2026-10-02 21:16:57,647 | INFO | RECOGNIZED face_id=10 track=22 similarity=0.622
+2026-10-02 21:16:57,647 | INFO | RECONNECTED face_id=10 track=22 (no new entry)
+2026-10-02 21:16:57,647 | INFO | EXIT_ALREADY_LOGGED face_id=10 track=22
+2026-10-02 21:16:57,760 | INFO | RECOGNIZED face_id=10 track=23 similarity=0.459
+2026-10-02 21:16:57,760 | INFO | RECONNECTED face_id=10 track=23 (no new entry)
+2026-10-02 21:16:57,761 | INFO | EXIT_ALREADY_LOGGED face_id=10 track=23
+2026-10-02 21:16:57,838 | INFO | RECOGNIZED face_id=10 track=24 similarity=0.559
+2026-10-02 21:16:57,838 | INFO | RECONNECTED face_id=10 track=24 (no new entry)
+2026-10-02 21:16:57,839 | INFO | EXIT_ALREADY_LOGGED face_id=10 track=24
+2026-10-02 21:16:57,918 | INFO | RECOGNIZED face_id=10 track=25 similarity=0.518
+2026-10-02 21:16:57,918 | INFO | RECONNECTED face_id=10 track=25 (no new entry)
+2026-10-02 21:16:57,919 | INFO | EXIT_ALREADY_LOGGED face_id=10 track=25
+2026-10-02 21:16:57,999 | INFO | RECOGNIZED face_id=10 track=26 similarity=0.667
+2026-10-02 21:16:57,999 | INFO | RECONNECTED face_id=10 track=26 (no new entry)
+2026-10-02 21:16:58,000 | INFO | EXIT_ALREADY_LOGGED face_id=10 track=26
+2026-10-02 21:16:58,082 | INFO | RECOGNIZED face_id=10 track=27 similarity=0.478
+2026-10-02 21:16:58,082 | INFO | RECONNECTED face_id=10 track=27 (no new entry)
+2026-10-02 21:16:58,082 | INFO | EXIT_ALREADY_LOGGED face_id=10 track=27
+2026-10-02 21:16:58,337 | INFO | REGISTERED face_id=11 track=28 embedding_dim=512 image=logs/registered/2026-10-02/face_0011_211634_090.jpg
+2026-10-02 21:16:58,337 | INFO | IDENTITY_CREATED face_id=11 track=28
+2026-10-02 21:16:58,339 | INFO | ENTRY face_id=11 track=28 frame=1470 event_ts=2026-10-02T21:16:34.090 image=logs/entries/2026-10-02/face_0011_211634_090.jpg
+2026-10-02 21:16:58,341 | INFO | EXIT face_id=11 track=28 frame=1501 event_ts=2026-10-02T21:16:34.090 image=logs/exits/2026-10-02/face_0011_211634_090.jpg
+2026-10-02 21:16:58,368 | INFO | RECOGNIZED face_id=11 track=29 similarity=0.792
+2026-10-02 21:16:58,369 | INFO | RECONNECTED face_id=11 track=29 (no new entry)
+2026-10-02 21:16:58,369 | INFO | EXIT_ALREADY_LOGGED face_id=11 track=29
+2026-10-02 21:16:58,370 | INFO | PIPELINE_END unique_visitors=11 events={'entry': 11, 'exit': 11}
+2026-10-02 21:30:27,095 | INFO | CONFIG source=data/sample.mp4 skip_frames=2
+2026-10-02 21:30:31,297 | INFO | PIPELINE_START known_faces=0 skip_frames=2
+2026-10-02 21:30:31,329 | INFO | SOURCE_OPENED source=data/sample.mp4 fps=25.0 stream=False
+2026-10-02 21:30:33,234 | INFO | TRACK_STARTED track=1 frame=0
+2026-10-02 21:30:33,849 | INFO | EMBEDDING track=1 sample=1/3
+2026-10-02 21:30:34,501 | INFO | EMBEDDING track=1 sample=2/3
+2026-10-02 21:30:35,227 | INFO | EMBEDDING track=1 sample=3/3
+2026-10-02 21:30:35,531 | INFO | REGISTERED face_id=1 track=1 embedding_dim=512 image=logs/registered/2026-10-02/face_0001_213031_317.jpg
+2026-10-02 21:30:35,535 | INFO | IDENTITY_CREATED face_id=1 track=1
+2026-10-02 21:30:35,538 | INFO | ENTRY face_id=1 track=1 frame=0 event_ts=2026-10-02T21:30:31.317 image=logs/entries/2026-10-02/face_0001_213031_317.jpg
+2026-10-02 21:30:37,061 | INFO | TRACK_STARTED track=2 frame=48
+2026-10-02 21:30:37,621 | INFO | EMBEDDING track=2 sample=1/3
+2026-10-02 21:30:38,707 | INFO | EXIT face_id=1 track=1 frame=73 event_ts=2026-10-02T21:30:32.994 image=logs/exits/2026-10-02/face_0001_213032_994.jpg
+2026-10-02 21:30:38,905 | INFO | REGISTERED face_id=2 track=2 embedding_dim=512 image=logs/registered/2026-10-02/face_0002_213033_234.jpg
+2026-10-02 21:30:38,905 | INFO | IDENTITY_CREATED face_id=2 track=2
+2026-10-02 21:30:38,907 | INFO | ENTRY face_id=2 track=2 frame=48 event_ts=2026-10-02T21:30:33.234 image=logs/entries/2026-10-02/face_0002_213033_234.jpg
+2026-10-02 21:30:38,909 | INFO | EXIT face_id=2 track=2 frame=79 event_ts=2026-10-02T21:30:33.234 image=logs/exits/2026-10-02/face_0002_213033_234.jpg
+2026-10-02 21:30:50,386 | INFO | TRACK_STARTED track=3 frame=375
+2026-10-02 21:30:50,863 | INFO | EMBEDDING track=3 sample=1/3
+2026-10-02 21:30:51,696 | INFO | TRACK_STARTED track=4 frame=393
+2026-10-02 21:30:51,893 | INFO | EMBEDDING track=4 sample=1/3
+2026-10-02 21:30:52,770 | INFO | EMBEDDING track=4 sample=2/3
+2026-10-02 21:30:53,536 | INFO | EMBEDDING track=4 sample=3/3
+2026-10-02 21:30:53,539 | INFO | REGISTERED face_id=3 track=4 embedding_dim=512 image=logs/registered/2026-10-02/face_0003_213047_016.jpg
+2026-10-02 21:30:53,562 | INFO | IDENTITY_CREATED face_id=3 track=4
+2026-10-02 21:30:53,566 | INFO | ENTRY face_id=3 track=4 frame=393 event_ts=2026-10-02T21:30:47.016 image=logs/entries/2026-10-02/face_0003_213047_016.jpg
+2026-10-02 21:30:54,074 | INFO | REGISTERED face_id=4 track=3 embedding_dim=512 image=logs/registered/2026-10-02/face_0004_213046_297.jpg
+2026-10-02 21:30:54,075 | INFO | IDENTITY_CREATED face_id=4 track=3
+2026-10-02 21:30:54,077 | INFO | ENTRY face_id=4 track=3 frame=375 event_ts=2026-10-02T21:30:46.297 image=logs/entries/2026-10-02/face_0004_213046_297.jpg
+2026-10-02 21:30:54,079 | INFO | EXIT face_id=4 track=3 frame=406 event_ts=2026-10-02T21:30:46.297 image=logs/exits/2026-10-02/face_0004_213046_297.jpg
+2026-10-02 21:30:54,902 | INFO | TRACK_STARTED track=5 frame=435
+2026-10-02 21:30:55,169 | INFO | EMBEDDING track=5 sample=1/3
+2026-10-02 21:30:56,032 | INFO | EMBEDDING track=5 sample=2/3
+2026-10-02 21:30:56,802 | INFO | EMBEDDING track=5 sample=3/3
+2026-10-02 21:30:56,808 | INFO | REGISTERED face_id=5 track=5 embedding_dim=512 image=logs/registered/2026-10-02/face_0005_213048_693.jpg
+2026-10-02 21:30:56,840 | INFO | IDENTITY_CREATED face_id=5 track=5
+2026-10-02 21:30:56,872 | INFO | ENTRY face_id=5 track=5 frame=435 event_ts=2026-10-02T21:30:48.693 image=logs/entries/2026-10-02/face_0005_213048_693.jpg
+2026-10-02 21:30:56,904 | INFO | TRACK_STARTED track=6 frame=441
+2026-10-02 21:30:57,176 | INFO | EMBEDDING track=6 sample=1/3
+2026-10-02 21:30:58,095 | INFO | TRACK_STARTED track=7 frame=456
+2026-10-02 21:30:58,490 | INFO | EMBEDDING track=7 sample=1/3
+2026-10-02 21:30:59,091 | INFO | EMBEDDING track=7 sample=2/3
+2026-10-02 21:30:59,821 | INFO | EMBEDDING track=7 sample=3/3
+2026-10-02 21:30:59,838 | INFO | REGISTERED face_id=6 track=7 embedding_dim=512 image=logs/registered/2026-10-02/face_0006_213049_532.jpg
+2026-10-02 21:30:59,854 | INFO | IDENTITY_CREATED face_id=6 track=7
+2026-10-02 21:30:59,890 | INFO | ENTRY face_id=6 track=7 frame=456 event_ts=2026-10-02T21:30:49.532 image=logs/entries/2026-10-02/face_0006_213049_532.jpg
+2026-10-02 21:30:59,944 | INFO | EXIT face_id=3 track=4 frame=463 event_ts=2026-10-02T21:30:48.574 image=logs/exits/2026-10-02/face_0003_213048_574.jpg
+2026-10-02 21:31:00,518 | INFO | RECOGNIZED face_id=6 track=6 similarity=0.644
+2026-10-02 21:31:00,518 | INFO | TRACK_MERGED face_id=6 old_track=7 new_track=6
+2026-10-02 21:31:00,520 | INFO | EXIT face_id=6 track=6 frame=472 event_ts=2026-10-02T21:30:48.933 image=logs/exits/2026-10-02/face_0006_213048_933.jpg
+2026-10-02 21:31:00,591 | INFO | TRACK_STARTED track=8 frame=474
+2026-10-02 21:31:01,119 | INFO | EMBEDDING track=8 sample=1/3
+2026-10-02 21:31:01,579 | INFO | EMBEDDING track=8 sample=2/3
+2026-10-02 21:31:02,289 | INFO | EMBEDDING track=8 sample=3/3
+2026-10-02 21:31:02,300 | INFO | RECOGNIZED face_id=6 track=8 similarity=0.661
+2026-10-02 21:31:02,324 | INFO | RECONNECTED face_id=6 track=8 (no new entry)
+2026-10-02 21:31:02,919 | INFO | TRACK_STARTED track=9 frame=486
+2026-10-02 21:31:03,425 | INFO | EMBEDDING track=9 sample=1/3
+2026-10-02 21:31:03,876 | INFO | EMBEDDING track=9 sample=2/3
+2026-10-02 21:31:04,780 | INFO | EMBEDDING track=9 sample=3/3
+2026-10-02 21:31:04,795 | INFO | REGISTERED face_id=7 track=9 embedding_dim=512 image=logs/registered/2026-10-02/face_0007_213050_731.jpg
+2026-10-02 21:31:04,818 | INFO | IDENTITY_CREATED face_id=7 track=9
+2026-10-02 21:31:04,851 | INFO | ENTRY face_id=7 track=9 frame=486 event_ts=2026-10-02T21:30:50.731 image=logs/entries/2026-10-02/face_0007_213050_731.jpg
+2026-10-02 21:31:05,508 | INFO | EXIT face_id=5 track=5 frame=505 event_ts=2026-10-02T21:30:50.251 image=logs/exits/2026-10-02/face_0005_213050_251.jpg
+2026-10-02 21:31:12,301 | INFO | TRACK_STARTED track=10 frame=699
+2026-10-02 21:31:12,852 | INFO | EMBEDDING track=10 sample=1/3
+2026-10-02 21:31:12,885 | INFO | EXIT_ALREADY_LOGGED face_id=6 track=8
+2026-10-02 21:31:13,266 | INFO | TRACK_STARTED track=11 frame=705
+2026-10-02 21:31:13,560 | INFO | EMBEDDING track=11 sample=1/3
+2026-10-02 21:31:14,447 | INFO | EMBEDDING track=11 sample=2/3
+2026-10-02 21:31:14,484 | INFO | EXIT face_id=7 track=9 frame=709 event_ts=2026-10-02T21:30:58.400 image=logs/exits/2026-10-02/face_0007_213058_400.jpg
+2026-10-02 21:31:15,418 | INFO | TRACK_STARTED track=12 frame=714
+2026-10-02 21:31:15,965 | INFO | EMBEDDING track=12 sample=1/3
+2026-10-02 21:31:15,967 | INFO | TRACK_STARTED track=13 frame=714
+2026-10-02 21:31:16,176 | INFO | EMBEDDING track=13 sample=1/3
+2026-10-02 21:31:17,009 | INFO | EMBEDDING track=13 sample=2/3
+2026-10-02 21:31:17,872 | INFO | EMBEDDING track=13 sample=3/3
+2026-10-02 21:31:17,898 | INFO | REGISTERED face_id=8 track=13 embedding_dim=512 image=logs/registered/2026-10-02/face_0008_213059_839.jpg
+2026-10-02 21:31:17,921 | INFO | IDENTITY_CREATED face_id=8 track=13
+2026-10-02 21:31:17,937 | INFO | ENTRY face_id=8 track=13 frame=714 event_ts=2026-10-02T21:30:59.839 image=logs/entries/2026-10-02/face_0008_213059_839.jpg
+2026-10-02 21:31:17,959 | INFO | TRACK_STARTED track=14 frame=720
+2026-10-02 21:31:18,311 | INFO | EMBEDDING track=14 sample=1/3
+2026-10-02 21:31:19,015 | INFO | EMBEDDING track=14 sample=2/3
+2026-10-02 21:31:19,805 | INFO | EMBEDDING track=14 sample=3/3
+2026-10-02 21:31:19,836 | INFO | REGISTERED face_id=9 track=14 embedding_dim=512 image=logs/registered/2026-10-02/face_0009_213100_078.jpg
+2026-10-02 21:31:19,839 | INFO | IDENTITY_CREATED face_id=9 track=14
+2026-10-02 21:31:19,870 | INFO | ENTRY face_id=9 track=14 frame=720 event_ts=2026-10-02T21:31:00.078 image=logs/entries/2026-10-02/face_0009_213100_078.jpg
+2026-10-02 21:31:20,296 | INFO | RECOGNIZED face_id=9 track=10 similarity=0.707
+2026-10-02 21:31:20,296 | INFO | TRACK_MERGED face_id=9 old_track=14 new_track=10
+2026-10-02 21:31:20,298 | INFO | EXIT face_id=9 track=10 frame=730 event_ts=2026-10-02T21:30:59.239 image=logs/exits/2026-10-02/face_0009_213059_239.jpg
+2026-10-02 21:31:20,417 | INFO | TRACK_STARTED track=15 frame=732
+2026-10-02 21:31:20,927 | INFO | EMBEDDING track=15 sample=1/3
+2026-10-02 21:31:21,414 | INFO | TRACK_STARTED track=16 frame=738
+2026-10-02 21:31:21,673 | INFO | EMBEDDING track=16 sample=1/3
+2026-10-02 21:31:21,711 | INFO | RECOGNIZED face_id=9 track=11 similarity=0.814
+2026-10-02 21:31:21,715 | INFO | RECONNECTED face_id=9 track=11 (no new entry)
+2026-10-02 21:31:21,724 | INFO | EXIT_ALREADY_LOGGED face_id=9 track=11
+2026-10-02 21:31:22,466 | INFO | EMBEDDING track=16 sample=2/3
+2026-10-02 21:31:23,180 | INFO | EMBEDDING track=16 sample=3/3
+2026-10-02 21:31:23,190 | INFO | RECOGNIZED face_id=9 track=16 similarity=0.780
+2026-10-02 21:31:23,197 | INFO | RECONNECTED face_id=9 track=16 (no new entry)
+2026-10-02 21:31:23,230 | INFO | RECOGNIZED face_id=9 track=12 similarity=0.861
+2026-10-02 21:31:23,231 | INFO | TRACK_MERGED face_id=9 old_track=16 new_track=12
+2026-10-02 21:31:23,501 | INFO | EXIT_ALREADY_LOGGED face_id=9 track=12
+2026-10-02 21:31:23,640 | INFO | TRACK_STARTED track=17 frame=747
+2026-10-02 21:31:23,921 | INFO | EMBEDDING track=17 sample=1/3
+2026-10-02 21:31:24,482 | INFO | TRACK_STARTED track=18 frame=750
+2026-10-02 21:31:25,025 | INFO | EMBEDDING track=18 sample=1/3
+2026-10-02 21:31:25,629 | INFO | EMBEDDING track=18 sample=2/3
+2026-10-02 21:31:26,347 | INFO | EMBEDDING track=18 sample=3/3
+2026-10-02 21:31:26,349 | INFO | RECOGNIZED face_id=9 track=18 similarity=0.757
+2026-10-02 21:31:26,363 | INFO | RECONNECTED face_id=9 track=18 (no new entry)
+2026-10-02 21:31:26,928 | INFO | RECOGNIZED face_id=9 track=15 similarity=0.704
+2026-10-02 21:31:26,928 | INFO | TRACK_MERGED face_id=9 old_track=18 new_track=15
+2026-10-02 21:31:26,928 | INFO | EXIT_ALREADY_LOGGED face_id=9 track=15
+2026-10-02 21:31:27,006 | INFO | TRACK_STARTED track=19 frame=765
+2026-10-02 21:31:27,429 | INFO | EMBEDDING track=19 sample=1/3
+2026-10-02 21:31:28,140 | INFO | EMBEDDING track=19 sample=2/3
+2026-10-02 21:31:29,162 | INFO | EMBEDDING track=19 sample=3/3
+2026-10-02 21:31:29,189 | INFO | RECOGNIZED face_id=9 track=19 similarity=0.789
+2026-10-02 21:31:29,209 | INFO | RECONNECTED face_id=9 track=19 (no new entry)
+2026-10-02 21:31:29,577 | INFO | RECOGNIZED face_id=9 track=17 similarity=0.758
+2026-10-02 21:31:29,578 | INFO | TRACK_MERGED face_id=9 old_track=19 new_track=17
+2026-10-02 21:31:29,578 | INFO | EXIT_ALREADY_LOGGED face_id=9 track=17
+2026-10-02 21:31:29,696 | INFO | TRACK_STARTED track=20 frame=780
+2026-10-02 21:31:30,003 | INFO | EMBEDDING track=20 sample=1/3
+2026-10-02 21:31:30,909 | INFO | EMBEDDING track=20 sample=2/3
+2026-10-02 21:31:31,628 | INFO | EMBEDDING track=20 sample=3/3
+2026-10-02 21:31:31,642 | INFO | RECOGNIZED face_id=9 track=20 similarity=0.771
+2026-10-02 21:31:31,647 | INFO | RECONNECTED face_id=9 track=20 (no new entry)
+2026-10-02 21:31:35,028 | INFO | EXIT_ALREADY_LOGGED face_id=9 track=20
+2026-10-02 21:31:35,129 | INFO | EXIT face_id=8 track=13 frame=889 event_ts=2026-10-02T21:31:05.591 image=logs/exits/2026-10-02/face_0008_213105_591.jpg
+2026-10-02 21:31:49,877 | INFO | PIPELINE_END unique_visitors=9 events={'entry': 9, 'exit': 9}
+2026-10-02 21:31:54,268 | INFO | CONFIG source=data/sample.mp4 skip_frames=2
+2026-10-02 21:31:58,206 | INFO | PIPELINE_START known_faces=0 skip_frames=2
+2026-10-02 21:31:58,272 | INFO | SOURCE_OPENED source=data/sample.mp4 fps=25.0 stream=False
+2026-10-02 21:32:00,320 | INFO | TRACK_STARTED track=1 frame=0
+2026-10-02 21:32:00,873 | INFO | EMBEDDING track=1 sample=1/3
+2026-10-02 21:32:01,503 | INFO | EMBEDDING track=1 sample=2/3
+2026-10-02 21:32:02,269 | INFO | EMBEDDING track=1 sample=3/3
+2026-10-02 21:32:02,285 | INFO | REGISTERED face_id=1 track=1 embedding_dim=512 image=logs/registered/2026-10-02/face_0001_213158_262.jpg
+2026-10-02 21:32:02,288 | INFO | IDENTITY_CREATED face_id=1 track=1
+2026-10-02 21:32:02,292 | INFO | ENTRY face_id=1 track=1 frame=0 event_ts=2026-10-02T21:31:58.262 image=logs/entries/2026-10-02/face_0001_213158_262.jpg
+2026-10-02 21:32:03,887 | INFO | TRACK_STARTED track=2 frame=48
+2026-10-02 21:32:04,438 | INFO | EMBEDDING track=2 sample=1/3
+2026-10-02 21:32:05,397 | INFO | EXIT face_id=1 track=1 frame=73 event_ts=2026-10-02T21:31:59.940 image=logs/exits/2026-10-02/face_0001_213159_940.jpg
+2026-10-02 21:32:05,567 | INFO | REGISTERED face_id=2 track=2 embedding_dim=512 image=logs/registered/2026-10-02/face_0002_213200_180.jpg
+2026-10-02 21:32:05,567 | INFO | IDENTITY_CREATED face_id=2 track=2
+2026-10-02 21:32:05,568 | INFO | ENTRY face_id=2 track=2 frame=48 event_ts=2026-10-02T21:32:00.180 image=logs/entries/2026-10-02/face_0002_213200_180.jpg
+2026-10-02 21:32:05,571 | INFO | EXIT face_id=2 track=2 frame=79 event_ts=2026-10-02T21:32:00.180 image=logs/exits/2026-10-02/face_0002_213200_180.jpg
+2026-10-02 21:32:13,747 | INFO | TRACK_STARTED track=3 frame=375
+2026-10-02 21:32:14,109 | INFO | EMBEDDING track=3 sample=1/3
+2026-10-02 21:32:15,071 | INFO | TRACK_STARTED track=4 frame=393
+2026-10-02 21:32:15,436 | INFO | EMBEDDING track=4 sample=1/3
+2026-10-02 21:32:16,046 | INFO | EMBEDDING track=4 sample=2/3
+2026-10-02 21:32:16,931 | INFO | EMBEDDING track=4 sample=3/3
+2026-10-02 21:32:16,943 | INFO | REGISTERED face_id=3 track=4 embedding_dim=512 image=logs/registered/2026-10-02/face_0003_213213_961.jpg
+2026-10-02 21:32:16,947 | INFO | IDENTITY_CREATED face_id=3 track=4
+2026-10-02 21:32:16,957 | INFO | ENTRY face_id=3 track=4 frame=393 event_ts=2026-10-02T21:32:13.961 image=logs/entries/2026-10-02/face_0003_213213_961.jpg
+2026-10-02 21:32:17,427 | INFO | REGISTERED face_id=4 track=3 embedding_dim=512 image=logs/registered/2026-10-02/face_0004_213213_242.jpg
+2026-10-02 21:32:17,428 | INFO | IDENTITY_CREATED face_id=4 track=3
+2026-10-02 21:32:17,429 | INFO | ENTRY face_id=4 track=3 frame=375 event_ts=2026-10-02T21:32:13.242 image=logs/entries/2026-10-02/face_0004_213213_242.jpg
+2026-10-02 21:32:17,431 | INFO | EXIT face_id=4 track=3 frame=406 event_ts=2026-10-02T21:32:13.242 image=logs/exits/2026-10-02/face_0004_213213_242.jpg
+2026-10-02 21:32:18,596 | INFO | TRACK_STARTED track=5 frame=435
+2026-10-02 21:32:18,991 | INFO | EMBEDDING track=5 sample=1/3
+2026-10-02 21:32:19,543 | INFO | EMBEDDING track=5 sample=2/3
+2026-10-02 21:32:24,103 | INFO | EMBEDDING track=5 sample=3/3
+2026-10-02 21:32:24,111 | INFO | REGISTERED face_id=5 track=5 embedding_dim=512 image=logs/registered/2026-10-02/face_0005_213215_639.jpg
+2026-10-02 21:32:24,116 | INFO | IDENTITY_CREATED face_id=5 track=5
+2026-10-02 21:32:24,121 | INFO | ENTRY face_id=5 track=5 frame=435 event_ts=2026-10-02T21:32:15.639 image=logs/entries/2026-10-02/face_0005_213215_639.jpg
+2026-10-02 21:32:24,121 | INFO | TRACK_STARTED track=6 frame=441
+2026-10-02 21:32:26,485 | INFO | EMBEDDING track=6 sample=1/3
+2026-10-02 21:32:29,595 | INFO | TRACK_STARTED track=7 frame=456
+2026-10-02 21:32:32,468 | INFO | EMBEDDING track=7 sample=1/3
+2026-10-02 21:32:36,724 | INFO | EMBEDDING track=7 sample=2/3
+2026-10-02 21:32:40,484 | INFO | EMBEDDING track=7 sample=3/3
+2026-10-02 21:32:40,495 | INFO | REGISTERED face_id=6 track=7 embedding_dim=512 image=logs/registered/2026-10-02/face_0006_213216_478.jpg
+2026-10-02 21:32:40,498 | INFO | IDENTITY_CREATED face_id=6 track=7
+2026-10-02 21:32:40,513 | INFO | ENTRY face_id=6 track=7 frame=456 event_ts=2026-10-02T21:32:16.478 image=logs/entries/2026-10-02/face_0006_213216_478.jpg
+2026-10-02 21:32:40,593 | INFO | EXIT face_id=3 track=4 frame=463 event_ts=2026-10-02T21:32:15.519 image=logs/exits/2026-10-02/face_0003_213215_519.jpg
+2026-10-02 21:32:42,276 | INFO | RECOGNIZED face_id=6 track=6 similarity=0.644
+2026-10-02 21:32:42,276 | INFO | TRACK_MERGED face_id=6 old_track=7 new_track=6
+2026-10-02 21:32:42,279 | INFO | EXIT face_id=6 track=6 frame=472 event_ts=2026-10-02T21:32:15.879 image=logs/exits/2026-10-02/face_0006_213215_879.jpg
+2026-10-02 21:32:42,473 | INFO | TRACK_STARTED track=8 frame=474
+2026-10-02 21:32:44,845 | INFO | EMBEDDING track=8 sample=1/3
+2026-10-02 21:32:48,724 | INFO | EMBEDDING track=8 sample=2/3
+2026-10-02 21:32:52,676 | INFO | EMBEDDING track=8 sample=3/3
+2026-10-02 21:32:52,686 | INFO | RECOGNIZED face_id=6 track=8 similarity=0.661
+2026-10-02 21:32:52,696 | INFO | RECONNECTED face_id=6 track=8 (no new entry)
+2026-10-02 21:32:54,500 | INFO | TRACK_STARTED track=9 frame=486
+2026-10-02 21:32:57,147 | INFO | EMBEDDING track=9 sample=1/3
+2026-10-02 21:33:01,097 | INFO | EMBEDDING track=9 sample=2/3
+2026-10-02 21:33:05,212 | INFO | EMBEDDING track=9 sample=3/3
+2026-10-02 21:33:05,229 | INFO | REGISTERED face_id=7 track=9 embedding_dim=512 image=logs/registered/2026-10-02/face_0007_213217_676.jpg
+2026-10-02 21:33:05,235 | INFO | IDENTITY_CREATED face_id=7 track=9
+2026-10-02 21:33:05,256 | INFO | ENTRY face_id=7 track=9 frame=486 event_ts=2026-10-02T21:32:17.676 image=logs/entries/2026-10-02/face_0007_213217_676.jpg
+2026-10-02 21:33:07,079 | INFO | EXIT face_id=5 track=5 frame=505 event_ts=2026-10-02T21:32:17.197 image=logs/exits/2026-10-02/face_0005_213217_197.jpg
+2026-10-02 21:33:22,635 | INFO | TRACK_STARTED track=10 frame=699
+2026-10-02 21:33:25,076 | INFO | EMBEDDING track=10 sample=1/3
+2026-10-02 21:33:25,168 | INFO | EXIT_ALREADY_LOGGED face_id=6 track=8
+2026-10-02 21:33:26,652 | INFO | TRACK_STARTED track=11 frame=705
+2026-10-02 21:33:29,176 | INFO | EMBEDDING track=11 sample=1/3
+2026-10-02 21:33:32,481 | INFO | EMBEDDING track=11 sample=2/3
+2026-10-02 21:33:32,643 | INFO | EXIT face_id=7 track=9 frame=709 event_ts=2026-10-02T21:32:25.346 image=logs/exits/2026-10-02/face_0007_213225_346.jpg
+2026-10-02 21:33:33,949 | INFO | TRACK_STARTED track=12 frame=714
+2026-10-02 21:33:35,251 | INFO | EMBEDDING track=12 sample=1/3
+2026-10-02 21:33:35,256 | INFO | TRACK_STARTED track=13 frame=714
+2026-10-02 21:33:35,594 | INFO | EMBEDDING track=13 sample=1/3
+2026-10-02 21:33:36,476 | INFO | EMBEDDING track=13 sample=2/3
+2026-10-02 21:33:37,343 | INFO | EMBEDDING track=13 sample=3/3
+2026-10-02 21:33:37,353 | INFO | REGISTERED face_id=8 track=13 embedding_dim=512 image=logs/registered/2026-10-02/face_0008_213226_784.jpg
+2026-10-02 21:33:37,378 | INFO | IDENTITY_CREATED face_id=8 track=13
+2026-10-02 21:33:37,389 | INFO | ENTRY face_id=8 track=13 frame=714 event_ts=2026-10-02T21:32:26.784 image=logs/entries/2026-10-02/face_0008_213226_784.jpg
+2026-10-02 21:33:37,411 | INFO | TRACK_STARTED track=14 frame=720
+2026-10-02 21:33:37,714 | INFO | EMBEDDING track=14 sample=1/3
+2026-10-02 21:33:38,489 | INFO | EMBEDDING track=14 sample=2/3
+2026-10-02 21:33:39,234 | INFO | EMBEDDING track=14 sample=3/3
+2026-10-02 21:33:39,242 | INFO | REGISTERED face_id=9 track=14 embedding_dim=512 image=logs/registered/2026-10-02/face_0009_213227_024.jpg
+2026-10-02 21:33:39,267 | INFO | IDENTITY_CREATED face_id=9 track=14
+2026-10-02 21:33:39,273 | INFO | ENTRY face_id=9 track=14 frame=720 event_ts=2026-10-02T21:32:27.024 image=logs/entries/2026-10-02/face_0009_213227_024.jpg
+2026-10-02 21:33:39,678 | INFO | RECOGNIZED face_id=9 track=10 similarity=0.707
+2026-10-02 21:33:39,679 | INFO | TRACK_MERGED face_id=9 old_track=14 new_track=10
+2026-10-02 21:33:39,680 | INFO | EXIT face_id=9 track=10 frame=730 event_ts=2026-10-02T21:32:26.185 image=logs/exits/2026-10-02/face_0009_213226_185.jpg
+2026-10-02 21:33:39,812 | INFO | TRACK_STARTED track=15 frame=732
+2026-10-02 21:33:40,286 | INFO | EMBEDDING track=15 sample=1/3
+2026-10-02 21:33:40,778 | INFO | TRACK_STARTED track=16 frame=738
+2026-10-02 21:33:41,059 | INFO | EMBEDDING track=16 sample=1/3
+2026-10-02 21:33:41,144 | INFO | RECOGNIZED face_id=9 track=11 similarity=0.814
+2026-10-02 21:33:41,176 | INFO | RECONNECTED face_id=9 track=11 (no new entry)
+2026-10-02 21:33:41,195 | INFO | EXIT_ALREADY_LOGGED face_id=9 track=11
+2026-10-02 21:33:41,864 | INFO | EMBEDDING track=16 sample=2/3
+2026-10-02 21:33:42,697 | INFO | EMBEDDING track=16 sample=3/3
+2026-10-02 21:33:42,702 | INFO | RECOGNIZED face_id=9 track=16 similarity=0.780
+2026-10-02 21:33:42,731 | INFO | RECONNECTED face_id=9 track=16 (no new entry)
+2026-10-02 21:33:42,768 | INFO | RECOGNIZED face_id=9 track=12 similarity=0.861
+2026-10-02 21:33:42,795 | INFO | TRACK_MERGED face_id=9 old_track=16 new_track=12
+2026-10-02 21:33:42,801 | INFO | EXIT_ALREADY_LOGGED face_id=9 track=12
+2026-10-02 21:33:43,236 | INFO | TRACK_STARTED track=17 frame=747
+2026-10-02 21:33:43,541 | INFO | EMBEDDING track=17 sample=1/3
+2026-10-02 21:33:44,078 | INFO | TRACK_STARTED track=18 frame=750
+2026-10-02 21:33:44,367 | INFO | EMBEDDING track=18 sample=1/3
+2026-10-02 21:33:45,150 | INFO | EMBEDDING track=18 sample=2/3
+2026-10-02 21:33:46,003 | INFO | EMBEDDING track=18 sample=3/3
+2026-10-02 21:33:46,294 | INFO | RECOGNIZED face_id=9 track=18 similarity=0.757
+2026-10-02 21:33:46,295 | INFO | RECONNECTED face_id=9 track=18 (no new entry)
+2026-10-02 21:33:46,607 | INFO | RECOGNIZED face_id=9 track=15 similarity=0.704
+2026-10-02 21:33:46,607 | INFO | TRACK_MERGED face_id=9 old_track=18 new_track=15
+2026-10-02 21:33:46,607 | INFO | EXIT_ALREADY_LOGGED face_id=9 track=15
+2026-10-02 21:33:46,697 | INFO | TRACK_STARTED track=19 frame=765
+2026-10-02 21:33:47,230 | INFO | EMBEDDING track=19 sample=1/3
+2026-10-02 21:33:47,746 | INFO | EMBEDDING track=19 sample=2/3
+2026-10-02 21:33:48,747 | INFO | EMBEDDING track=19 sample=3/3
+2026-10-02 21:33:48,753 | INFO | RECOGNIZED face_id=9 track=19 similarity=0.789
+2026-10-02 21:33:48,754 | INFO | RECONNECTED face_id=9 track=19 (no new entry)
+2026-10-02 21:33:49,184 | INFO | RECOGNIZED face_id=9 track=17 similarity=0.758
+2026-10-02 21:33:49,184 | INFO | TRACK_MERGED face_id=9 old_track=19 new_track=17
+2026-10-02 21:33:49,184 | INFO | EXIT_ALREADY_LOGGED face_id=9 track=17
+2026-10-02 21:33:49,312 | INFO | TRACK_STARTED track=20 frame=780
+2026-10-02 21:33:49,826 | INFO | EMBEDDING track=20 sample=1/3
+2026-10-02 21:33:50,330 | INFO | EMBEDDING track=20 sample=2/3
+2026-10-02 21:33:51,155 | INFO | EMBEDDING track=20 sample=3/3
+2026-10-02 21:33:51,176 | INFO | RECOGNIZED face_id=9 track=20 similarity=0.771
+2026-10-02 21:33:51,190 | INFO | RECONNECTED face_id=9 track=20 (no new entry)
+2026-10-02 21:33:54,494 | INFO | EXIT_ALREADY_LOGGED face_id=9 track=20
+2026-10-02 21:33:54,581 | INFO | EXIT face_id=8 track=13 frame=889 event_ts=2026-10-02T21:32:32.536 image=logs/exits/2026-10-02/face_0008_213232_536.jpg
+2026-10-02 21:34:09,748 | INFO | TRACK_STARTED track=21 frame=1443
+2026-10-02 21:34:10,008 | INFO | EMBEDDING track=21 sample=1/3
+2026-10-02 21:34:10,519 | INFO | TRACK_STARTED track=22 frame=1446
+2026-10-02 21:34:10,821 | INFO | EMBEDDING track=22 sample=1/3
+2026-10-02 21:34:11,256 | INFO | TRACK_STARTED track=23 frame=1449
+2026-10-02 21:34:11,633 | INFO | EMBEDDING track=23 sample=1/3
+2026-10-02 21:34:12,089 | INFO | TRACK_STARTED track=24 frame=1452
+2026-10-02 21:34:12,389 | INFO | EMBEDDING track=24 sample=1/3
+2026-10-02 21:34:12,924 | INFO | TRACK_STARTED track=25 frame=1455
+2026-10-02 21:34:13,296 | INFO | EMBEDDING track=25 sample=1/3
+2026-10-02 21:34:13,722 | INFO | TRACK_STARTED track=26 frame=1458
+2026-10-02 21:34:14,045 | INFO | EMBEDDING track=26 sample=1/3
+2026-10-02 21:34:14,437 | INFO | TRACK_STARTED track=27 frame=1461
+2026-10-02 21:34:14,704 | INFO | EMBEDDING track=27 sample=1/3
+2026-10-02 21:34:15,353 | INFO | TRACK_STARTED track=28 frame=1470
+2026-10-02 21:34:15,795 | INFO | EMBEDDING track=28 sample=1/3
+2026-10-02 21:34:16,076 | INFO | TRACK_STARTED track=29 frame=1473
+2026-10-02 21:34:16,367 | INFO | EMBEDDING track=29 sample=1/3
+2026-10-02 21:34:16,418 | INFO | REGISTERED face_id=10 track=21 embedding_dim=512 image=logs/registered/2026-10-02/face_0010_213255_905.jpg
+2026-10-02 21:34:16,443 | INFO | IDENTITY_CREATED face_id=10 track=21
+2026-10-02 21:34:16,451 | INFO | ENTRY face_id=10 track=21 frame=1443 event_ts=2026-10-02T21:32:55.905 image=logs/entries/2026-10-02/face_0010_213255_905.jpg
+2026-10-02 21:34:16,453 | INFO | EXIT face_id=10 track=21 frame=1474 event_ts=2026-10-02T21:32:55.905 image=logs/exits/2026-10-02/face_0010_213255_905.jpg
+2026-10-02 21:34:16,806 | INFO | RECOGNIZED face_id=10 track=22 similarity=0.622
+2026-10-02 21:34:16,807 | INFO | RECONNECTED face_id=10 track=22 (no new entry)
+2026-10-02 21:34:16,807 | INFO | EXIT_ALREADY_LOGGED face_id=10 track=22
+2026-10-02 21:34:16,948 | INFO | RECOGNIZED face_id=10 track=23 similarity=0.459
+2026-10-02 21:34:16,948 | INFO | RECONNECTED face_id=10 track=23 (no new entry)
+2026-10-02 21:34:16,949 | INFO | EXIT_ALREADY_LOGGED face_id=10 track=23
+2026-10-02 21:34:17,059 | INFO | RECOGNIZED face_id=10 track=24 similarity=0.559
+2026-10-02 21:34:17,060 | INFO | RECONNECTED face_id=10 track=24 (no new entry)
+2026-10-02 21:34:17,060 | INFO | EXIT_ALREADY_LOGGED face_id=10 track=24
+2026-10-02 21:34:17,149 | INFO | RECOGNIZED face_id=10 track=25 similarity=0.518
+2026-10-02 21:34:17,150 | INFO | RECONNECTED face_id=10 track=25 (no new entry)
+2026-10-02 21:34:17,150 | INFO | EXIT_ALREADY_LOGGED face_id=10 track=25
+2026-10-02 21:34:17,237 | INFO | RECOGNIZED face_id=10 track=26 similarity=0.667
+2026-10-02 21:34:17,238 | INFO | RECONNECTED face_id=10 track=26 (no new entry)
+2026-10-02 21:34:17,238 | INFO | EXIT_ALREADY_LOGGED face_id=10 track=26
+2026-10-02 21:34:17,320 | INFO | RECOGNIZED face_id=10 track=27 similarity=0.478
+2026-10-02 21:34:17,321 | INFO | RECONNECTED face_id=10 track=27 (no new entry)
+2026-10-02 21:34:17,321 | INFO | EXIT_ALREADY_LOGGED face_id=10 track=27
+2026-10-02 21:34:17,559 | INFO | REGISTERED face_id=11 track=28 embedding_dim=512 image=logs/registered/2026-10-02/face_0011_213256_984.jpg
+2026-10-02 21:34:17,560 | INFO | IDENTITY_CREATED face_id=11 track=28
+2026-10-02 21:34:17,561 | INFO | ENTRY face_id=11 track=28 frame=1470 event_ts=2026-10-02T21:32:56.984 image=logs/entries/2026-10-02/face_0011_213256_984.jpg
+2026-10-02 21:34:17,562 | INFO | EXIT face_id=11 track=28 frame=1501 event_ts=2026-10-02T21:32:56.984 image=logs/exits/2026-10-02/face_0011_213256_984.jpg
+2026-10-02 21:34:17,586 | INFO | RECOGNIZED face_id=11 track=29 similarity=0.792
+2026-10-02 21:34:17,587 | INFO | RECONNECTED face_id=11 track=29 (no new entry)
+2026-10-02 21:34:17,587 | INFO | EXIT_ALREADY_LOGGED face_id=11 track=29
+2026-10-02 21:34:17,587 | INFO | PIPELINE_END unique_visitors=11 events={'entry': 11, 'exit': 11}
+2026-10-02 23:25:19,451 | INFO | CONFIG source=C:\Users\LENOVO\Downloads\dataset\record_20250620_183903.mp4 skip_frames=2
+2026-10-02 23:25:24,476 | INFO | PIPELINE_START known_faces=0 skip_frames=2
+2026-10-02 23:25:24,564 | INFO | SOURCE_OPENED source=C:\Users\LENOVO\Downloads\dataset\record_20250620_183903.mp4 fps=25.0 stream=False
+2026-10-02 23:25:26,700 | INFO | TRACK_STARTED track=1 frame=0
+2026-10-02 23:25:27,385 | INFO | EMBEDDING track=1 sample=1/3
+2026-10-02 23:25:27,999 | INFO | EMBEDDING track=1 sample=2/3
+2026-10-02 23:25:28,759 | INFO | EMBEDDING track=1 sample=3/3
+2026-10-02 23:25:28,820 | INFO | REGISTERED face_id=1 track=1 embedding_dim=512 image=logs/registered/2026-10-02/face_0001_232524_485.jpg
+2026-10-02 23:25:28,847 | INFO | IDENTITY_CREATED face_id=1 track=1
+2026-10-02 23:25:28,876 | INFO | ENTRY face_id=1 track=1 frame=0 event_ts=2026-10-02T23:25:24.485 image=logs/entries/2026-10-02/face_0001_232524_485.jpg
+2026-10-02 23:25:30,612 | INFO | TRACK_STARTED track=2 frame=48
+2026-10-02 23:25:31,157 | INFO | EMBEDDING track=2 sample=1/3
+2026-10-02 23:25:32,164 | INFO | EXIT face_id=1 track=1 frame=73 event_ts=2026-10-02T23:25:26.163 image=logs/exits/2026-10-02/face_0001_232526_163.jpg
+2026-10-02 23:25:32,353 | INFO | REGISTERED face_id=2 track=2 embedding_dim=512 image=logs/registered/2026-10-02/face_0002_232526_402.jpg
+2026-10-02 23:25:32,353 | INFO | IDENTITY_CREATED face_id=2 track=2
+2026-10-02 23:25:32,355 | INFO | ENTRY face_id=2 track=2 frame=48 event_ts=2026-10-02T23:25:26.402 image=logs/entries/2026-10-02/face_0002_232526_402.jpg
+2026-10-02 23:25:32,356 | INFO | EXIT face_id=2 track=2 frame=79 event_ts=2026-10-02T23:25:26.402 image=logs/exits/2026-10-02/face_0002_232526_402.jpg
+2026-10-02 23:25:40,721 | INFO | TRACK_STARTED track=3 frame=375
+2026-10-02 23:25:41,006 | INFO | EMBEDDING track=3 sample=1/3
+2026-10-02 23:25:41,929 | INFO | TRACK_STARTED track=4 frame=393
+2026-10-02 23:25:42,196 | INFO | EMBEDDING track=4 sample=1/3
+2026-10-02 23:25:43,024 | INFO | EMBEDDING track=4 sample=2/3
+2026-10-02 23:25:43,893 | INFO | EMBEDDING track=4 sample=3/3
+2026-10-02 23:25:43,924 | INFO | REGISTERED face_id=3 track=4 embedding_dim=512 image=logs/registered/2026-10-02/face_0003_232540_184.jpg
+2026-10-02 23:25:43,925 | INFO | IDENTITY_CREATED face_id=3 track=4
+2026-10-02 23:25:43,926 | INFO | ENTRY face_id=3 track=4 frame=393 event_ts=2026-10-02T23:25:40.184 image=logs/entries/2026-10-02/face_0003_232540_184.jpg
+2026-10-02 23:25:44,423 | INFO | REGISTERED face_id=4 track=3 embedding_dim=512 image=logs/registered/2026-10-02/face_0004_232539_465.jpg
+2026-10-02 23:25:44,423 | INFO | IDENTITY_CREATED face_id=4 track=3
+2026-10-02 23:25:44,425 | INFO | ENTRY face_id=4 track=3 frame=375 event_ts=2026-10-02T23:25:39.465 image=logs/entries/2026-10-02/face_0004_232539_465.jpg
+2026-10-02 23:25:44,427 | INFO | EXIT face_id=4 track=3 frame=406 event_ts=2026-10-02T23:25:39.465 image=logs/exits/2026-10-02/face_0004_232539_465.jpg
+2026-10-02 23:25:45,287 | INFO | TRACK_STARTED track=5 frame=435
+2026-10-02 23:25:45,515 | INFO | EMBEDDING track=5 sample=1/3
+2026-10-02 23:25:46,279 | INFO | EMBEDDING track=5 sample=2/3
+2026-10-02 23:25:47,196 | INFO | EMBEDDING track=5 sample=3/3
+2026-10-02 23:25:47,219 | INFO | REGISTERED face_id=5 track=5 embedding_dim=512 image=logs/registered/2026-10-02/face_0005_232541_862.jpg
+2026-10-02 23:25:47,244 | INFO | IDENTITY_CREATED face_id=5 track=5
+2026-10-02 23:25:47,270 | INFO | ENTRY face_id=5 track=5 frame=435 event_ts=2026-10-02T23:25:41.862 image=logs/entries/2026-10-02/face_0005_232541_862.jpg
+2026-10-02 23:25:47,296 | INFO | TRACK_STARTED track=6 frame=441
+2026-10-02 23:25:47,611 | INFO | EMBEDDING track=6 sample=1/3
+2026-10-02 23:25:48,530 | INFO | TRACK_STARTED track=7 frame=456
+2026-10-02 23:25:48,859 | INFO | EMBEDDING track=7 sample=1/3
+2026-10-02 23:25:49,570 | INFO | EMBEDDING track=7 sample=2/3
+2026-10-02 23:25:50,500 | INFO | EMBEDDING track=7 sample=3/3
+2026-10-02 23:25:50,530 | INFO | REGISTERED face_id=6 track=7 embedding_dim=512 image=logs/registered/2026-10-02/face_0006_232542_701.jpg
+2026-10-02 23:25:50,658 | INFO | IDENTITY_CREATED face_id=6 track=7
+2026-10-02 23:25:50,660 | INFO | ENTRY face_id=6 track=7 frame=456 event_ts=2026-10-02T23:25:42.701 image=logs/entries/2026-10-02/face_0006_232542_701.jpg
+2026-10-02 23:25:50,685 | INFO | EXIT face_id=3 track=4 frame=463 event_ts=2026-10-02T23:25:41.742 image=logs/exits/2026-10-02/face_0003_232541_742.jpg
+2026-10-02 23:25:51,148 | INFO | RECOGNIZED face_id=6 track=6 similarity=0.644
+2026-10-02 23:25:51,148 | INFO | TRACK_MERGED face_id=6 old_track=7 new_track=6
+2026-10-02 23:25:51,150 | INFO | EXIT face_id=6 track=6 frame=472 event_ts=2026-10-02T23:25:42.102 image=logs/exits/2026-10-02/face_0006_232542_102.jpg
+2026-10-02 23:25:51,223 | INFO | TRACK_STARTED track=8 frame=474
+2026-10-02 23:25:51,418 | INFO | EMBEDDING track=8 sample=1/3
+2026-10-02 23:25:52,231 | INFO | EMBEDDING track=8 sample=2/3
+2026-10-02 23:25:53,051 | INFO | EMBEDDING track=8 sample=3/3
+2026-10-02 23:25:53,077 | INFO | RECOGNIZED face_id=6 track=8 similarity=0.661
+2026-10-02 23:25:53,096 | INFO | RECONNECTED face_id=6 track=8 (no new entry)
+2026-10-02 23:25:53,644 | INFO | TRACK_STARTED track=9 frame=486
+2026-10-02 23:25:54,033 | INFO | EMBEDDING track=9 sample=1/3
+2026-10-02 23:25:54,717 | INFO | EMBEDDING track=9 sample=2/3
+2026-10-02 23:25:55,514 | INFO | EMBEDDING track=9 sample=3/3
+2026-10-02 23:25:55,546 | INFO | REGISTERED face_id=7 track=9 embedding_dim=512 image=logs/registered/2026-10-02/face_0007_232543_899.jpg
+2026-10-02 23:25:55,575 | INFO | IDENTITY_CREATED face_id=7 track=9
+2026-10-02 23:25:55,589 | INFO | ENTRY face_id=7 track=9 frame=486 event_ts=2026-10-02T23:25:43.899 image=logs/entries/2026-10-02/face_0007_232543_899.jpg
+2026-10-02 23:25:56,319 | INFO | EXIT face_id=5 track=5 frame=505 event_ts=2026-10-02T23:25:43.420 image=logs/exits/2026-10-02/face_0005_232543_420.jpg
+2026-10-02 23:26:02,435 | INFO | TRACK_STARTED track=10 frame=699
+2026-10-02 23:26:02,843 | INFO | EMBEDDING track=10 sample=1/3
+2026-10-02 23:26:03,019 | INFO | EXIT_ALREADY_LOGGED face_id=6 track=8
+2026-10-02 23:26:03,351 | INFO | TRACK_STARTED track=11 frame=705
+2026-10-02 23:26:03,731 | INFO | EMBEDDING track=11 sample=1/3
+2026-10-02 23:26:04,616 | INFO | EMBEDDING track=11 sample=2/3
+2026-10-02 23:26:04,644 | INFO | EXIT face_id=7 track=9 frame=709 event_ts=2026-10-02T23:25:51.569 image=logs/exits/2026-10-02/face_0007_232551_569.jpg
+2026-10-02 23:26:05,007 | INFO | TRACK_STARTED track=12 frame=714
+2026-10-02 23:26:05,265 | INFO | EMBEDDING track=12 sample=1/3
+2026-10-02 23:26:05,268 | INFO | TRACK_STARTED track=13 frame=714
+2026-10-02 23:26:05,727 | INFO | EMBEDDING track=13 sample=1/3
+2026-10-02 23:26:06,456 | INFO | EMBEDDING track=13 sample=2/3
+2026-10-02 23:26:07,100 | INFO | EMBEDDING track=13 sample=3/3
+2026-10-02 23:26:07,116 | INFO | REGISTERED face_id=8 track=13 embedding_dim=512 image=logs/registered/2026-10-02/face_0008_232553_007.jpg
+2026-10-02 23:26:07,118 | INFO | IDENTITY_CREATED face_id=8 track=13
+2026-10-02 23:26:07,127 | INFO | ENTRY face_id=8 track=13 frame=714 event_ts=2026-10-02T23:25:53.007 image=logs/entries/2026-10-02/face_0008_232553_007.jpg
+2026-10-02 23:26:07,133 | INFO | TRACK_STARTED track=14 frame=720
+2026-10-02 23:26:07,511 | INFO | EMBEDDING track=14 sample=1/3
+2026-10-02 23:26:08,293 | INFO | EMBEDDING track=14 sample=2/3
+2026-10-02 23:26:09,152 | INFO | EMBEDDING track=14 sample=3/3
+2026-10-02 23:26:09,182 | INFO | REGISTERED face_id=9 track=14 embedding_dim=512 image=logs/registered/2026-10-02/face_0009_232553_247.jpg
+2026-10-02 23:26:09,189 | INFO | IDENTITY_CREATED face_id=9 track=14
+2026-10-02 23:26:09,222 | INFO | ENTRY face_id=9 track=14 frame=720 event_ts=2026-10-02T23:25:53.247 image=logs/entries/2026-10-02/face_0009_232553_247.jpg
+2026-10-02 23:26:09,608 | INFO | RECOGNIZED face_id=9 track=10 similarity=0.707
+2026-10-02 23:26:09,609 | INFO | TRACK_MERGED face_id=9 old_track=14 new_track=10
+2026-10-02 23:26:09,611 | INFO | EXIT face_id=9 track=10 frame=730 event_ts=2026-10-02T23:25:52.408 image=logs/exits/2026-10-02/face_0009_232552_408.jpg
+2026-10-02 23:26:09,716 | INFO | TRACK_STARTED track=15 frame=732
+2026-10-02 23:26:10,059 | INFO | EMBEDDING track=15 sample=1/3
+2026-10-02 23:26:10,535 | INFO | TRACK_STARTED track=16 frame=738
+2026-10-02 23:26:10,936 | INFO | EMBEDDING track=16 sample=1/3
+2026-10-02 23:26:11,018 | INFO | RECOGNIZED face_id=9 track=11 similarity=0.814
+2026-10-02 23:26:11,036 | INFO | RECONNECTED face_id=9 track=11 (no new entry)
+2026-10-02 23:26:11,054 | INFO | EXIT_ALREADY_LOGGED face_id=9 track=11
+2026-10-02 23:26:11,695 | INFO | EMBEDDING track=16 sample=2/3
+2026-10-02 23:26:12,365 | INFO | EMBEDDING track=16 sample=3/3
+2026-10-02 23:26:12,378 | INFO | RECOGNIZED face_id=9 track=16 similarity=0.780
+2026-10-02 23:26:12,382 | INFO | RECONNECTED face_id=9 track=16 (no new entry)
+2026-10-02 23:26:12,414 | INFO | RECOGNIZED face_id=9 track=12 similarity=0.861
+2026-10-02 23:26:12,417 | INFO | TRACK_MERGED face_id=9 old_track=16 new_track=12
+2026-10-02 23:26:12,429 | INFO | EXIT_ALREADY_LOGGED face_id=9 track=12
+2026-10-02 23:26:12,762 | INFO | TRACK_STARTED track=17 frame=747
+2026-10-02 23:26:13,012 | INFO | EMBEDDING track=17 sample=1/3
+2026-10-02 23:26:13,473 | INFO | TRACK_STARTED track=18 frame=750
+2026-10-02 23:26:13,719 | INFO | EMBEDDING track=18 sample=1/3
+2026-10-02 23:26:14,473 | INFO | EMBEDDING track=18 sample=2/3
+2026-10-02 23:26:15,148 | INFO | EMBEDDING track=18 sample=3/3
+2026-10-02 23:26:15,150 | INFO | RECOGNIZED face_id=9 track=18 similarity=0.757
+2026-10-02 23:26:15,165 | INFO | RECONNECTED face_id=9 track=18 (no new entry)
+2026-10-02 23:26:15,768 | INFO | RECOGNIZED face_id=9 track=15 similarity=0.704
+2026-10-02 23:26:15,768 | INFO | TRACK_MERGED face_id=9 old_track=18 new_track=15
+2026-10-02 23:26:15,768 | INFO | EXIT_ALREADY_LOGGED face_id=9 track=15
+2026-10-02 23:26:15,851 | INFO | TRACK_STARTED track=19 frame=765
+2026-10-02 23:26:16,452 | INFO | EMBEDDING track=19 sample=1/3
+2026-10-02 23:26:16,970 | INFO | EMBEDDING track=19 sample=2/3
+2026-10-02 23:26:18,051 | INFO | EMBEDDING track=19 sample=3/3
+2026-10-02 23:26:18,051 | INFO | RECOGNIZED face_id=9 track=19 similarity=0.789
+2026-10-02 23:26:18,052 | INFO | RECONNECTED face_id=9 track=19 (no new entry)
+2026-10-02 23:26:18,485 | INFO | RECOGNIZED face_id=9 track=17 similarity=0.758
+2026-10-02 23:26:18,485 | INFO | TRACK_MERGED face_id=9 old_track=19 new_track=17
+2026-10-02 23:26:18,485 | INFO | EXIT_ALREADY_LOGGED face_id=9 track=17
+2026-10-02 23:26:18,590 | INFO | TRACK_STARTED track=20 frame=780
+2026-10-02 23:26:18,794 | INFO | EMBEDDING track=20 sample=1/3
+2026-10-02 23:26:19,549 | INFO | EMBEDDING track=20 sample=2/3
+2026-10-02 23:26:20,386 | INFO | EMBEDDING track=20 sample=3/3
+2026-10-02 23:26:20,396 | INFO | RECOGNIZED face_id=9 track=20 similarity=0.771
+2026-10-02 23:26:20,427 | INFO | RECONNECTED face_id=9 track=20 (no new entry)
+2026-10-02 23:26:24,028 | INFO | EXIT_ALREADY_LOGGED face_id=9 track=20
+2026-10-02 23:26:24,130 | INFO | EXIT face_id=8 track=13 frame=889 event_ts=2026-10-02T23:25:58.759 image=logs/exits/2026-10-02/face_0008_232558_759.jpg
+2026-10-02 23:26:42,037 | INFO | TRACK_STARTED track=21 frame=1443
+2026-10-02 23:26:42,228 | INFO | EMBEDDING track=21 sample=1/3
+2026-10-02 23:26:42,786 | INFO | TRACK_STARTED track=22 frame=1446
+2026-10-02 23:26:43,288 | INFO | EMBEDDING track=22 sample=1/3
+2026-10-02 23:26:43,544 | INFO | TRACK_STARTED track=23 frame=1449
+2026-10-02 23:26:43,865 | INFO | EMBEDDING track=23 sample=1/3
+2026-10-02 23:26:44,380 | INFO | TRACK_STARTED track=24 frame=1452
+2026-10-02 23:26:44,840 | INFO | EMBEDDING track=24 sample=1/3
+2026-10-02 23:26:45,192 | INFO | TRACK_STARTED track=25 frame=1455
+2026-10-02 23:26:45,693 | INFO | EMBEDDING track=25 sample=1/3
+2026-10-02 23:26:45,978 | INFO | TRACK_STARTED track=26 frame=1458
+2026-10-02 23:26:46,283 | INFO | EMBEDDING track=26 sample=1/3
+2026-10-02 23:26:46,670 | INFO | TRACK_STARTED track=27 frame=1461
+2026-10-02 23:26:46,960 | INFO | EMBEDDING track=27 sample=1/3
+2026-10-02 23:26:47,610 | INFO | TRACK_STARTED track=28 frame=1470
+2026-10-02 23:26:47,805 | INFO | EMBEDDING track=28 sample=1/3
+2026-10-02 23:26:48,390 | INFO | TRACK_STARTED track=29 frame=1473
+2026-10-02 23:26:48,759 | INFO | EMBEDDING track=29 sample=1/3
+2026-10-02 23:26:48,833 | INFO | REGISTERED face_id=10 track=21 embedding_dim=512 image=logs/registered/2026-10-02/face_0010_232622_128.jpg
+2026-10-02 23:26:48,842 | INFO | IDENTITY_CREATED face_id=10 track=21
+2026-10-02 23:26:48,868 | INFO | ENTRY face_id=10 track=21 frame=1443 event_ts=2026-10-02T23:26:22.128 image=logs/entries/2026-10-02/face_0010_232622_128.jpg
+2026-10-02 23:26:48,878 | INFO | EXIT face_id=10 track=21 frame=1474 event_ts=2026-10-02T23:26:22.128 image=logs/exits/2026-10-02/face_0010_232622_128.jpg
+2026-10-02 23:26:49,244 | INFO | RECOGNIZED face_id=10 track=22 similarity=0.622
+2026-10-02 23:26:49,244 | INFO | RECONNECTED face_id=10 track=22 (no new entry)
+2026-10-02 23:26:49,244 | INFO | EXIT_ALREADY_LOGGED face_id=10 track=22
+2026-10-02 23:26:49,354 | INFO | RECOGNIZED face_id=10 track=23 similarity=0.459
+2026-10-02 23:26:49,355 | INFO | RECONNECTED face_id=10 track=23 (no new entry)
+2026-10-02 23:26:49,355 | INFO | EXIT_ALREADY_LOGGED face_id=10 track=23
+2026-10-02 23:26:49,459 | INFO | RECOGNIZED face_id=10 track=24 similarity=0.559
+2026-10-02 23:26:49,460 | INFO | RECONNECTED face_id=10 track=24 (no new entry)
+2026-10-02 23:26:49,460 | INFO | EXIT_ALREADY_LOGGED face_id=10 track=24
+2026-10-02 23:26:49,559 | INFO | RECOGNIZED face_id=10 track=25 similarity=0.518
+2026-10-02 23:26:49,560 | INFO | RECONNECTED face_id=10 track=25 (no new entry)
+2026-10-02 23:26:49,560 | INFO | EXIT_ALREADY_LOGGED face_id=10 track=25
+2026-10-02 23:26:49,657 | INFO | RECOGNIZED face_id=10 track=26 similarity=0.667
+2026-10-02 23:26:49,657 | INFO | RECONNECTED face_id=10 track=26 (no new entry)
+2026-10-02 23:26:49,657 | INFO | EXIT_ALREADY_LOGGED face_id=10 track=26
+2026-10-02 23:26:49,754 | INFO | RECOGNIZED face_id=10 track=27 similarity=0.478
+2026-10-02 23:26:49,754 | INFO | RECONNECTED face_id=10 track=27 (no new entry)
+2026-10-02 23:26:49,754 | INFO | EXIT_ALREADY_LOGGED face_id=10 track=27
+2026-10-02 23:26:50,048 | INFO | REGISTERED face_id=11 track=28 embedding_dim=512 image=logs/registered/2026-10-02/face_0011_232623_207.jpg
+2026-10-02 23:26:50,048 | INFO | IDENTITY_CREATED face_id=11 track=28
+2026-10-02 23:26:50,050 | INFO | ENTRY face_id=11 track=28 frame=1470 event_ts=2026-10-02T23:26:23.207 image=logs/entries/2026-10-02/face_0011_232623_207.jpg
+2026-10-02 23:26:50,051 | INFO | EXIT face_id=11 track=28 frame=1501 event_ts=2026-10-02T23:26:23.207 image=logs/exits/2026-10-02/face_0011_232623_207.jpg
+2026-10-02 23:26:50,082 | INFO | RECOGNIZED face_id=11 track=29 similarity=0.792
+2026-10-02 23:26:50,082 | INFO | RECONNECTED face_id=11 track=29 (no new entry)
+2026-10-02 23:26:50,082 | INFO | EXIT_ALREADY_LOGGED face_id=11 track=29
+2026-10-02 23:26:50,083 | INFO | PIPELINE_END unique_visitors=11 events={'entry': 11, 'exit': 11}
+2026-10-02 23:27:32,047 | INFO | CONFIG source=C:\Users\LENOVO\Downloads\dataset\record_20250620_184049.mp4 skip_frames=2
+2026-10-02 23:27:36,019 | INFO | PIPELINE_START known_faces=0 skip_frames=2
+2026-10-02 23:27:36,069 | INFO | SOURCE_OPENED source=C:\Users\LENOVO\Downloads\dataset\record_20250620_184049.mp4 fps=25.0 stream=False
+2026-10-02 23:28:07,884 | INFO | TRACK_STARTED track=1 frame=1077
+2026-10-02 23:28:08,477 | INFO | EMBEDDING track=1 sample=1/3
+2026-10-02 23:28:09,612 | INFO | REGISTERED face_id=1 track=1 embedding_dim=512 image=logs/registered/2026-10-02/face_0001_232819_067.jpg
+2026-10-02 23:28:09,612 | INFO | IDENTITY_CREATED face_id=1 track=1
+2026-10-02 23:28:09,614 | INFO | ENTRY face_id=1 track=1 frame=1077 event_ts=2026-10-02T23:28:19.067 image=logs/entries/2026-10-02/face_0001_232819_067.jpg
+2026-10-02 23:28:09,615 | INFO | EXIT face_id=1 track=1 frame=1108 event_ts=2026-10-02T23:28:19.067 image=logs/exits/2026-10-02/face_0001_232819_067.jpg
+2026-10-02 23:28:09,686 | INFO | TRACK_STARTED track=2 frame=1110
+2026-10-02 23:28:09,877 | INFO | EMBEDDING track=2 sample=1/3
+2026-10-02 23:28:10,647 | INFO | EMBEDDING track=2 sample=2/3
+2026-10-02 23:28:11,692 | INFO | EMBEDDING track=2 sample=3/3
+2026-10-02 23:28:11,850 | INFO | REGISTERED face_id=2 track=2 embedding_dim=512 image=logs/registered/2026-10-02/face_0002_232820_385.jpg
+2026-10-02 23:28:11,853 | INFO | IDENTITY_CREATED face_id=2 track=2
+2026-10-02 23:28:11,855 | INFO | ENTRY face_id=2 track=2 frame=1110 event_ts=2026-10-02T23:28:20.385 image=logs/entries/2026-10-02/face_0002_232820_385.jpg
+2026-10-02 23:28:13,266 | INFO | TRACK_STARTED track=3 frame=1164
+2026-10-02 23:28:13,459 | INFO | EMBEDDING track=3 sample=1/3
+2026-10-02 23:28:14,210 | INFO | TRACK_STARTED track=4 frame=1173
+2026-10-02 23:28:14,403 | INFO | EMBEDDING track=4 sample=1/3
+2026-10-02 23:28:15,106 | INFO | EXIT face_id=2 track=2 frame=1180 event_ts=2026-10-02T23:28:21.943 image=logs/exits/2026-10-02/face_0002_232821_943.jpg
+2026-10-02 23:28:15,541 | INFO | RECOGNIZED face_id=2 track=3 similarity=0.558
+2026-10-02 23:28:15,542 | INFO | RECONNECTED face_id=2 track=3 (no new entry)
+2026-10-02 23:28:15,542 | INFO | EXIT_ALREADY_LOGGED face_id=2 track=3
+2026-10-02 23:28:15,811 | INFO | RECOGNIZED face_id=1 track=4 similarity=0.643
+2026-10-02 23:28:15,811 | INFO | RECONNECTED face_id=1 track=4 (no new entry)
+2026-10-02 23:28:15,811 | INFO | EXIT_ALREADY_LOGGED face_id=1 track=4
+2026-10-02 23:28:16,493 | INFO | TRACK_STARTED track=5 frame=1227
+2026-10-02 23:28:16,830 | INFO | EMBEDDING track=5 sample=1/3
+2026-10-02 23:28:18,030 | INFO | REGISTERED face_id=3 track=5 embedding_dim=512 image=logs/registered/2026-10-02/face_0003_232825_059.jpg
+2026-10-02 23:28:18,030 | INFO | IDENTITY_CREATED face_id=3 track=5
+2026-10-02 23:28:18,031 | INFO | ENTRY face_id=3 track=5 frame=1227 event_ts=2026-10-02T23:28:25.059 image=logs/entries/2026-10-02/face_0003_232825_059.jpg
+2026-10-02 23:28:18,032 | INFO | EXIT face_id=3 track=5 frame=1258 event_ts=2026-10-02T23:28:25.059 image=logs/exits/2026-10-02/face_0003_232825_059.jpg
+2026-10-02 23:28:24,833 | INFO | PIPELINE_END unique_visitors=3 events={'entry': 3, 'exit': 3}
+2026-10-02 23:29:00,767 | INFO | CONFIG source=C:\Users\LENOVO\Downloads\dataset\record_20250620_184302.mp4 skip_frames=2
+2026-10-02 23:29:04,602 | INFO | PIPELINE_START known_faces=0 skip_frames=2
+2026-10-02 23:29:04,649 | INFO | SOURCE_OPENED source=C:\Users\LENOVO\Downloads\dataset\record_20250620_184302.mp4 fps=25.0 stream=False
+2026-10-02 23:29:33,132 | INFO | TRACK_STARTED track=1 frame=921
+2026-10-02 23:29:33,621 | INFO | EMBEDDING track=1 sample=1/3
+2026-10-02 23:29:34,194 | INFO | TRACK_STARTED track=2 frame=930
+2026-10-02 23:29:34,387 | INFO | EMBEDDING track=2 sample=1/3
+2026-10-02 23:29:35,150 | INFO | EMBEDDING track=2 sample=2/3
+2026-10-02 23:29:35,960 | INFO | EMBEDDING track=2 sample=3/3
+2026-10-02 23:29:35,984 | INFO | REGISTERED face_id=1 track=2 embedding_dim=512 image=logs/registered/2026-10-02/face_0001_232941_780.jpg
+2026-10-02 23:29:36,015 | INFO | IDENTITY_CREATED face_id=1 track=2
+2026-10-02 23:29:36,048 | INFO | ENTRY face_id=1 track=2 frame=930 event_ts=2026-10-02T23:29:41.780 image=logs/entries/2026-10-02/face_0001_232941_780.jpg
+2026-10-02 23:29:36,879 | INFO | RECOGNIZED face_id=1 track=1 similarity=0.814
+2026-10-02 23:29:36,879 | INFO | TRACK_MERGED face_id=1 old_track=2 new_track=1
+2026-10-02 23:29:36,881 | INFO | EXIT face_id=1 track=1 frame=952 event_ts=2026-10-02T23:29:41.421 image=logs/exits/2026-10-02/face_0001_232941_421.jpg
+2026-10-02 23:29:36,948 | INFO | TRACK_STARTED track=3 frame=954
+2026-10-02 23:29:37,171 | INFO | EMBEDDING track=3 sample=1/3
+2026-10-02 23:29:38,040 | INFO | EMBEDDING track=3 sample=2/3
+2026-10-02 23:29:38,989 | INFO | EMBEDDING track=3 sample=3/3
+2026-10-02 23:29:39,004 | INFO | RECOGNIZED face_id=1 track=3 similarity=0.834
+2026-10-02 23:29:39,036 | INFO | RECONNECTED face_id=1 track=3 (no new entry)
+2026-10-02 23:29:41,718 | INFO | TRACK_STARTED track=4 frame=1047
+2026-10-02 23:29:41,947 | INFO | EMBEDDING track=4 sample=1/3
+2026-10-02 23:29:42,440 | INFO | TRACK_STARTED track=5 frame=1050
+2026-10-02 23:29:42,868 | INFO | EMBEDDING track=5 sample=1/3
+2026-10-02 23:29:43,166 | INFO | TRACK_STARTED track=6 frame=1053
+2026-10-02 23:29:43,449 | INFO | EMBEDDING track=6 sample=1/3
+2026-10-02 23:29:43,857 | INFO | TRACK_STARTED track=7 frame=1056
+2026-10-02 23:29:44,371 | INFO | EMBEDDING track=7 sample=1/3
+2026-10-02 23:29:45,265 | INFO | EXIT_ALREADY_LOGGED face_id=1 track=3
+2026-10-02 23:29:45,351 | INFO | REGISTERED face_id=2 track=4 embedding_dim=512 image=logs/registered/2026-10-02/face_0002_232946_454.jpg
+2026-10-02 23:29:45,351 | INFO | IDENTITY_CREATED face_id=2 track=4
+2026-10-02 23:29:45,353 | INFO | ENTRY face_id=2 track=4 frame=1047 event_ts=2026-10-02T23:29:46.454 image=logs/entries/2026-10-02/face_0002_232946_454.jpg
+2026-10-02 23:29:45,354 | INFO | EXIT face_id=2 track=4 frame=1078 event_ts=2026-10-02T23:29:46.454 image=logs/exits/2026-10-02/face_0002_232946_454.jpg
+2026-10-02 23:29:45,436 | INFO | REGISTERED face_id=3 track=5 embedding_dim=512 image=logs/registered/2026-10-02/face_0003_232946_574.jpg
+2026-10-02 23:29:45,437 | INFO | IDENTITY_CREATED face_id=3 track=5
+2026-10-02 23:29:45,439 | INFO | ENTRY face_id=3 track=5 frame=1050 event_ts=2026-10-02T23:29:46.574 image=logs/entries/2026-10-02/face_0003_232946_574.jpg
+2026-10-02 23:29:45,440 | INFO | EXIT face_id=3 track=5 frame=1081 event_ts=2026-10-02T23:29:46.574 image=logs/exits/2026-10-02/face_0003_232946_574.jpg
+2026-10-02 23:29:45,527 | INFO | REGISTERED face_id=4 track=6 embedding_dim=512 image=logs/registered/2026-10-02/face_0004_232946_694.jpg
+2026-10-02 23:29:45,528 | INFO | IDENTITY_CREATED face_id=4 track=6
+2026-10-02 23:29:45,529 | INFO | ENTRY face_id=4 track=6 frame=1053 event_ts=2026-10-02T23:29:46.694 image=logs/entries/2026-10-02/face_0004_232946_694.jpg
+2026-10-02 23:29:45,530 | INFO | EXIT face_id=4 track=6 frame=1084 event_ts=2026-10-02T23:29:46.694 image=logs/exits/2026-10-02/face_0004_232946_694.jpg
+2026-10-02 23:29:45,614 | INFO | REGISTERED face_id=5 track=7 embedding_dim=512 image=logs/registered/2026-10-02/face_0005_232946_813.jpg
+2026-10-02 23:29:45,614 | INFO | IDENTITY_CREATED face_id=5 track=7
+2026-10-02 23:29:45,616 | INFO | ENTRY face_id=5 track=7 frame=1056 event_ts=2026-10-02T23:29:46.813 image=logs/entries/2026-10-02/face_0005_232946_813.jpg
+2026-10-02 23:29:45,617 | INFO | EXIT face_id=5 track=7 frame=1087 event_ts=2026-10-02T23:29:46.813 image=logs/exits/2026-10-02/face_0005_232946_813.jpg
+2026-10-02 23:29:57,348 | INFO | PIPELINE_END unique_visitors=5 events={'entry': 5, 'exit': 5}
+2026-10-02 23:30:36,569 | INFO | CONFIG source=C:\Users\LENOVO\Downloads\dataset\record_20250620_184403.mp4 skip_frames=2
+2026-10-02 23:30:40,794 | INFO | PIPELINE_START known_faces=0 skip_frames=2
+2026-10-02 23:30:40,854 | INFO | SOURCE_OPENED source=C:\Users\LENOVO\Downloads\dataset\record_20250620_184403.mp4 fps=25.0 stream=False
+2026-10-02 23:31:17,849 | INFO | TRACK_STARTED track=1 frame=1239
+2026-10-02 23:31:18,436 | INFO | EMBEDDING track=1 sample=1/3
+2026-10-02 23:31:18,799 | INFO | EMBEDDING track=1 sample=2/3
+2026-10-02 23:31:19,843 | INFO | EMBEDDING track=1 sample=3/3
+2026-10-02 23:31:19,865 | INFO | REGISTERED face_id=1 track=1 embedding_dim=512 image=logs/registered/2026-10-02/face_0001_233130_315.jpg
+2026-10-02 23:31:19,865 | INFO | IDENTITY_CREATED face_id=1 track=1
+2026-10-02 23:31:19,867 | INFO | ENTRY face_id=1 track=1 frame=1239 event_ts=2026-10-02T23:31:30.315 image=logs/entries/2026-10-02/face_0001_233130_315.jpg
+2026-10-02 23:31:21,867 | INFO | TRACK_STARTED track=2 frame=1305
+2026-10-02 23:31:22,068 | INFO | EMBEDDING track=2 sample=1/3
+2026-10-02 23:31:22,658 | INFO | TRACK_STARTED track=3 frame=1308
+2026-10-02 23:31:22,863 | INFO | EMBEDDING track=3 sample=1/3
+2026-10-02 23:31:23,603 | INFO | EMBEDDING track=3 sample=2/3
+2026-10-02 23:31:24,482 | INFO | EMBEDDING track=3 sample=3/3
+2026-10-02 23:31:24,522 | INFO | REGISTERED face_id=2 track=3 embedding_dim=512 image=logs/registered/2026-10-02/face_0002_233133_071.jpg
+2026-10-02 23:31:24,548 | INFO | IDENTITY_CREATED face_id=2 track=3
+2026-10-02 23:31:24,577 | INFO | ENTRY face_id=2 track=3 frame=1308 event_ts=2026-10-02T23:31:33.071 image=logs/entries/2026-10-02/face_0002_233133_071.jpg
+2026-10-02 23:31:25,517 | INFO | REGISTERED face_id=3 track=2 embedding_dim=512 image=logs/registered/2026-10-02/face_0003_233132_951.jpg
+2026-10-02 23:31:25,517 | INFO | IDENTITY_CREATED face_id=3 track=2
+2026-10-02 23:31:25,519 | INFO | ENTRY face_id=3 track=2 frame=1305 event_ts=2026-10-02T23:31:32.951 image=logs/entries/2026-10-02/face_0003_233132_951.jpg
+2026-10-02 23:31:25,521 | INFO | EXIT face_id=3 track=2 frame=1336 event_ts=2026-10-02T23:31:32.951 image=logs/exits/2026-10-02/face_0003_233132_951.jpg
+2026-10-02 23:31:27,564 | INFO | EXIT face_id=1 track=1 frame=1408 event_ts=2026-10-02T23:31:35.828 image=logs/exits/2026-10-02/face_0001_233135_828.jpg
+2026-10-02 23:31:28,287 | INFO | TRACK_STARTED track=4 frame=1434
+2026-10-02 23:31:28,767 | INFO | EMBEDDING track=4 sample=1/3
+2026-10-02 23:31:29,074 | INFO | TRACK_STARTED track=5 frame=1437
+2026-10-02 23:31:29,469 | INFO | EMBEDDING track=5 sample=1/3
+2026-10-02 23:31:29,930 | INFO | TRACK_STARTED track=6 frame=1440
+2026-10-02 23:31:30,229 | INFO | EMBEDDING track=6 sample=1/3
+2026-10-02 23:31:30,759 | INFO | TRACK_STARTED track=7 frame=1443
+2026-10-02 23:31:31,286 | INFO | EMBEDDING track=7 sample=1/3
+2026-10-02 23:31:31,460 | INFO | TRACK_STARTED track=8 frame=1446
+2026-10-02 23:31:31,795 | INFO | EMBEDDING track=8 sample=1/3
+2026-10-02 23:31:32,179 | INFO | TRACK_STARTED track=9 frame=1449
+2026-10-02 23:31:32,424 | INFO | EMBEDDING track=9 sample=1/3
+2026-10-02 23:31:32,974 | INFO | TRACK_STARTED track=10 frame=1452
+2026-10-02 23:31:33,180 | INFO | EMBEDDING track=10 sample=1/3
+2026-10-02 23:31:33,962 | INFO | EXIT face_id=2 track=3 frame=1462 event_ts=2026-10-02T23:31:37.985 image=logs/exits/2026-10-02/face_0002_233137_985.jpg
+2026-10-02 23:31:34,050 | INFO | RECOGNIZED face_id=2 track=4 similarity=0.605
+2026-10-02 23:31:34,050 | INFO | RECONNECTED face_id=2 track=4 (no new entry)
+2026-10-02 23:31:34,051 | INFO | EXIT_ALREADY_LOGGED face_id=2 track=4
+2026-10-02 23:31:34,137 | INFO | RECOGNIZED face_id=2 track=5 similarity=0.553
+2026-10-02 23:31:34,137 | INFO | RECONNECTED face_id=2 track=5 (no new entry)
+2026-10-02 23:31:34,138 | INFO | EXIT_ALREADY_LOGGED face_id=2 track=5
+2026-10-02 23:31:34,222 | INFO | RECOGNIZED face_id=2 track=6 similarity=0.552
+2026-10-02 23:31:34,222 | INFO | RECONNECTED face_id=2 track=6 (no new entry)
+2026-10-02 23:31:34,222 | INFO | EXIT_ALREADY_LOGGED face_id=2 track=6
+2026-10-02 23:31:34,310 | INFO | RECOGNIZED face_id=2 track=7 similarity=0.504
+2026-10-02 23:31:34,310 | INFO | RECONNECTED face_id=2 track=7 (no new entry)
+2026-10-02 23:31:34,311 | INFO | EXIT_ALREADY_LOGGED face_id=2 track=7
+2026-10-02 23:31:34,393 | INFO | RECOGNIZED face_id=2 track=8 similarity=0.514
+2026-10-02 23:31:34,393 | INFO | RECONNECTED face_id=2 track=8 (no new entry)
+2026-10-02 23:31:34,394 | INFO | EXIT_ALREADY_LOGGED face_id=2 track=8
+2026-10-02 23:31:34,478 | INFO | RECOGNIZED face_id=2 track=9 similarity=0.550
+2026-10-02 23:31:34,478 | INFO | RECONNECTED face_id=2 track=9 (no new entry)
+2026-10-02 23:31:34,479 | INFO | EXIT_ALREADY_LOGGED face_id=2 track=9
+2026-10-02 23:31:34,561 | INFO | RECOGNIZED face_id=2 track=10 similarity=0.474
+2026-10-02 23:31:34,561 | INFO | RECONNECTED face_id=2 track=10 (no new entry)
+2026-10-02 23:31:34,561 | INFO | EXIT_ALREADY_LOGGED face_id=2 track=10
+2026-10-02 23:31:35,090 | INFO | PIPELINE_END unique_visitors=3 events={'entry': 3, 'exit': 3}
+2026-10-02 23:33:40,216 | INFO | CONFIG source=C:\Users\LENOVO\Downloads\dataset\record_20250620_184049.mp4 skip_frames=2
+2026-10-02 23:33:54,787 | INFO | PIPELINE_START known_faces=0 skip_frames=2
+2026-10-02 23:33:54,837 | INFO | SOURCE_OPENED source=C:\Users\LENOVO\Downloads\dataset\record_20250620_184049.mp4 fps=25.0 stream=False
+2026-10-02 23:34:28,996 | INFO | TRACK_STARTED track=1 frame=1077
+2026-10-02 23:34:29,620 | INFO | EMBEDDING track=1 sample=1/3
+2026-10-02 23:34:31,093 | INFO | REGISTERED face_id=1 track=1 embedding_dim=512 image=logs/registered/2026-10-02/face_0001_233437_847.jpg
+2026-10-02 23:34:31,094 | INFO | IDENTITY_CREATED face_id=1 track=1
+2026-10-02 23:34:31,095 | INFO | ENTRY face_id=1 track=1 frame=1077 event_ts=2026-10-02T23:34:37.847 image=logs/entries/2026-10-02/face_0001_233437_847.jpg
+2026-10-02 23:34:31,096 | INFO | EXIT face_id=1 track=1 frame=1108 event_ts=2026-10-02T23:34:37.847 image=logs/exits/2026-10-02/face_0001_233437_847.jpg
+2026-10-02 23:34:31,173 | INFO | TRACK_STARTED track=2 frame=1110
+2026-10-02 23:34:31,698 | INFO | EMBEDDING track=2 sample=1/3
+2026-10-02 23:34:32,173 | INFO | EMBEDDING track=2 sample=2/3
+2026-10-02 23:34:33,277 | INFO | EMBEDDING track=2 sample=3/3
+2026-10-02 23:34:33,310 | INFO | REGISTERED face_id=2 track=2 embedding_dim=512 image=logs/registered/2026-10-02/face_0002_233439_165.jpg
+2026-10-02 23:34:33,343 | INFO | IDENTITY_CREATED face_id=2 track=2
+2026-10-02 23:34:33,348 | INFO | ENTRY face_id=2 track=2 frame=1110 event_ts=2026-10-02T23:34:39.165 image=logs/entries/2026-10-02/face_0002_233439_165.jpg
+2026-10-02 23:34:35,200 | INFO | TRACK_STARTED track=3 frame=1164
+2026-10-02 23:34:35,393 | INFO | EMBEDDING track=3 sample=1/3
+2026-10-02 23:34:36,255 | INFO | TRACK_STARTED track=4 frame=1173
+2026-10-02 23:34:36,552 | INFO | EMBEDDING track=4 sample=1/3
+2026-10-02 23:34:37,076 | INFO | EXIT face_id=2 track=2 frame=1180 event_ts=2026-10-02T23:34:40.723 image=logs/exits/2026-10-02/face_0002_233440_723.jpg
+2026-10-02 23:34:37,579 | INFO | RECOGNIZED face_id=2 track=3 similarity=0.558
+2026-10-02 23:34:37,580 | INFO | RECONNECTED face_id=2 track=3 (no new entry)
+2026-10-02 23:34:37,580 | INFO | EXIT_ALREADY_LOGGED face_id=2 track=3
+2026-10-02 23:34:37,837 | INFO | RECOGNIZED face_id=1 track=4 similarity=0.643
+2026-10-02 23:34:37,838 | INFO | RECONNECTED face_id=1 track=4 (no new entry)
+2026-10-02 23:34:37,838 | INFO | EXIT_ALREADY_LOGGED face_id=1 track=4
+2026-10-02 23:34:38,478 | INFO | TRACK_STARTED track=5 frame=1227
+2026-10-02 23:34:38,931 | INFO | EMBEDDING track=5 sample=1/3
+2026-10-02 23:34:40,089 | INFO | REGISTERED face_id=3 track=5 embedding_dim=512 image=logs/registered/2026-10-02/face_0003_233443_839.jpg
+2026-10-02 23:34:40,090 | INFO | IDENTITY_CREATED face_id=3 track=5
+2026-10-02 23:34:40,091 | INFO | ENTRY face_id=3 track=5 frame=1227 event_ts=2026-10-02T23:34:43.839 image=logs/entries/2026-10-02/face_0003_233443_839.jpg
+2026-10-02 23:34:40,093 | INFO | EXIT face_id=3 track=5 frame=1258 event_ts=2026-10-02T23:34:43.839 image=logs/exits/2026-10-02/face_0003_233443_839.jpg
+2026-10-02 23:34:46,680 | INFO | PIPELINE_END unique_visitors=3 events={'entry': 3, 'exit': 3}
+2026-10-02 23:45:20,184 | INFO | CONFIG source=C:\Users\LENOVO\Downloads\dataset\record_20250620_184049.mp4 skip_frames=2
+2026-10-02 23:45:24,319 | INFO | PIPELINE_START known_faces=0 skip_frames=2
+2026-10-02 23:45:24,345 | INFO | SOURCE_OPENED source=C:\Users\LENOVO\Downloads\dataset\record_20250620_184049.mp4 fps=25.0 stream=False
+2026-10-02 23:45:26,145 | INFO | TRACK_STARTED track=1 frame=0
+2026-10-02 23:45:26,878 | INFO | EMBEDDING track=1 sample=1/3
+2026-10-02 23:45:30,489 | INFO | EMBEDDING track=1 sample=2/3
+2026-10-02 23:45:33,843 | INFO | EMBEDDING track=1 sample=3/3
+2026-10-02 23:45:33,853 | INFO | REGISTERED face_id=1 track=1 embedding_dim=512 image=logs/registered/2026-10-02/face_0001_234524_334.jpg
+2026-10-02 23:45:33,860 | INFO | IDENTITY_CREATED face_id=1 track=1
+2026-10-02 23:45:33,873 | INFO | ENTRY face_id=1 track=1 frame=0 event_ts=2026-10-02T23:45:24.334 image=logs/entries/2026-10-02/face_0001_234524_334.jpg
+2026-10-02 23:45:35,378 | INFO | TRACK_STARTED track=2 frame=15
+2026-10-02 23:45:37,554 | INFO | EMBEDDING track=2 sample=1/3
+2026-10-02 23:45:37,855 | INFO | TRACK_STARTED track=3 frame=18
+2026-10-02 23:45:38,142 | INFO | EMBEDDING track=3 sample=1/3
+2026-10-02 23:45:39,114 | INFO | EMBEDDING track=2 sample=2/3
+2026-10-02 23:45:39,277 | INFO | EMBEDDING track=3 sample=2/3
+2026-10-02 23:45:40,256 | INFO | EMBEDDING track=2 sample=3/3
+2026-10-02 23:45:40,267 | INFO | REGISTERED face_id=2 track=2 embedding_dim=512 image=logs/registered/2026-10-02/face_0002_234524_933.jpg
+2026-10-02 23:45:40,289 | INFO | IDENTITY_CREATED face_id=2 track=2
+2026-10-02 23:45:40,303 | INFO | ENTRY face_id=2 track=2 frame=15 event_ts=2026-10-02T23:45:24.933 image=logs/entries/2026-10-02/face_0002_234524_933.jpg
+2026-10-02 23:45:40,947 | INFO | EMBEDDING track=3 sample=3/3
+2026-10-02 23:45:40,979 | INFO | REGISTERED face_id=3 track=3 embedding_dim=512 image=logs/registered/2026-10-02/face_0003_234525_053.jpg
+2026-10-02 23:45:40,979 | INFO | IDENTITY_CREATED face_id=3 track=3
+2026-10-02 23:45:40,981 | INFO | ENTRY face_id=3 track=3 frame=18 event_ts=2026-10-02T23:45:25.053 image=logs/entries/2026-10-02/face_0003_234525_053.jpg
+2026-10-02 23:45:41,241 | INFO | TRACK_STARTED track=4 frame=39
+2026-10-02 23:45:41,450 | INFO | EMBEDDING track=4 sample=1/3
+2026-10-02 23:45:41,477 | INFO | EXIT face_id=1 track=1 frame=40 event_ts=2026-10-02T23:45:24.694 image=logs/exits/2026-10-02/face_0001_234524_694.jpg
+2026-10-02 23:45:41,962 | INFO | TRACK_STARTED track=5 frame=42
+2026-10-02 23:45:42,253 | INFO | EMBEDDING track=5 sample=1/3
+2026-10-02 23:45:42,935 | INFO | EMBEDDING track=5 sample=2/3
+2026-10-02 23:45:44,055 | INFO | EMBEDDING track=5 sample=3/3
+2026-10-02 23:45:44,055 | INFO | RECOGNIZED face_id=1 track=5 similarity=0.669
+2026-10-02 23:45:44,056 | INFO | RECONNECTED face_id=1 track=5 (no new entry)
+2026-10-02 23:45:44,710 | INFO | EXIT face_id=2 track=2 frame=64 event_ts=2026-10-02T23:45:25.652 image=logs/exits/2026-10-02/face_0002_234525_652.jpg
+2026-10-02 23:45:44,825 | INFO | EXIT face_id=3 track=3 frame=67 event_ts=2026-10-02T23:45:25.772 image=logs/exits/2026-10-02/face_0003_234525_772.jpg
+2026-10-02 23:45:44,929 | INFO | REGISTERED face_id=4 track=4 embedding_dim=512 image=logs/registered/2026-10-02/face_0004_234525_892.jpg
+2026-10-02 23:45:44,929 | INFO | IDENTITY_CREATED face_id=4 track=4
+2026-10-02 23:45:44,931 | INFO | ENTRY face_id=4 track=4 frame=39 event_ts=2026-10-02T23:45:25.892 image=logs/entries/2026-10-02/face_0004_234525_892.jpg
+2026-10-02 23:45:44,932 | INFO | EXIT face_id=4 track=4 frame=70 event_ts=2026-10-02T23:45:25.892 image=logs/exits/2026-10-02/face_0004_234525_892.jpg
+2026-10-02 23:45:45,541 | INFO | TRACK_STARTED track=6 frame=90
+2026-10-02 23:45:45,767 | INFO | EMBEDDING track=6 sample=1/3
+2026-10-02 23:45:46,739 | INFO | EMBEDDING track=6 sample=2/3
+2026-10-02 23:45:47,583 | INFO | EMBEDDING track=6 sample=3/3
+2026-10-02 23:45:47,597 | INFO | RECOGNIZED face_id=3 track=6 similarity=0.688
+2026-10-02 23:45:47,616 | INFO | RECONNECTED face_id=3 track=6 (no new entry)
+2026-10-02 23:45:51,518 | INFO | EXIT_ALREADY_LOGGED face_id=1 track=5
+2026-10-02 23:45:51,671 | INFO | TRACK_STARTED track=7 frame=237
+2026-10-02 23:45:51,958 | INFO | EMBEDDING track=7 sample=1/3
+2026-10-02 23:45:52,784 | INFO | EMBEDDING track=7 sample=2/3
+2026-10-02 23:45:53,557 | INFO | EMBEDDING track=7 sample=3/3
+2026-10-02 23:45:53,857 | INFO | RECOGNIZED face_id=1 track=7 similarity=0.642
+2026-10-02 23:45:53,857 | INFO | RECONNECTED face_id=1 track=7 (no new entry)
+2026-10-02 23:45:54,511 | INFO | TRACK_STARTED track=8 frame=264
+2026-10-02 23:45:55,032 | INFO | EMBEDDING track=8 sample=1/3
+2026-10-02 23:45:55,682 | INFO | EMBEDDING track=8 sample=2/3
+2026-10-02 23:45:56,348 | INFO | EMBEDDING track=8 sample=3/3
+2026-10-02 23:45:56,351 | INFO | REGISTERED face_id=5 track=8 embedding_dim=512 image=logs/registered/2026-10-02/face_0005_234534_880.jpg
+2026-10-02 23:45:56,370 | INFO | IDENTITY_CREATED face_id=5 track=8
+2026-10-02 23:45:56,380 | INFO | ENTRY face_id=5 track=8 frame=264 event_ts=2026-10-02T23:45:34.880 image=logs/entries/2026-10-02/face_0005_234534_880.jpg
+2026-10-02 23:45:57,725 | INFO | EXIT_ALREADY_LOGGED face_id=1 track=7
+2026-10-02 23:45:57,727 | INFO | EXIT face_id=5 track=8 frame=304 event_ts=2026-10-02T23:45:35.240 image=logs/exits/2026-10-02/face_0005_234535_240.jpg
+2026-10-02 23:45:58,727 | INFO | EXIT_ALREADY_LOGGED face_id=3 track=6
+2026-10-02 23:45:58,795 | INFO | TRACK_STARTED track=9 frame=342
+2026-10-02 23:45:58,984 | INFO | EMBEDDING track=9 sample=1/3
+2026-10-02 23:45:59,809 | INFO | EMBEDDING track=9 sample=2/3
+2026-10-02 23:46:00,572 | INFO | EMBEDDING track=9 sample=3/3
+2026-10-02 23:46:00,596 | INFO | RECOGNIZED face_id=1 track=9 similarity=0.546
+2026-10-02 23:46:00,623 | INFO | RECONNECTED face_id=1 track=9 (no new entry)
+2026-10-02 23:46:00,641 | INFO | TRACK_STARTED track=10 frame=348
+2026-10-02 23:46:00,995 | INFO | EMBEDDING track=10 sample=1/3
+2026-10-02 23:46:01,755 | INFO | EMBEDDING track=10 sample=2/3
+2026-10-02 23:46:01,780 | INFO | TRACK_STARTED track=11 frame=351
+2026-10-02 23:46:02,275 | INFO | EMBEDDING track=11 sample=1/3
+2026-10-02 23:46:02,930 | INFO | EMBEDDING track=11 sample=2/3
+2026-10-02 23:46:03,563 | INFO | EMBEDDING track=11 sample=3/3
+2026-10-02 23:46:03,815 | INFO | REGISTERED face_id=6 track=11 embedding_dim=512 image=logs/registered/2026-10-02/face_0006_234538_355.jpg
+2026-10-02 23:46:03,820 | INFO | IDENTITY_CREATED face_id=6 track=11
+2026-10-02 23:46:03,823 | INFO | ENTRY face_id=6 track=11 frame=351 event_ts=2026-10-02T23:45:38.355 image=logs/entries/2026-10-02/face_0006_234538_355.jpg
+2026-10-02 23:46:04,653 | INFO | RECOGNIZED face_id=5 track=10 similarity=0.805
+2026-10-02 23:46:04,653 | INFO | RECONNECTED face_id=5 track=10 (no new entry)
+2026-10-02 23:46:04,653 | INFO | EXIT_ALREADY_LOGGED face_id=5 track=10
+2026-10-02 23:46:05,968 | INFO | EXIT_ALREADY_LOGGED face_id=1 track=9
+2026-10-02 23:46:07,358 | INFO | TRACK_STARTED track=12 frame=480
+2026-10-02 23:46:07,929 | INFO | EMBEDDING track=12 sample=1/3
+2026-10-02 23:46:08,560 | INFO | EMBEDDING track=12 sample=2/3
+2026-10-02 23:46:09,235 | INFO | EMBEDDING track=12 sample=3/3
+2026-10-02 23:46:09,263 | INFO | RECOGNIZED face_id=2 track=12 similarity=0.663
+2026-10-02 23:46:09,263 | INFO | RECONNECTED face_id=2 track=12 (no new entry)
+2026-10-02 23:46:10,324 | INFO | TRACK_STARTED track=13 frame=513
+2026-10-02 23:46:10,738 | INFO | EMBEDDING track=13 sample=1/3
+2026-10-02 23:46:11,668 | INFO | EXIT_ALREADY_LOGGED face_id=2 track=12
+2026-10-02 23:46:11,918 | INFO | RECOGNIZED face_id=1 track=13 similarity=0.474
+2026-10-02 23:46:11,918 | INFO | RECONNECTED face_id=1 track=13 (no new entry)
+2026-10-02 23:46:11,918 | INFO | EXIT_ALREADY_LOGGED face_id=1 track=13
+2026-10-02 23:46:12,406 | INFO | TRACK_STARTED track=14 frame=561
+2026-10-02 23:46:12,670 | INFO | EMBEDDING track=14 sample=1/3
+2026-10-02 23:46:13,486 | INFO | EMBEDDING track=14 sample=2/3
+2026-10-02 23:46:14,263 | INFO | EMBEDDING track=14 sample=3/3
+2026-10-02 23:46:14,284 | INFO | RECOGNIZED face_id=1 track=14 similarity=0.591
+2026-10-02 23:46:14,295 | INFO | RECONNECTED face_id=1 track=14 (no new entry)
+2026-10-02 23:46:15,535 | INFO | EXIT_ALREADY_LOGGED face_id=1 track=14
+2026-10-02 23:46:16,591 | INFO | TRACK_STARTED track=15 frame=636
+2026-10-02 23:46:16,932 | INFO | EMBEDDING track=15 sample=1/3
+2026-10-02 23:46:17,639 | INFO | EMBEDDING track=15 sample=2/3
+2026-10-02 23:46:18,443 | INFO | EMBEDDING track=15 sample=3/3
+2026-10-02 23:46:18,472 | INFO | RECOGNIZED face_id=1 track=15 similarity=0.518
+2026-10-02 23:46:18,494 | INFO | RECONNECTED face_id=1 track=15 (no new entry)
+2026-10-02 23:46:19,862 | INFO | EXIT_ALREADY_LOGGED face_id=1 track=15
+2026-10-02 23:46:20,517 | INFO | TRACK_STARTED track=16 frame=699
+2026-10-02 23:46:20,710 | INFO | EMBEDDING track=16 sample=1/3
+2026-10-02 23:46:21,651 | INFO | TRACK_STARTED track=17 frame=714
+2026-10-02 23:46:21,844 | INFO | EMBEDDING track=17 sample=1/3
+2026-10-02 23:46:22,967 | INFO | EMBEDDING track=17 sample=2/3
+2026-10-02 23:46:23,611 | INFO | EMBEDDING track=17 sample=3/3
+2026-10-02 23:46:23,617 | INFO | RECOGNIZED face_id=2 track=17 similarity=0.553
+2026-10-02 23:46:23,619 | INFO | RECONNECTED face_id=2 track=17 (no new entry)
+2026-10-02 23:46:24,290 | INFO | REGISTERED face_id=7 track=16 embedding_dim=512 image=logs/registered/2026-10-02/face_0007_234552_257.jpg
+2026-10-02 23:46:24,290 | INFO | IDENTITY_CREATED face_id=7 track=16
+2026-10-02 23:46:24,291 | INFO | ENTRY face_id=7 track=16 frame=699 event_ts=2026-10-02T23:45:52.257 image=logs/entries/2026-10-02/face_0007_234552_257.jpg
+2026-10-02 23:46:24,293 | INFO | EXIT face_id=7 track=16 frame=730 event_ts=2026-10-02T23:45:52.257 image=logs/exits/2026-10-02/face_0007_234552_257.jpg
+2026-10-02 23:46:25,678 | INFO | TRACK_STARTED track=18 frame=777
+2026-10-02 23:46:25,923 | INFO | EMBEDDING track=18 sample=1/3
+2026-10-02 23:46:26,679 | INFO | TRACK_STARTED track=19 frame=789
+2026-10-02 23:46:27,184 | INFO | EMBEDDING track=19 sample=1/3
+2026-10-02 23:46:27,184 | INFO | TRACK_STARTED track=20 frame=789
+2026-10-02 23:46:27,402 | INFO | EMBEDDING track=20 sample=1/3
+2026-10-02 23:46:28,382 | INFO | RECOGNIZED face_id=4 track=18 similarity=0.550
+2026-10-02 23:46:28,383 | INFO | RECONNECTED face_id=4 track=18 (no new entry)
+2026-10-02 23:46:28,383 | INFO | EXIT_ALREADY_LOGGED face_id=4 track=18
+2026-10-02 23:46:28,719 | INFO | REGISTERED face_id=8 track=19 embedding_dim=512 image=logs/registered/2026-10-02/face_0008_234555_852.jpg
+2026-10-02 23:46:28,719 | INFO | IDENTITY_CREATED face_id=8 track=19
+2026-10-02 23:46:28,721 | INFO | ENTRY face_id=8 track=19 frame=789 event_ts=2026-10-02T23:45:55.852 image=logs/entries/2026-10-02/face_0008_234555_852.jpg
+2026-10-02 23:46:28,722 | INFO | EXIT face_id=8 track=19 frame=820 event_ts=2026-10-02T23:45:55.852 image=logs/exits/2026-10-02/face_0008_234555_852.jpg
+2026-10-02 23:46:28,723 | INFO | RECOGNIZED face_id=2 track=20 similarity=0.521
+2026-10-02 23:46:28,723 | INFO | TRACK_MERGED face_id=2 old_track=17 new_track=20
+2026-10-02 23:46:28,723 | INFO | EXIT_ALREADY_LOGGED face_id=2 track=20
+2026-10-02 23:46:29,782 | INFO | TRACK_STARTED track=21 frame=858
+2026-10-02 23:46:29,973 | INFO | EMBEDDING track=21 sample=1/3
+2026-10-02 23:46:30,742 | INFO | EMBEDDING track=21 sample=2/3
+2026-10-02 23:46:31,620 | INFO | EMBEDDING track=21 sample=3/3
+2026-10-02 23:46:31,645 | INFO | RECOGNIZED face_id=1 track=21 similarity=0.580
+2026-10-02 23:46:31,675 | INFO | RECONNECTED face_id=1 track=21 (no new entry)
+2026-10-02 23:46:34,705 | INFO | EXIT_ALREADY_LOGGED face_id=1 track=21
+2026-10-02 23:46:37,055 | INFO | TRACK_STARTED track=22 frame=1050
+2026-10-02 23:46:37,541 | INFO | EMBEDDING track=22 sample=1/3
+2026-10-02 23:46:38,148 | INFO | EMBEDDING track=22 sample=2/3
+2026-10-02 23:46:38,858 | INFO | EMBEDDING track=22 sample=3/3
+2026-10-02 23:46:38,874 | INFO | RECOGNIZED face_id=2 track=22 similarity=0.709
+2026-10-02 23:46:38,877 | INFO | RECONNECTED face_id=2 track=22 (no new entry)
+2026-10-02 23:46:39,754 | INFO | TRACK_STARTED track=23 frame=1074
+2026-10-02 23:46:39,945 | INFO | EMBEDDING track=23 sample=1/3
+2026-10-02 23:46:40,750 | INFO | EMBEDDING track=23 sample=2/3
+2026-10-02 23:46:41,340 | INFO | TRACK_STARTED track=24 frame=1080
+2026-10-02 23:46:41,572 | INFO | EMBEDDING track=24 sample=1/3
+2026-10-02 23:46:42,120 | INFO | TRACK_STARTED track=25 frame=1083
+2026-10-02 23:46:42,652 | INFO | EMBEDDING track=25 sample=1/3
+2026-10-02 23:46:42,655 | INFO | TRACK_STARTED track=26 frame=1083
+2026-10-02 23:46:42,958 | INFO | EMBEDDING track=26 sample=1/3
+2026-10-02 23:46:42,976 | INFO | TRACK_STARTED track=27 frame=1083
+2026-10-02 23:46:43,268 | INFO | EMBEDDING track=27 sample=1/3
+2026-10-02 23:46:44,117 | INFO | EMBEDDING track=25 sample=2/3
+2026-10-02 23:46:44,463 | INFO | EMBEDDING track=27 sample=2/3
+2026-10-02 23:46:44,480 | INFO | TRACK_STARTED track=28 frame=1086
+2026-10-02 23:46:44,902 | INFO | EMBEDDING track=28 sample=1/3
+2026-10-02 23:46:45,452 | INFO | EMBEDDING track=25 sample=3/3
+2026-10-02 23:46:45,469 | INFO | REGISTERED face_id=9 track=25 embedding_dim=512 image=logs/registered/2026-10-02/face_0009_234607_596.jpg
+2026-10-02 23:46:45,478 | INFO | IDENTITY_CREATED face_id=9 track=25
+2026-10-02 23:46:45,487 | INFO | ENTRY face_id=9 track=25 frame=1083 event_ts=2026-10-02T23:46:07.596 image=logs/entries/2026-10-02/face_0009_234607_596.jpg
+2026-10-02 23:46:45,833 | INFO | EMBEDDING track=27 sample=3/3
+2026-10-02 23:46:45,846 | INFO | RECOGNIZED face_id=5 track=27 similarity=0.628
+2026-10-02 23:46:45,866 | INFO | RECONNECTED face_id=5 track=27 (no new entry)
+2026-10-02 23:46:46,276 | INFO | EMBEDDING track=28 sample=2/3
+2026-10-02 23:46:46,780 | INFO | TRACK_STARTED track=29 frame=1095
+2026-10-02 23:46:47,021 | INFO | EMBEDDING track=29 sample=1/3
+2026-10-02 23:46:47,878 | INFO | EMBEDDING track=29 sample=2/3
+2026-10-02 23:46:48,607 | INFO | EMBEDDING track=29 sample=3/3
+2026-10-02 23:46:48,629 | INFO | RECOGNIZED face_id=9 track=29 similarity=0.895
+2026-10-02 23:46:48,640 | INFO | TRACK_MERGED face_id=9 old_track=25 new_track=29
+2026-10-02 23:46:49,227 | INFO | TRACK_STARTED track=30 frame=1107
+2026-10-02 23:46:49,433 | INFO | EMBEDDING track=30 sample=1/3
+2026-10-02 23:46:49,507 | INFO | REGISTERED face_id=10 track=23 embedding_dim=512 image=logs/registered/2026-10-02/face_0010_234607_237.jpg
+2026-10-02 23:46:49,531 | INFO | IDENTITY_CREATED face_id=10 track=23
+2026-10-02 23:46:49,559 | INFO | ENTRY face_id=10 track=23 frame=1074 event_ts=2026-10-02T23:46:07.237 image=logs/entries/2026-10-02/face_0010_234607_237.jpg
+2026-10-02 23:46:49,738 | INFO | EXIT face_id=10 track=23 frame=1108 event_ts=2026-10-02T23:46:07.357 image=logs/exits/2026-10-02/face_0010_234607_357.jpg
+2026-10-02 23:46:50,174 | INFO | EMBEDDING track=30 sample=2/3
+2026-10-02 23:46:50,208 | INFO | RECOGNIZED face_id=10 track=24 similarity=0.823
+2026-10-02 23:46:50,222 | INFO | RECONNECTED face_id=10 track=24 (no new entry)
+2026-10-02 23:46:50,238 | INFO | EXIT_ALREADY_LOGGED face_id=10 track=24
+2026-10-02 23:46:50,920 | INFO | EMBEDDING track=30 sample=3/3
+2026-10-02 23:46:50,927 | INFO | RECOGNIZED face_id=9 track=30 similarity=0.799
+2026-10-02 23:46:50,929 | INFO | TRACK_MERGED face_id=9 old_track=29 new_track=30
+2026-10-02 23:46:50,981 | INFO | RECOGNIZED face_id=10 track=26 similarity=0.793
+2026-10-02 23:46:50,991 | INFO | RECONNECTED face_id=10 track=26 (no new entry)
+2026-10-02 23:46:50,995 | INFO | EXIT_ALREADY_LOGGED face_id=10 track=26
+2026-10-02 23:46:51,498 | INFO | RECOGNIZED face_id=10 track=28 similarity=0.599
+2026-10-02 23:46:51,499 | INFO | RECONNECTED face_id=10 track=28 (no new entry)
+2026-10-02 23:46:51,499 | INFO | EXIT_ALREADY_LOGGED face_id=10 track=28
+2026-10-02 23:46:51,932 | INFO | EXIT_ALREADY_LOGGED face_id=5 track=27
+2026-10-02 23:46:52,001 | INFO | TRACK_STARTED track=31 frame=1137
+2026-10-02 23:46:52,262 | INFO | EMBEDDING track=31 sample=1/3
+2026-10-02 23:46:52,959 | INFO | TRACK_STARTED track=32 frame=1143
+2026-10-02 23:46:53,493 | INFO | EMBEDDING track=32 sample=1/3
+2026-10-02 23:46:54,100 | INFO | EXIT_ALREADY_LOGGED face_id=2 track=22
+2026-10-02 23:46:54,250 | INFO | TRACK_STARTED track=33 frame=1161
+2026-10-02 23:46:54,443 | INFO | EMBEDDING track=33 sample=1/3
+2026-10-02 23:46:55,025 | INFO | TRACK_STARTED track=34 frame=1164
+2026-10-02 23:46:55,377 | INFO | EMBEDDING track=34 sample=1/3
+2026-10-02 23:46:55,901 | INFO | TRACK_STARTED track=35 frame=1167
+2026-10-02 23:46:56,089 | INFO | EMBEDDING track=35 sample=1/3
+2026-10-02 23:46:56,134 | INFO | RECOGNIZED face_id=9 track=31 similarity=0.698
+2026-10-02 23:46:56,134 | INFO | TRACK_MERGED face_id=9 old_track=30 new_track=31
+2026-10-02 23:46:56,136 | INFO | EXIT face_id=9 track=31 frame=1168 event_ts=2026-10-02T23:46:09.754 image=logs/exits/2026-10-02/face_0009_234609_754.jpg
+2026-10-02 23:46:57,039 | INFO | EMBEDDING track=35 sample=2/3
+2026-10-02 23:46:57,122 | INFO | REGISTERED face_id=11 track=32 embedding_dim=512 image=logs/registered/2026-10-02/face_0011_234609_993.jpg
+2026-10-02 23:46:57,153 | INFO | IDENTITY_CREATED face_id=11 track=32
+2026-10-02 23:46:57,311 | INFO | ENTRY face_id=11 track=32 frame=1143 event_ts=2026-10-02T23:46:09.993 image=logs/entries/2026-10-02/face_0011_234609_993.jpg
+2026-10-02 23:46:57,313 | INFO | EXIT face_id=11 track=32 frame=1174 event_ts=2026-10-02T23:46:09.993 image=logs/exits/2026-10-02/face_0011_234609_993.jpg
+2026-10-02 23:46:57,875 | INFO | EMBEDDING track=35 sample=3/3
+2026-10-02 23:46:58,121 | INFO | RECOGNIZED face_id=10 track=35 similarity=0.707
+2026-10-02 23:46:58,146 | INFO | RECONNECTED face_id=10 track=35 (no new entry)
+2026-10-02 23:46:58,378 | INFO | TRACK_STARTED track=36 frame=1182
+2026-10-02 23:46:58,784 | INFO | EMBEDDING track=36 sample=1/3
+2026-10-02 23:46:59,444 | INFO | EMBEDDING track=36 sample=2/3
+2026-10-02 23:47:00,541 | INFO | EMBEDDING track=36 sample=3/3
+2026-10-02 23:47:00,541 | INFO | RECOGNIZED face_id=2 track=36 similarity=0.534
+2026-10-02 23:47:00,542 | INFO | RECONNECTED face_id=2 track=36 (no new entry)
+2026-10-02 23:47:00,566 | INFO | RECOGNIZED face_id=9 track=33 similarity=0.669
+2026-10-02 23:47:00,566 | INFO | RECONNECTED face_id=9 track=33 (no new entry)
+2026-10-02 23:47:00,566 | INFO | EXIT_ALREADY_LOGGED face_id=9 track=33
+2026-10-02 23:47:00,798 | INFO | RECOGNIZED face_id=9 track=34 similarity=0.569
+2026-10-02 23:47:00,798 | INFO | RECONNECTED face_id=9 track=34 (no new entry)
+2026-10-02 23:47:00,799 | INFO | EXIT_ALREADY_LOGGED face_id=9 track=34
+2026-10-02 23:47:01,134 | INFO | TRACK_STARTED track=37 frame=1203
+2026-10-02 23:47:01,508 | INFO | EMBEDDING track=37 sample=1/3
+2026-10-02 23:47:02,558 | INFO | TRACK_STARTED track=38 frame=1224
+2026-10-02 23:47:03,103 | INFO | EMBEDDING track=38 sample=1/3
+2026-10-02 23:47:03,119 | INFO | EXIT_ALREADY_LOGGED face_id=10 track=35
+2026-10-02 23:47:03,649 | INFO | EMBEDDING track=38 sample=2/3
+2026-10-02 23:47:04,570 | INFO | EMBEDDING track=38 sample=3/3
+2026-10-02 23:47:04,586 | INFO | REGISTERED face_id=12 track=38 embedding_dim=512 image=logs/registered/2026-10-02/face_0012_234613_229.jpg
+2026-10-02 23:47:04,616 | INFO | IDENTITY_CREATED face_id=12 track=38
+2026-10-02 23:47:04,645 | INFO | ENTRY face_id=12 track=38 frame=1224 event_ts=2026-10-02T23:46:13.229 image=logs/entries/2026-10-02/face_0012_234613_229.jpg
+2026-10-02 23:47:05,122 | INFO | TRACK_STARTED track=39 frame=1233
+2026-10-02 23:47:05,406 | INFO | EMBEDDING track=39 sample=1/3
+2026-10-02 23:47:05,495 | INFO | RECOGNIZED face_id=5 track=37 similarity=0.635
+2026-10-02 23:47:05,496 | INFO | RECONNECTED face_id=5 track=37 (no new entry)
+2026-10-02 23:47:05,496 | INFO | EXIT_ALREADY_LOGGED face_id=5 track=37
+2026-10-02 23:47:06,645 | INFO | EMBEDDING track=39 sample=2/3
+2026-10-02 23:47:07,463 | INFO | EMBEDDING track=39 sample=3/3
+2026-10-02 23:47:07,652 | INFO | RECOGNIZED face_id=12 track=39 similarity=0.780
+2026-10-02 23:47:07,655 | INFO | TRACK_MERGED face_id=12 old_track=38 new_track=39
+2026-10-02 23:47:07,689 | INFO | EXIT_ALREADY_LOGGED face_id=2 track=36
+2026-10-02 23:47:09,884 | INFO | TRACK_STARTED track=40 frame=1305
+2026-10-02 23:47:10,414 | INFO | EMBEDDING track=40 sample=1/3
+2026-10-02 23:47:11,464 | INFO | TRACK_STARTED track=41 frame=1320
+2026-10-02 23:47:11,751 | INFO | EMBEDDING track=41 sample=1/3
+2026-10-02 23:47:12,477 | INFO | EMBEDDING track=41 sample=2/3
+2026-10-02 23:47:13,248 | INFO | EMBEDDING track=41 sample=3/3
+2026-10-02 23:47:13,377 | INFO | RECOGNIZED face_id=12 track=41 similarity=0.676
+2026-10-02 23:47:13,409 | INFO | TRACK_MERGED face_id=12 old_track=39 new_track=41
+2026-10-02 23:47:13,923 | INFO | RECOGNIZED face_id=5 track=40 similarity=0.563
+2026-10-02 23:47:13,924 | INFO | RECONNECTED face_id=5 track=40 (no new entry)
+2026-10-02 23:47:13,924 | INFO | EXIT_ALREADY_LOGGED face_id=5 track=40
+2026-10-02 23:47:14,745 | INFO | EXIT face_id=12 track=41 frame=1363 event_ts=2026-10-02T23:46:17.543 image=logs/exits/2026-10-02/face_0012_234617_543.jpg
+2026-10-02 23:47:18,032 | INFO | TRACK_STARTED track=42 frame=1476
+2026-10-02 23:47:18,572 | INFO | EMBEDDING track=42 sample=1/3
+2026-10-02 23:47:19,072 | INFO | EMBEDDING track=42 sample=2/3
+2026-10-02 23:47:19,745 | INFO | EMBEDDING track=42 sample=3/3
+2026-10-02 23:47:19,765 | INFO | RECOGNIZED face_id=1 track=42 similarity=0.492
+2026-10-02 23:47:19,781 | INFO | RECONNECTED face_id=1 track=42 (no new entry)
+2026-10-02 23:47:20,792 | INFO | EXIT face_id=6 track=11 frame=1502 event_ts=2026-10-02T23:46:24.254 image=logs/exits/2026-10-02/face_0006_234624_254.jpg
+2026-10-02 23:47:20,792 | INFO | EXIT_ALREADY_LOGGED face_id=1 track=42
+2026-10-02 23:47:20,793 | INFO | PIPELINE_END unique_visitors=12 events={'entry': 12, 'exit': 12}
+2026-10-04 11:19:51,850 | INFO | CONFIG source=C:\Users\LENOVO\Downloads\dataset\record_20250620_184049.mp4 skip_frames=2
+2026-10-04 11:20:00,900 | INFO | PIPELINE_START known_faces=0 skip_frames=2
+2026-10-04 11:20:00,964 | INFO | SOURCE_OPENED source=C:\Users\LENOVO\Downloads\dataset\record_20250620_184049.mp4 fps=25.0 stream=False
+2026-10-04 11:20:05,530 | INFO | TRACK_STARTED track=1 frame=0
+2026-10-04 11:20:06,212 | INFO | EMBEDDING track=1 sample=1/3
+2026-10-04 11:20:07,057 | INFO | EMBEDDING track=1 sample=2/3
+2026-10-04 11:20:07,912 | INFO | EMBEDDING track=1 sample=3/3
+2026-10-04 11:20:07,930 | INFO | REGISTERED face_id=1 track=1 embedding_dim=512 image=logs/registered/2026-10-04/face_0001_112000_901.jpg
+2026-10-04 11:20:07,932 | INFO | IDENTITY_CREATED face_id=1 track=1
+2026-10-04 11:20:07,939 | INFO | ENTRY face_id=1 track=1 frame=0 event_ts=2026-10-04T11:20:00.901 image=logs/entries/2026-10-04/face_0001_112000_901.jpg
+2026-10-04 11:20:08,817 | INFO | TRACK_STARTED track=2 frame=15
+2026-10-04 11:20:09,394 | INFO | EMBEDDING track=2 sample=1/3
+2026-10-04 11:20:09,776 | INFO | TRACK_STARTED track=3 frame=18
+2026-10-04 11:20:10,272 | INFO | EMBEDDING track=3 sample=1/3
+2026-10-04 11:20:11,758 | INFO | EMBEDDING track=2 sample=2/3
+2026-10-04 11:20:12,409 | INFO | EMBEDDING track=3 sample=2/3
+2026-10-04 11:20:13,266 | INFO | EMBEDDING track=2 sample=3/3
+2026-10-04 11:20:13,289 | INFO | REGISTERED face_id=2 track=2 embedding_dim=512 image=logs/registered/2026-10-04/face_0002_112001_500.jpg
+2026-10-04 11:20:13,301 | INFO | IDENTITY_CREATED face_id=2 track=2
+2026-10-04 11:20:13,309 | INFO | ENTRY face_id=2 track=2 frame=15 event_ts=2026-10-04T11:20:01.500 image=logs/entries/2026-10-04/face_0002_112001_500.jpg
+2026-10-04 11:20:14,106 | INFO | EMBEDDING track=3 sample=3/3
+2026-10-04 11:20:14,121 | INFO | REGISTERED face_id=3 track=3 embedding_dim=512 image=logs/registered/2026-10-04/face_0003_112001_620.jpg
+2026-10-04 11:20:14,125 | INFO | IDENTITY_CREATED face_id=3 track=3
+2026-10-04 11:20:14,128 | INFO | ENTRY face_id=3 track=3 frame=18 event_ts=2026-10-04T11:20:01.620 image=logs/entries/2026-10-04/face_0003_112001_620.jpg
+2026-10-04 11:20:14,601 | INFO | TRACK_STARTED track=4 frame=39
+2026-10-04 11:20:15,066 | INFO | EMBEDDING track=4 sample=1/3
+2026-10-04 11:20:15,121 | INFO | EXIT face_id=1 track=1 frame=40 event_ts=2026-10-04T11:20:01.260 image=logs/exits/2026-10-04/face_0001_112001_260.jpg
+2026-10-04 11:20:15,510 | INFO | TRACK_STARTED track=5 frame=42
+2026-10-04 11:20:15,979 | INFO | EMBEDDING track=5 sample=1/3
+2026-10-04 11:20:16,810 | INFO | EMBEDDING track=5 sample=2/3
+2026-10-04 11:20:17,980 | INFO | EMBEDDING track=5 sample=3/3
+2026-10-04 11:20:18,009 | INFO | RECOGNIZED face_id=1 track=5 similarity=0.669
+2026-10-04 11:20:18,017 | INFO | RECONNECTED face_id=1 track=5 (no new entry)
+2026-10-04 11:20:18,982 | INFO | EXIT face_id=2 track=2 frame=64 event_ts=2026-10-04T11:20:02.219 image=logs/exits/2026-10-04/face_0002_112002_219.jpg
+2026-10-04 11:20:19,168 | INFO | EXIT face_id=3 track=3 frame=67 event_ts=2026-10-04T11:20:02.339 image=logs/exits/2026-10-04/face_0003_112002_339.jpg
+2026-10-04 11:20:19,363 | INFO | REGISTERED face_id=4 track=4 embedding_dim=512 image=logs/registered/2026-10-04/face_0004_112002_459.jpg
+2026-10-04 11:20:19,363 | INFO | IDENTITY_CREATED face_id=4 track=4
+2026-10-04 11:20:19,366 | INFO | ENTRY face_id=4 track=4 frame=39 event_ts=2026-10-04T11:20:02.459 image=logs/entries/2026-10-04/face_0004_112002_459.jpg
+2026-10-04 11:20:19,369 | INFO | EXIT face_id=4 track=4 frame=70 event_ts=2026-10-04T11:20:02.459 image=logs/exits/2026-10-04/face_0004_112002_459.jpg
+2026-10-04 11:20:20,520 | INFO | TRACK_STARTED track=6 frame=90
+2026-10-04 11:20:21,126 | INFO | EMBEDDING track=6 sample=1/3
+2026-10-04 11:20:22,771 | INFO | EMBEDDING track=6 sample=2/3
+2026-10-04 11:20:23,745 | INFO | EMBEDDING track=6 sample=3/3
+2026-10-04 11:20:23,952 | INFO | RECOGNIZED face_id=3 track=6 similarity=0.688
+2026-10-04 11:20:23,953 | INFO | RECONNECTED face_id=3 track=6 (no new entry)
+2026-10-04 11:20:32,560 | INFO | EXIT_ALREADY_LOGGED face_id=1 track=5
+2026-10-04 11:20:33,045 | INFO | TRACK_STARTED track=7 frame=237
+2026-10-04 11:20:35,556 | INFO | EMBEDDING track=7 sample=1/3
+2026-10-04 11:20:39,606 | INFO | EMBEDDING track=7 sample=2/3
+2026-10-04 11:20:43,411 | INFO | EMBEDDING track=7 sample=3/3
+2026-10-04 11:20:43,417 | INFO | RECOGNIZED face_id=1 track=7 similarity=0.642
+2026-10-04 11:20:43,422 | INFO | RECONNECTED face_id=1 track=7 (no new entry)
+2026-10-04 11:20:45,938 | INFO | TRACK_STARTED track=8 frame=264
+2026-10-04 11:20:48,518 | INFO | EMBEDDING track=8 sample=1/3
+2026-10-04 11:20:52,304 | INFO | EMBEDDING track=8 sample=2/3
+2026-10-04 11:20:56,300 | INFO | EMBEDDING track=8 sample=3/3
+2026-10-04 11:20:56,313 | INFO | REGISTERED face_id=5 track=8 embedding_dim=512 image=logs/registered/2026-10-04/face_0005_112011_447.jpg
+2026-10-04 11:20:56,319 | INFO | IDENTITY_CREATED face_id=5 track=8
+2026-10-04 11:20:56,332 | INFO | ENTRY face_id=5 track=8 frame=264 event_ts=2026-10-04T11:20:11.447 image=logs/entries/2026-10-04/face_0005_112011_447.jpg
+2026-10-04 11:21:00,292 | INFO | EXIT_ALREADY_LOGGED face_id=1 track=7
+2026-10-04 11:21:00,295 | INFO | EXIT face_id=5 track=8 frame=304 event_ts=2026-10-04T11:20:11.806 image=logs/exits/2026-10-04/face_0005_112011_806.jpg
+2026-10-04 11:21:03,592 | INFO | EXIT_ALREADY_LOGGED face_id=3 track=6
+2026-10-04 11:21:03,832 | INFO | TRACK_STARTED track=9 frame=342
+2026-10-04 11:21:06,443 | INFO | EMBEDDING track=9 sample=1/3
+2026-10-04 11:21:10,202 | INFO | EMBEDDING track=9 sample=2/3
+2026-10-04 11:21:10,364 | INFO | RECOGNIZED face_id=1 track=9 similarity=0.527
+2026-10-04 11:21:10,370 | INFO | RECONNECTED face_id=1 track=9 (no new entry)
+2026-10-04 11:21:10,375 | INFO | EXIT_ALREADY_LOGGED face_id=1 track=9
+2026-10-04 11:21:10,383 | INFO | PIPELINE_END unique_visitors=5 events={'entry': 5, 'exit': 5}
+2026-10-04 11:21:16,536 | INFO | CONFIG source=C:\Users\LENOVO\Downloads\dataset\record_20250620_184049.mp4 skip_frames=2
+2026-10-04 11:21:21,921 | INFO | PIPELINE_START known_faces=0 skip_frames=2
+2026-10-04 11:21:21,937 | INFO | SOURCE_OPENED source=C:\Users\LENOVO\Downloads\dataset\record_20250620_184049.mp4 fps=25.0 stream=False
+2026-10-04 11:21:25,211 | INFO | TRACK_STARTED track=1 frame=0
+2026-10-04 11:21:25,931 | INFO | EMBEDDING track=1 sample=1/3
+2026-10-04 11:21:26,522 | INFO | EMBEDDING track=1 sample=2/3
+2026-10-04 11:21:27,587 | INFO | EMBEDDING track=1 sample=3/3
+2026-10-04 11:21:27,791 | INFO | REGISTERED face_id=1 track=1 embedding_dim=512 image=logs/registered/2026-10-04/face_0001_112121_922.jpg
+2026-10-04 11:21:27,797 | INFO | IDENTITY_CREATED face_id=1 track=1
+2026-10-04 11:21:27,801 | INFO | ENTRY face_id=1 track=1 frame=0 event_ts=2026-10-04T11:21:21.922 image=logs/entries/2026-10-04/face_0001_112121_922.jpg
+2026-10-04 11:21:28,310 | INFO | TRACK_STARTED track=2 frame=15
+2026-10-04 11:21:28,902 | INFO | EMBEDDING track=2 sample=1/3
+2026-10-04 11:21:29,280 | INFO | TRACK_STARTED track=3 frame=18
+2026-10-04 11:21:29,850 | INFO | EMBEDDING track=3 sample=1/3
+2026-10-04 11:21:30,874 | INFO | EMBEDDING track=2 sample=2/3
+2026-10-04 11:21:31,332 | INFO | EMBEDDING track=3 sample=2/3
+2026-10-04 11:21:33,796 | INFO | EMBEDDING track=2 sample=3/3
+2026-10-04 11:21:33,825 | INFO | REGISTERED face_id=2 track=2 embedding_dim=512 image=logs/registered/2026-10-04/face_0002_112122_521.jpg
+2026-10-04 11:21:33,857 | INFO | IDENTITY_CREATED face_id=2 track=2
+2026-10-04 11:21:33,880 | INFO | ENTRY face_id=2 track=2 frame=15 event_ts=2026-10-04T11:21:22.521 image=logs/entries/2026-10-04/face_0002_112122_521.jpg
+2026-10-04 11:21:35,033 | INFO | EMBEDDING track=3 sample=3/3
+2026-10-04 11:21:35,036 | INFO | REGISTERED face_id=3 track=3 embedding_dim=512 image=logs/registered/2026-10-04/face_0003_112122_641.jpg
+2026-10-04 11:21:35,036 | INFO | IDENTITY_CREATED face_id=3 track=3
+2026-10-04 11:21:35,038 | INFO | ENTRY face_id=3 track=3 frame=18 event_ts=2026-10-04T11:21:22.641 image=logs/entries/2026-10-04/face_0003_112122_641.jpg
+2026-10-04 11:21:35,275 | INFO | TRACK_STARTED track=4 frame=39
+2026-10-04 11:21:35,667 | INFO | EMBEDDING track=4 sample=1/3
+2026-10-04 11:21:35,739 | INFO | EXIT face_id=1 track=1 frame=40 event_ts=2026-10-04T11:21:22.282 image=logs/exits/2026-10-04/face_0001_112122_282.jpg
+2026-10-04 11:21:36,192 | INFO | TRACK_STARTED track=5 frame=42
+2026-10-04 11:21:36,639 | INFO | EMBEDDING track=5 sample=1/3
+2026-10-04 11:21:37,388 | INFO | EMBEDDING track=5 sample=2/3
+2026-10-04 11:21:41,545 | INFO | EMBEDDING track=5 sample=3/3
+2026-10-04 11:21:41,549 | INFO | RECOGNIZED face_id=1 track=5 similarity=0.669
+2026-10-04 11:21:41,552 | INFO | RECONNECTED face_id=1 track=5 (no new entry)
+2026-10-04 11:21:43,975 | INFO | EXIT face_id=2 track=2 frame=64 event_ts=2026-10-04T11:21:23.240 image=logs/exits/2026-10-04/face_0002_112123_240.jpg
+2026-10-04 11:21:44,294 | INFO | EXIT face_id=3 track=3 frame=67 event_ts=2026-10-04T11:21:23.360 image=logs/exits/2026-10-04/face_0003_112123_360.jpg
+2026-10-04 11:21:44,599 | INFO | REGISTERED face_id=4 track=4 embedding_dim=512 image=logs/registered/2026-10-04/face_0004_112123_480.jpg
+2026-10-04 11:21:44,599 | INFO | IDENTITY_CREATED face_id=4 track=4
+2026-10-04 11:21:44,603 | INFO | ENTRY face_id=4 track=4 frame=39 event_ts=2026-10-04T11:21:23.480 image=logs/entries/2026-10-04/face_0004_112123_480.jpg
+2026-10-04 11:21:44,607 | INFO | EXIT face_id=4 track=4 frame=70 event_ts=2026-10-04T11:21:23.480 image=logs/exits/2026-10-04/face_0004_112123_480.jpg
+2026-10-04 11:21:46,862 | INFO | TRACK_STARTED track=6 frame=90
+2026-10-04 11:21:49,609 | INFO | EMBEDDING track=6 sample=1/3
+2026-10-04 11:21:54,679 | INFO | EMBEDDING track=6 sample=2/3
+2026-10-04 11:21:59,003 | INFO | EMBEDDING track=6 sample=3/3
+2026-10-04 11:21:59,009 | INFO | RECOGNIZED face_id=3 track=6 similarity=0.688
+2026-10-04 11:21:59,014 | INFO | RECONNECTED face_id=3 track=6 (no new entry)
+2026-10-04 11:22:14,425 | INFO | EXIT_ALREADY_LOGGED face_id=1 track=5
+2026-10-04 11:22:15,047 | INFO | TRACK_STARTED track=7 frame=237
+2026-10-04 11:22:18,563 | INFO | EMBEDDING track=7 sample=1/3
+2026-10-04 11:22:23,992 | INFO | EMBEDDING track=7 sample=2/3
+2026-10-04 11:22:29,084 | INFO | EMBEDDING track=7 sample=3/3
+2026-10-04 11:22:29,094 | INFO | RECOGNIZED face_id=1 track=7 similarity=0.642
+2026-10-04 11:22:29,104 | INFO | RECONNECTED face_id=1 track=7 (no new entry)
+2026-10-04 11:22:32,460 | INFO | TRACK_STARTED track=8 frame=264
+2026-10-04 11:22:35,604 | INFO | EMBEDDING track=8 sample=1/3
+2026-10-04 11:22:39,395 | INFO | EMBEDDING track=8 sample=2/3
+2026-10-04 11:22:43,201 | INFO | EMBEDDING track=8 sample=3/3
+2026-10-04 11:22:43,212 | INFO | REGISTERED face_id=5 track=8 embedding_dim=512 image=logs/registered/2026-10-04/face_0005_112132_468.jpg
+2026-10-04 11:22:43,221 | INFO | IDENTITY_CREATED face_id=5 track=8
+2026-10-04 11:22:43,235 | INFO | ENTRY face_id=5 track=8 frame=264 event_ts=2026-10-04T11:21:32.468 image=logs/entries/2026-10-04/face_0005_112132_468.jpg
+2026-10-04 11:22:47,322 | INFO | EXIT_ALREADY_LOGGED face_id=1 track=7
+2026-10-04 11:22:47,325 | INFO | EXIT face_id=5 track=8 frame=304 event_ts=2026-10-04T11:21:32.828 image=logs/exits/2026-10-04/face_0005_112132_828.jpg
+2026-10-04 11:22:48,570 | INFO | EXIT_ALREADY_LOGGED face_id=3 track=6
+2026-10-04 11:22:48,571 | INFO | PIPELINE_END unique_visitors=5 events={'entry': 5, 'exit': 5}
+2026-10-04 11:24:06,095 | INFO | CONFIG source=C:\Users\LENOVO\Downloads\dataset\record_20250620_184049.mp4 skip_frames=2
+2026-10-04 11:24:16,625 | INFO | PIPELINE_START known_faces=0 skip_frames=2
+2026-10-04 11:24:16,788 | INFO | SOURCE_OPENED source=C:\Users\LENOVO\Downloads\dataset\record_20250620_184049.mp4 fps=25.0 stream=False
+2026-10-04 11:24:20,059 | INFO | TRACK_STARTED track=1 frame=0
+2026-10-04 11:24:20,692 | INFO | EMBEDDING track=1 sample=1/3
+2026-10-04 11:24:21,613 | INFO | EMBEDDING track=1 sample=2/3
+2026-10-04 11:24:22,550 | INFO | EMBEDDING track=1 sample=3/3
+2026-10-04 11:24:22,571 | INFO | REGISTERED face_id=1 track=1 embedding_dim=512 image=logs/registered/2026-10-04/face_0001_112416_627.jpg
+2026-10-04 11:24:22,589 | INFO | IDENTITY_CREATED face_id=1 track=1
+2026-10-04 11:24:22,608 | INFO | ENTRY face_id=1 track=1 frame=0 event_ts=2026-10-04T11:24:16.627 image=logs/entries/2026-10-04/face_0001_112416_627.jpg
+2026-10-04 11:24:23,346 | INFO | TRACK_STARTED track=2 frame=15
+2026-10-04 11:24:23,945 | INFO | EMBEDDING track=2 sample=1/3
+2026-10-04 11:24:24,322 | INFO | TRACK_STARTED track=3 frame=18
+2026-10-04 11:24:24,779 | INFO | EMBEDDING track=3 sample=1/3
+2026-10-04 11:24:27,539 | INFO | EMBEDDING track=2 sample=2/3
+2026-10-04 11:24:28,101 | INFO | EMBEDDING track=3 sample=2/3
+2026-10-04 11:24:29,019 | INFO | EMBEDDING track=2 sample=3/3
+2026-10-04 11:24:29,050 | INFO | REGISTERED face_id=2 track=2 embedding_dim=512 image=logs/registered/2026-10-04/face_0002_112417_226.jpg
+2026-10-04 11:24:29,057 | INFO | IDENTITY_CREATED face_id=2 track=2
+2026-10-04 11:24:29,088 | INFO | ENTRY face_id=2 track=2 frame=15 event_ts=2026-10-04T11:24:17.226 image=logs/entries/2026-10-04/face_0002_112417_226.jpg
+2026-10-04 11:24:29,703 | INFO | EMBEDDING track=3 sample=3/3
+2026-10-04 11:24:29,733 | INFO | REGISTERED face_id=3 track=3 embedding_dim=512 image=logs/registered/2026-10-04/face_0003_112417_346.jpg
+2026-10-04 11:24:29,734 | INFO | IDENTITY_CREATED face_id=3 track=3
+2026-10-04 11:24:29,740 | INFO | ENTRY face_id=3 track=3 frame=18 event_ts=2026-10-04T11:24:17.346 image=logs/entries/2026-10-04/face_0003_112417_346.jpg
+2026-10-04 11:24:30,118 | INFO | TRACK_STARTED track=4 frame=39
+2026-10-04 11:24:30,451 | INFO | EMBEDDING track=4 sample=1/3
+2026-10-04 11:24:30,488 | INFO | EXIT face_id=1 track=1 frame=40 event_ts=2026-10-04T11:24:16.987 image=logs/exits/2026-10-04/face_0001_112416_987.jpg
+2026-10-04 11:24:30,963 | INFO | TRACK_STARTED track=5 frame=42
+2026-10-04 11:24:31,544 | INFO | EMBEDDING track=5 sample=1/3
+2026-10-04 11:24:32,135 | INFO | EMBEDDING track=5 sample=2/3
+2026-10-04 11:24:33,041 | INFO | EMBEDDING track=5 sample=3/3
+2026-10-04 11:24:33,062 | INFO | RECOGNIZED face_id=1 track=5 similarity=0.669
+2026-10-04 11:24:33,090 | INFO | RECONNECTED face_id=1 track=5 (no new entry)
+2026-10-04 11:24:33,987 | INFO | EXIT face_id=2 track=2 frame=64 event_ts=2026-10-04T11:24:17.945 image=logs/exits/2026-10-04/face_0002_112417_945.jpg
+2026-10-04 11:24:34,099 | INFO | EXIT face_id=3 track=3 frame=67 event_ts=2026-10-04T11:24:18.065 image=logs/exits/2026-10-04/face_0003_112418_065.jpg
+2026-10-04 11:24:34,210 | INFO | REGISTERED face_id=4 track=4 embedding_dim=512 image=logs/registered/2026-10-04/face_0004_112418_185.jpg
+2026-10-04 11:24:34,210 | INFO | IDENTITY_CREATED face_id=4 track=4
+2026-10-04 11:24:34,212 | INFO | ENTRY face_id=4 track=4 frame=39 event_ts=2026-10-04T11:24:18.185 image=logs/entries/2026-10-04/face_0004_112418_185.jpg
+2026-10-04 11:24:34,214 | INFO | EXIT face_id=4 track=4 frame=70 event_ts=2026-10-04T11:24:18.185 image=logs/exits/2026-10-04/face_0004_112418_185.jpg
+2026-10-04 11:24:34,900 | INFO | TRACK_STARTED track=6 frame=90
+2026-10-04 11:24:35,422 | INFO | EMBEDDING track=6 sample=1/3
+2026-10-04 11:24:36,496 | INFO | EMBEDDING track=6 sample=2/3
+2026-10-04 11:24:37,404 | INFO | EMBEDDING track=6 sample=3/3
+2026-10-04 11:24:37,420 | INFO | RECOGNIZED face_id=3 track=6 similarity=0.688
+2026-10-04 11:24:37,425 | INFO | RECONNECTED face_id=3 track=6 (no new entry)
+2026-10-04 11:24:41,929 | INFO | EXIT_ALREADY_LOGGED face_id=1 track=5
+2026-10-04 11:24:42,107 | INFO | TRACK_STARTED track=7 frame=237
+2026-10-04 11:24:42,398 | INFO | EMBEDDING track=7 sample=1/3
+2026-10-04 11:24:43,273 | INFO | EMBEDDING track=7 sample=2/3
+2026-10-04 11:24:46,788 | INFO | EMBEDDING track=7 sample=3/3
+2026-10-04 11:24:46,792 | INFO | RECOGNIZED face_id=1 track=7 similarity=0.642
+2026-10-04 11:24:46,795 | INFO | RECONNECTED face_id=1 track=7 (no new entry)
+2026-10-04 11:24:49,502 | INFO | TRACK_STARTED track=8 frame=264
+2026-10-04 11:24:52,034 | INFO | EMBEDDING track=8 sample=1/3
+2026-10-04 11:24:55,856 | INFO | EMBEDDING track=8 sample=2/3
+2026-10-04 11:24:59,673 | INFO | EMBEDDING track=8 sample=3/3
+2026-10-04 11:24:59,684 | INFO | REGISTERED face_id=5 track=8 embedding_dim=512 image=logs/registered/2026-10-04/face_0005_112427_173.jpg
+2026-10-04 11:24:59,688 | INFO | IDENTITY_CREATED face_id=5 track=8
+2026-10-04 11:24:59,697 | INFO | ENTRY face_id=5 track=8 frame=264 event_ts=2026-10-04T11:24:27.173 image=logs/entries/2026-10-04/face_0005_112427_173.jpg
+2026-10-04 11:25:03,908 | INFO | EXIT_ALREADY_LOGGED face_id=1 track=7
+2026-10-04 11:25:03,911 | INFO | EXIT face_id=5 track=8 frame=304 event_ts=2026-10-04T11:24:27.533 image=logs/exits/2026-10-04/face_0005_112427_533.jpg
+2026-10-04 11:25:07,386 | INFO | EXIT_ALREADY_LOGGED face_id=3 track=6
+2026-10-04 11:25:07,635 | INFO | TRACK_STARTED track=9 frame=342
+2026-10-04 11:25:10,146 | INFO | EMBEDDING track=9 sample=1/3
+2026-10-04 11:25:14,044 | INFO | EMBEDDING track=9 sample=2/3
+2026-10-04 11:25:17,822 | INFO | EMBEDDING track=9 sample=3/3
+2026-10-04 11:25:17,828 | INFO | RECOGNIZED face_id=1 track=9 similarity=0.546
+2026-10-04 11:25:17,835 | INFO | RECONNECTED face_id=1 track=9 (no new entry)
+2026-10-04 11:25:17,840 | INFO | TRACK_STARTED track=10 frame=348
+2026-10-04 11:25:20,533 | INFO | EMBEDDING track=10 sample=1/3
+2026-10-04 11:25:23,409 | INFO | EMBEDDING track=10 sample=2/3
+2026-10-04 11:25:23,424 | INFO | TRACK_STARTED track=11 frame=351
+2026-10-04 11:25:26,346 | INFO | EMBEDDING track=11 sample=1/3
+2026-10-04 11:25:30,522 | INFO | EMBEDDING track=11 sample=2/3
+2026-10-04 11:25:31,330 | INFO | EMBEDDING track=11 sample=3/3
+2026-10-04 11:25:31,678 | INFO | REGISTERED face_id=6 track=11 embedding_dim=512 image=logs/registered/2026-10-04/face_0006_112430_649.jpg
+2026-10-04 11:25:31,681 | INFO | IDENTITY_CREATED face_id=6 track=11
+2026-10-04 11:25:31,683 | INFO | ENTRY face_id=6 track=11 frame=351 event_ts=2026-10-04T11:24:30.649 image=logs/entries/2026-10-04/face_0006_112430_649.jpg
+2026-10-04 11:25:32,761 | INFO | RECOGNIZED face_id=5 track=10 similarity=0.805
+2026-10-04 11:25:32,761 | INFO | RECONNECTED face_id=5 track=10 (no new entry)
+2026-10-04 11:25:32,762 | INFO | EXIT_ALREADY_LOGGED face_id=5 track=10
+2026-10-04 11:25:34,519 | INFO | EXIT_ALREADY_LOGGED face_id=1 track=9
+2026-10-04 11:25:36,757 | INFO | TRACK_STARTED track=12 frame=480
+2026-10-04 11:25:37,292 | INFO | EMBEDDING track=12 sample=1/3
+2026-10-04 11:25:38,096 | INFO | EMBEDDING track=12 sample=2/3
+2026-10-04 11:25:39,129 | INFO | EMBEDDING track=12 sample=3/3
+2026-10-04 11:25:39,136 | INFO | RECOGNIZED face_id=2 track=12 similarity=0.663
+2026-10-04 11:25:39,147 | INFO | RECONNECTED face_id=2 track=12 (no new entry)
+2026-10-04 11:25:40,795 | INFO | TRACK_STARTED track=13 frame=513
+2026-10-04 11:25:43,379 | INFO | EMBEDDING track=13 sample=1/3
+2026-10-04 11:25:46,398 | INFO | EXIT_ALREADY_LOGGED face_id=2 track=12
+2026-10-04 11:25:47,275 | INFO | RECOGNIZED face_id=1 track=13 similarity=0.474
+2026-10-04 11:25:47,276 | INFO | RECONNECTED face_id=1 track=13 (no new entry)
+2026-10-04 11:25:47,277 | INFO | EXIT_ALREADY_LOGGED face_id=1 track=13
+2026-10-04 11:25:48,353 | INFO | TRACK_STARTED track=14 frame=561
+2026-10-04 11:25:49,913 | INFO | EMBEDDING track=14 sample=1/3
+2026-10-04 11:25:53,539 | INFO | EMBEDDING track=14 sample=2/3
+2026-10-04 11:25:57,508 | INFO | EMBEDDING track=14 sample=3/3
+2026-10-04 11:25:57,515 | INFO | RECOGNIZED face_id=1 track=14 similarity=0.591
+2026-10-04 11:25:57,520 | INFO | RECONNECTED face_id=1 track=14 (no new entry)
+2026-10-04 11:26:01,579 | INFO | EXIT_ALREADY_LOGGED face_id=1 track=14
+2026-10-04 11:26:05,309 | INFO | TRACK_STARTED track=15 frame=636
+2026-10-04 11:26:07,837 | INFO | EMBEDDING track=15 sample=1/3
+2026-10-04 11:26:11,666 | INFO | EMBEDDING track=15 sample=2/3
+2026-10-04 11:26:14,983 | INFO | EMBEDDING track=15 sample=3/3
+2026-10-04 11:26:14,997 | INFO | RECOGNIZED face_id=1 track=15 similarity=0.518
+2026-10-04 11:26:15,009 | INFO | RECONNECTED face_id=1 track=15 (no new entry)
+2026-10-04 11:26:17,852 | INFO | EXIT_ALREADY_LOGGED face_id=1 track=15
+2026-10-04 11:26:20,229 | INFO | TRACK_STARTED track=16 frame=699
+2026-10-04 11:26:22,894 | INFO | EMBEDDING track=16 sample=1/3
+2026-10-04 11:26:25,487 | INFO | TRACK_STARTED track=17 frame=714
+2026-10-04 11:26:28,074 | INFO | EMBEDDING track=17 sample=1/3
+2026-10-04 11:26:31,491 | INFO | EMBEDDING track=17 sample=2/3
+2026-10-04 11:26:35,429 | INFO | EMBEDDING track=17 sample=3/3
+2026-10-04 11:26:35,437 | INFO | RECOGNIZED face_id=2 track=17 similarity=0.553
+2026-10-04 11:26:35,444 | INFO | RECONNECTED face_id=2 track=17 (no new entry)
+2026-10-04 11:26:39,653 | INFO | REGISTERED face_id=7 track=16 embedding_dim=512 image=logs/registered/2026-10-04/face_0007_112444_550.jpg
+2026-10-04 11:26:39,653 | INFO | IDENTITY_CREATED face_id=7 track=16
+2026-10-04 11:26:39,664 | INFO | ENTRY face_id=7 track=16 frame=699 event_ts=2026-10-04T11:24:44.550 image=logs/entries/2026-10-04/face_0007_112444_550.jpg
+2026-10-04 11:26:39,682 | INFO | EXIT face_id=7 track=16 frame=730 event_ts=2026-10-04T11:24:44.550 image=logs/exits/2026-10-04/face_0007_112444_550.jpg
+2026-10-04 11:26:44,679 | INFO | TRACK_STARTED track=18 frame=777
+2026-10-04 11:26:46,597 | INFO | EMBEDDING track=18 sample=1/3
+2026-10-04 11:26:49,200 | INFO | TRACK_STARTED track=19 frame=789
+2026-10-04 11:26:51,870 | INFO | EMBEDDING track=19 sample=1/3
+2026-10-04 11:26:51,878 | INFO | TRACK_STARTED track=20 frame=789
+2026-10-04 11:26:53,983 | INFO | EMBEDDING track=20 sample=1/3
+2026-10-04 11:26:57,318 | INFO | RECOGNIZED face_id=4 track=18 similarity=0.550
+2026-10-04 11:26:57,319 | INFO | RECONNECTED face_id=4 track=18 (no new entry)
+2026-10-04 11:26:57,321 | INFO | EXIT_ALREADY_LOGGED face_id=4 track=18
+2026-10-04 11:26:58,764 | INFO | REGISTERED face_id=8 track=19 embedding_dim=512 image=logs/registered/2026-10-04/face_0008_112448_145.jpg
+2026-10-04 11:26:58,765 | INFO | IDENTITY_CREATED face_id=8 track=19
+2026-10-04 11:26:58,769 | INFO | ENTRY face_id=8 track=19 frame=789 event_ts=2026-10-04T11:24:48.145 image=logs/entries/2026-10-04/face_0008_112448_145.jpg
+2026-10-04 11:26:58,779 | INFO | EXIT face_id=8 track=19 frame=820 event_ts=2026-10-04T11:24:48.145 image=logs/exits/2026-10-04/face_0008_112448_145.jpg
+2026-10-04 11:26:58,780 | INFO | RECOGNIZED face_id=2 track=20 similarity=0.521
+2026-10-04 11:26:58,780 | INFO | TRACK_MERGED face_id=2 old_track=17 new_track=20
+2026-10-04 11:26:58,781 | INFO | EXIT_ALREADY_LOGGED face_id=2 track=20
+2026-10-04 11:27:03,139 | INFO | TRACK_STARTED track=21 frame=858
+2026-10-04 11:27:05,539 | INFO | EMBEDDING track=21 sample=1/3
+2026-10-04 11:27:09,524 | INFO | EMBEDDING track=21 sample=2/3
+2026-10-04 11:27:13,485 | INFO | EMBEDDING track=21 sample=3/3
+2026-10-04 11:27:13,491 | INFO | RECOGNIZED face_id=1 track=21 similarity=0.580
+2026-10-04 11:27:13,496 | INFO | RECONNECTED face_id=1 track=21 (no new entry)
+2026-10-04 11:27:24,231 | INFO | EXIT_ALREADY_LOGGED face_id=1 track=21
+2026-10-04 11:27:32,686 | INFO | TRACK_STARTED track=22 frame=1050
+2026-10-04 11:27:35,270 | INFO | EMBEDDING track=22 sample=1/3
+2026-10-04 11:27:35,405 | INFO | EXIT face_id=6 track=11 frame=1051 event_ts=2026-10-04T11:24:58.571 image=logs/exits/2026-10-04/face_0006_112458_571.jpg
+2026-10-04 11:27:35,411 | INFO | RECOGNIZED face_id=2 track=22 similarity=0.575
+2026-10-04 11:27:35,416 | INFO | RECONNECTED face_id=2 track=22 (no new entry)
+2026-10-04 11:27:35,422 | INFO | EXIT_ALREADY_LOGGED face_id=2 track=22
+2026-10-04 11:27:35,427 | INFO | PIPELINE_END unique_visitors=8 events={'entry': 8, 'exit': 8}
+2026-10-04 11:28:41,021 | INFO | CONFIG source=C:\Users\LENOVO\Downloads\dataset\record_20250620_184049.mp4 skip_frames=2
+2026-10-04 11:28:45,921 | INFO | PIPELINE_START known_faces=0 skip_frames=2
+2026-10-04 11:28:45,949 | INFO | SOURCE_OPENED source=C:\Users\LENOVO\Downloads\dataset\record_20250620_184049.mp4 fps=25.0 stream=False
+2026-10-04 11:28:48,735 | INFO | TRACK_STARTED track=1 frame=0
+2026-10-04 11:28:49,493 | INFO | EMBEDDING track=1 sample=1/3
+2026-10-04 11:28:50,254 | INFO | EMBEDDING track=1 sample=2/3
+2026-10-04 11:28:51,078 | INFO | EMBEDDING track=1 sample=3/3
+2026-10-04 11:28:51,392 | INFO | REGISTERED face_id=1 track=1 embedding_dim=512 image=logs/registered/2026-10-04/face_0001_112845_937.jpg
+2026-10-04 11:28:51,393 | INFO | IDENTITY_CREATED face_id=1 track=1
+2026-10-04 11:28:51,394 | INFO | ENTRY face_id=1 track=1 frame=0 event_ts=2026-10-04T11:28:45.937 image=logs/entries/2026-10-04/face_0001_112845_937.jpg
+2026-10-04 11:28:51,815 | INFO | TRACK_STARTED track=2 frame=15
+2026-10-04 11:28:52,415 | INFO | EMBEDDING track=2 sample=1/3
+2026-10-04 11:28:52,636 | INFO | TRACK_STARTED track=3 frame=18
+2026-10-04 11:28:52,935 | INFO | EMBEDDING track=3 sample=1/3
+2026-10-04 11:28:54,067 | INFO | EMBEDDING track=2 sample=2/3
+2026-10-04 11:28:54,510 | INFO | EMBEDDING track=3 sample=2/3
+2026-10-04 11:28:55,140 | INFO | EMBEDDING track=2 sample=3/3
+2026-10-04 11:28:55,149 | INFO | REGISTERED face_id=2 track=2 embedding_dim=512 image=logs/registered/2026-10-04/face_0002_112846_536.jpg
+2026-10-04 11:28:55,150 | INFO | IDENTITY_CREATED face_id=2 track=2
+2026-10-04 11:28:55,152 | INFO | ENTRY face_id=2 track=2 frame=15 event_ts=2026-10-04T11:28:46.536 image=logs/entries/2026-10-04/face_0002_112846_536.jpg
+2026-10-04 11:28:55,936 | INFO | EMBEDDING track=3 sample=3/3
+2026-10-04 11:28:55,969 | INFO | REGISTERED face_id=3 track=3 embedding_dim=512 image=logs/registered/2026-10-04/face_0003_112846_656.jpg
+2026-10-04 11:28:55,987 | INFO | IDENTITY_CREATED face_id=3 track=3
+2026-10-04 11:28:56,004 | INFO | ENTRY face_id=3 track=3 frame=18 event_ts=2026-10-04T11:28:46.656 image=logs/entries/2026-10-04/face_0003_112846_656.jpg
+2026-10-04 11:28:56,496 | INFO | TRACK_STARTED track=4 frame=39
+2026-10-04 11:28:57,068 | INFO | EMBEDDING track=4 sample=1/3
+2026-10-04 11:28:57,103 | INFO | EXIT face_id=1 track=1 frame=40 event_ts=2026-10-04T11:28:46.296 image=logs/exits/2026-10-04/face_0001_112846_296.jpg
+2026-10-04 11:28:57,298 | INFO | TRACK_STARTED track=5 frame=42
+2026-10-04 11:28:57,557 | INFO | EMBEDDING track=5 sample=1/3
+2026-10-04 11:28:58,487 | INFO | EMBEDDING track=5 sample=2/3
+2026-10-04 11:28:59,560 | INFO | EMBEDDING track=5 sample=3/3
+2026-10-04 11:28:59,581 | INFO | RECOGNIZED face_id=1 track=5 similarity=0.669
+2026-10-04 11:28:59,608 | INFO | RECONNECTED face_id=1 track=5 (no new entry)
+2026-10-04 11:29:00,384 | INFO | EXIT face_id=2 track=2 frame=64 event_ts=2026-10-04T11:28:47.255 image=logs/exits/2026-10-04/face_0002_112847_255.jpg
+2026-10-04 11:29:00,496 | INFO | EXIT face_id=3 track=3 frame=67 event_ts=2026-10-04T11:28:47.375 image=logs/exits/2026-10-04/face_0003_112847_375.jpg
+2026-10-04 11:29:00,602 | INFO | REGISTERED face_id=4 track=4 embedding_dim=512 image=logs/registered/2026-10-04/face_0004_112847_495.jpg
+2026-10-04 11:29:00,602 | INFO | IDENTITY_CREATED face_id=4 track=4
+2026-10-04 11:29:00,605 | INFO | ENTRY face_id=4 track=4 frame=39 event_ts=2026-10-04T11:28:47.495 image=logs/entries/2026-10-04/face_0004_112847_495.jpg
+2026-10-04 11:29:00,607 | INFO | EXIT face_id=4 track=4 frame=70 event_ts=2026-10-04T11:28:47.495 image=logs/exits/2026-10-04/face_0004_112847_495.jpg
+2026-10-04 11:29:01,316 | INFO | TRACK_STARTED track=6 frame=90
+2026-10-04 11:29:01,571 | INFO | EMBEDDING track=6 sample=1/3
+2026-10-04 11:29:02,943 | INFO | EMBEDDING track=6 sample=2/3
+2026-10-04 11:29:03,600 | INFO | EMBEDDING track=6 sample=3/3
+2026-10-04 11:29:03,981 | INFO | RECOGNIZED face_id=3 track=6 similarity=0.688
+2026-10-04 11:29:03,981 | INFO | RECONNECTED face_id=3 track=6 (no new entry)
+2026-10-04 11:29:08,388 | INFO | EXIT_ALREADY_LOGGED face_id=1 track=5
+2026-10-04 11:29:08,582 | INFO | TRACK_STARTED track=7 frame=237
+2026-10-04 11:29:08,862 | INFO | EMBEDDING track=7 sample=1/3
+2026-10-04 11:29:09,892 | INFO | EMBEDDING track=7 sample=2/3
+2026-10-04 11:29:10,732 | INFO | EMBEDDING track=7 sample=3/3
+2026-10-04 11:29:10,889 | INFO | RECOGNIZED face_id=1 track=7 similarity=0.642
+2026-10-04 11:29:10,889 | INFO | RECONNECTED face_id=1 track=7 (no new entry)
+2026-10-04 11:29:11,672 | INFO | TRACK_STARTED track=8 frame=264
+2026-10-04 11:29:11,932 | INFO | EMBEDDING track=8 sample=1/3
+2026-10-04 11:29:12,862 | INFO | EMBEDDING track=8 sample=2/3
+2026-10-04 11:29:13,703 | INFO | EMBEDDING track=8 sample=3/3
+2026-10-04 11:29:13,977 | INFO | REGISTERED face_id=5 track=8 embedding_dim=512 image=logs/registered/2026-10-04/face_0005_112856_483.jpg
+2026-10-04 11:29:13,978 | INFO | IDENTITY_CREATED face_id=5 track=8
+2026-10-04 11:29:13,980 | INFO | ENTRY face_id=5 track=8 frame=264 event_ts=2026-10-04T11:28:56.483 image=logs/entries/2026-10-04/face_0005_112856_483.jpg
+2026-10-04 11:29:15,238 | INFO | EXIT_ALREADY_LOGGED face_id=1 track=7
+2026-10-04 11:29:15,240 | INFO | EXIT face_id=5 track=8 frame=304 event_ts=2026-10-04T11:28:56.842 image=logs/exits/2026-10-04/face_0005_112856_842.jpg
+2026-10-04 11:29:16,459 | INFO | EXIT_ALREADY_LOGGED face_id=3 track=6
+2026-10-04 11:29:16,546 | INFO | TRACK_STARTED track=9 frame=342
+2026-10-04 11:29:17,081 | INFO | EMBEDDING track=9 sample=1/3
+2026-10-04 11:29:17,725 | INFO | EMBEDDING track=9 sample=2/3
+2026-10-04 11:29:18,434 | INFO | EMBEDDING track=9 sample=3/3
+2026-10-04 11:29:18,453 | INFO | RECOGNIZED face_id=1 track=9 similarity=0.546
+2026-10-04 11:29:18,454 | INFO | RECONNECTED face_id=1 track=9 (no new entry)
+2026-10-04 11:29:18,455 | INFO | TRACK_STARTED track=10 frame=348
+2026-10-04 11:29:18,814 | INFO | EMBEDDING track=10 sample=1/3
+2026-10-04 11:29:19,489 | INFO | EMBEDDING track=10 sample=2/3
+2026-10-04 11:29:19,510 | INFO | TRACK_STARTED track=11 frame=351
+2026-10-04 11:29:19,873 | INFO | EMBEDDING track=11 sample=1/3
+2026-10-04 11:29:20,615 | INFO | EMBEDDING track=11 sample=2/3
+2026-10-04 11:29:21,445 | INFO | EMBEDDING track=11 sample=3/3
+2026-10-04 11:29:21,472 | INFO | REGISTERED face_id=6 track=11 embedding_dim=512 image=logs/registered/2026-10-04/face_0006_112859_958.jpg
+2026-10-04 11:29:21,476 | INFO | IDENTITY_CREATED face_id=6 track=11
+2026-10-04 11:29:21,481 | INFO | ENTRY face_id=6 track=11 frame=351 event_ts=2026-10-04T11:28:59.958 image=logs/entries/2026-10-04/face_0006_112859_958.jpg
+2026-10-04 11:29:22,718 | INFO | RECOGNIZED face_id=5 track=10 similarity=0.805
+2026-10-04 11:29:22,719 | INFO | RECONNECTED face_id=5 track=10 (no new entry)
+2026-10-04 11:29:22,719 | INFO | EXIT_ALREADY_LOGGED face_id=5 track=10
+2026-10-04 11:29:24,502 | INFO | EXIT_ALREADY_LOGGED face_id=1 track=9
+2026-10-04 11:29:26,363 | INFO | TRACK_STARTED track=12 frame=480
+2026-10-04 11:29:26,688 | INFO | EMBEDDING track=12 sample=1/3
+2026-10-04 11:29:27,625 | INFO | EMBEDDING track=12 sample=2/3
+2026-10-04 11:29:28,408 | INFO | EMBEDDING track=12 sample=3/3
+2026-10-04 11:29:28,585 | INFO | RECOGNIZED face_id=2 track=12 similarity=0.663
+2026-10-04 11:29:28,602 | INFO | RECONNECTED face_id=2 track=12 (no new entry)
+2026-10-04 11:29:29,696 | INFO | TRACK_STARTED track=13 frame=513
+2026-10-04 11:29:30,081 | INFO | EMBEDDING track=13 sample=1/3
+2026-10-04 11:29:31,281 | INFO | EXIT_ALREADY_LOGGED face_id=2 track=12
+2026-10-04 11:29:31,599 | INFO | RECOGNIZED face_id=1 track=13 similarity=0.474
+2026-10-04 11:29:31,599 | INFO | RECONNECTED face_id=1 track=13 (no new entry)
+2026-10-04 11:29:31,599 | INFO | EXIT_ALREADY_LOGGED face_id=1 track=13
+2026-10-04 11:29:32,194 | INFO | TRACK_STARTED track=14 frame=561
+2026-10-04 11:29:32,604 | INFO | EMBEDDING track=14 sample=1/3
+2026-10-04 11:29:33,237 | INFO | EMBEDDING track=14 sample=2/3
+2026-10-04 11:29:34,143 | INFO | EMBEDDING track=14 sample=3/3
+2026-10-04 11:29:34,311 | INFO | RECOGNIZED face_id=1 track=14 similarity=0.591
+2026-10-04 11:29:34,313 | INFO | RECONNECTED face_id=1 track=14 (no new entry)
+2026-10-04 11:29:35,558 | INFO | EXIT_ALREADY_LOGGED face_id=1 track=14
+2026-10-04 11:29:36,835 | INFO | TRACK_STARTED track=15 frame=636
+2026-10-04 11:29:37,368 | INFO | EMBEDDING track=15 sample=1/3
+2026-10-04 11:29:37,928 | INFO | EMBEDDING track=15 sample=2/3
+2026-10-04 11:29:38,757 | INFO | EMBEDDING track=15 sample=3/3
+2026-10-04 11:29:38,758 | INFO | RECOGNIZED face_id=1 track=15 similarity=0.518
+2026-10-04 11:29:38,787 | INFO | RECONNECTED face_id=1 track=15 (no new entry)
+2026-10-04 11:29:40,331 | INFO | EXIT_ALREADY_LOGGED face_id=1 track=15
+2026-10-04 11:29:41,113 | INFO | TRACK_STARTED track=16 frame=699
+2026-10-04 11:29:41,367 | INFO | EMBEDDING track=16 sample=1/3
+2026-10-04 11:29:42,361 | INFO | TRACK_STARTED track=17 frame=714
+2026-10-04 11:29:42,789 | INFO | EMBEDDING track=17 sample=1/3
+2026-10-04 11:29:43,525 | INFO | EMBEDDING track=17 sample=2/3
+2026-10-04 11:29:44,433 | INFO | EMBEDDING track=17 sample=3/3
+2026-10-04 11:29:44,439 | INFO | RECOGNIZED face_id=2 track=17 similarity=0.553
+2026-10-04 11:29:44,466 | INFO | RECONNECTED face_id=2 track=17 (no new entry)
+2026-10-04 11:29:45,051 | INFO | REGISTERED face_id=7 track=16 embedding_dim=512 image=logs/registered/2026-10-04/face_0007_112913_860.jpg
+2026-10-04 11:29:45,051 | INFO | IDENTITY_CREATED face_id=7 track=16
+2026-10-04 11:29:45,053 | INFO | ENTRY face_id=7 track=16 frame=699 event_ts=2026-10-04T11:29:13.860 image=logs/entries/2026-10-04/face_0007_112913_860.jpg
+2026-10-04 11:29:45,055 | INFO | EXIT face_id=7 track=16 frame=730 event_ts=2026-10-04T11:29:13.860 image=logs/exits/2026-10-04/face_0007_112913_860.jpg
+2026-10-04 11:29:46,631 | INFO | TRACK_STARTED track=18 frame=777
+2026-10-04 11:29:46,991 | INFO | EMBEDDING track=18 sample=1/3
+2026-10-04 11:29:47,761 | INFO | TRACK_STARTED track=19 frame=789
+2026-10-04 11:29:48,143 | INFO | EMBEDDING track=19 sample=1/3
+2026-10-04 11:29:48,276 | INFO | TRACK_STARTED track=20 frame=789
+2026-10-04 11:29:48,606 | INFO | EMBEDDING track=20 sample=1/3
+2026-10-04 11:29:49,611 | INFO | RECOGNIZED face_id=4 track=18 similarity=0.550
+2026-10-04 11:29:49,611 | INFO | RECONNECTED face_id=4 track=18 (no new entry)
+2026-10-04 11:29:49,612 | INFO | EXIT_ALREADY_LOGGED face_id=4 track=18
+2026-10-04 11:29:50,024 | INFO | REGISTERED face_id=8 track=19 embedding_dim=512 image=logs/registered/2026-10-04/face_0008_112917_455.jpg
+2026-10-04 11:29:50,024 | INFO | IDENTITY_CREATED face_id=8 track=19
+2026-10-04 11:29:50,026 | INFO | ENTRY face_id=8 track=19 frame=789 event_ts=2026-10-04T11:29:17.455 image=logs/entries/2026-10-04/face_0008_112917_455.jpg
+2026-10-04 11:29:50,028 | INFO | EXIT face_id=8 track=19 frame=820 event_ts=2026-10-04T11:29:17.455 image=logs/exits/2026-10-04/face_0008_112917_455.jpg
+2026-10-04 11:29:50,028 | INFO | RECOGNIZED face_id=2 track=20 similarity=0.521
+2026-10-04 11:29:50,028 | INFO | TRACK_MERGED face_id=2 old_track=17 new_track=20
+2026-10-04 11:29:50,029 | INFO | EXIT_ALREADY_LOGGED face_id=2 track=20
+2026-10-04 11:29:51,351 | INFO | TRACK_STARTED track=21 frame=858
+2026-10-04 11:29:51,780 | INFO | EMBEDDING track=21 sample=1/3
+2026-10-04 11:29:52,476 | INFO | EMBEDDING track=21 sample=2/3
+2026-10-04 11:29:53,504 | INFO | EMBEDDING track=21 sample=3/3
+2026-10-04 11:29:53,515 | INFO | RECOGNIZED face_id=1 track=21 similarity=0.580
+2026-10-04 11:29:53,539 | INFO | RECONNECTED face_id=1 track=21 (no new entry)
+2026-10-04 11:29:57,188 | INFO | EXIT_ALREADY_LOGGED face_id=1 track=21
+2026-10-04 11:30:00,121 | INFO | TRACK_STARTED track=22 frame=1050
+2026-10-04 11:30:00,411 | INFO | EMBEDDING track=22 sample=1/3
+2026-10-04 11:30:01,306 | INFO | EMBEDDING track=22 sample=2/3
+2026-10-04 11:30:02,052 | INFO | EMBEDDING track=22 sample=3/3
+2026-10-04 11:30:02,369 | INFO | RECOGNIZED face_id=2 track=22 similarity=0.709
+2026-10-04 11:30:02,370 | INFO | RECONNECTED face_id=2 track=22 (no new entry)
+2026-10-04 11:30:03,049 | INFO | TRACK_STARTED track=23 frame=1074
+2026-10-04 11:30:03,287 | INFO | EMBEDDING track=23 sample=1/3
+2026-10-04 11:30:04,142 | INFO | EMBEDDING track=23 sample=2/3
+2026-10-04 11:30:04,615 | INFO | TRACK_STARTED track=24 frame=1080
+2026-10-04 11:30:05,207 | INFO | EMBEDDING track=24 sample=1/3
+2026-10-04 11:30:05,375 | INFO | TRACK_STARTED track=25 frame=1083
+2026-10-04 11:30:05,653 | INFO | EMBEDDING track=25 sample=1/3
+2026-10-04 11:30:05,653 | INFO | TRACK_STARTED track=26 frame=1083
+2026-10-04 11:30:05,917 | INFO | EMBEDDING track=26 sample=1/3
+2026-10-04 11:30:05,929 | INFO | TRACK_STARTED track=27 frame=1083
+2026-10-04 11:30:06,265 | INFO | EMBEDDING track=27 sample=1/3
+2026-10-04 11:30:07,068 | INFO | EMBEDDING track=25 sample=2/3
+2026-10-04 11:30:07,490 | INFO | EMBEDDING track=27 sample=2/3
+2026-10-04 11:30:07,523 | INFO | TRACK_STARTED track=28 frame=1086
+2026-10-04 11:30:07,994 | INFO | EMBEDDING track=28 sample=1/3
+2026-10-04 11:30:08,788 | INFO | EMBEDDING track=25 sample=3/3
+2026-10-04 11:30:08,799 | INFO | REGISTERED face_id=9 track=25 embedding_dim=512 image=logs/registered/2026-10-04/face_0009_112929_199.jpg
+2026-10-04 11:30:08,820 | INFO | IDENTITY_CREATED face_id=9 track=25
+2026-10-04 11:30:08,831 | INFO | ENTRY face_id=9 track=25 frame=1083 event_ts=2026-10-04T11:29:29.199 image=logs/entries/2026-10-04/face_0009_112929_199.jpg
+2026-10-04 11:30:09,301 | INFO | EMBEDDING track=27 sample=3/3
+2026-10-04 11:30:09,311 | INFO | RECOGNIZED face_id=5 track=27 similarity=0.628
+2026-10-04 11:30:09,335 | INFO | RECONNECTED face_id=5 track=27 (no new entry)
+2026-10-04 11:30:09,711 | INFO | EMBEDDING track=28 sample=2/3
+2026-10-04 11:30:10,336 | INFO | TRACK_STARTED track=29 frame=1095
+2026-10-04 11:30:10,750 | INFO | EMBEDDING track=29 sample=1/3
+2026-10-04 11:30:11,429 | INFO | EMBEDDING track=29 sample=2/3
+2026-10-04 11:30:12,261 | INFO | EMBEDDING track=29 sample=3/3
+2026-10-04 11:30:12,273 | INFO | RECOGNIZED face_id=9 track=29 similarity=0.895
+2026-10-04 11:30:12,286 | INFO | TRACK_MERGED face_id=9 old_track=25 new_track=29
+2026-10-04 11:30:12,813 | INFO | TRACK_STARTED track=30 frame=1107
+2026-10-04 11:30:13,254 | INFO | EMBEDDING track=30 sample=1/3
+2026-10-04 11:30:13,324 | INFO | REGISTERED face_id=10 track=23 embedding_dim=512 image=logs/registered/2026-10-04/face_0010_112928_840.jpg
+2026-10-04 11:30:13,349 | INFO | IDENTITY_CREATED face_id=10 track=23
+2026-10-04 11:30:13,360 | INFO | ENTRY face_id=10 track=23 frame=1074 event_ts=2026-10-04T11:29:28.840 image=logs/entries/2026-10-04/face_0010_112928_840.jpg
+2026-10-04 11:30:13,383 | INFO | EXIT face_id=10 track=23 frame=1108 event_ts=2026-10-04T11:29:28.959 image=logs/exits/2026-10-04/face_0010_112928_959.jpg
+2026-10-04 11:30:13,851 | INFO | EMBEDDING track=30 sample=2/3
+2026-10-04 11:30:14,069 | INFO | RECOGNIZED face_id=10 track=24 similarity=0.823
+2026-10-04 11:30:14,075 | INFO | RECONNECTED face_id=10 track=24 (no new entry)
+2026-10-04 11:30:14,104 | INFO | EXIT_ALREADY_LOGGED face_id=10 track=24
+2026-10-04 11:30:14,627 | INFO | EMBEDDING track=30 sample=3/3
+2026-10-04 11:30:14,646 | INFO | RECOGNIZED face_id=9 track=30 similarity=0.799
+2026-10-04 11:30:14,649 | INFO | TRACK_MERGED face_id=9 old_track=29 new_track=30
+2026-10-04 11:30:14,692 | INFO | RECOGNIZED face_id=10 track=26 similarity=0.793
+2026-10-04 11:30:14,716 | INFO | RECONNECTED face_id=10 track=26 (no new entry)
+2026-10-04 11:30:14,723 | INFO | EXIT_ALREADY_LOGGED face_id=10 track=26
+2026-10-04 11:30:15,290 | INFO | RECOGNIZED face_id=10 track=28 similarity=0.599
+2026-10-04 11:30:15,291 | INFO | RECONNECTED face_id=10 track=28 (no new entry)
+2026-10-04 11:30:15,291 | INFO | EXIT_ALREADY_LOGGED face_id=10 track=28
+2026-10-04 11:30:16,368 | INFO | EXIT_ALREADY_LOGGED face_id=5 track=27
+2026-10-04 11:30:16,601 | INFO | TRACK_STARTED track=31 frame=1137
+2026-10-04 11:30:19,126 | INFO | EMBEDDING track=31 sample=1/3
+2026-10-04 11:30:20,663 | INFO | TRACK_STARTED track=32 frame=1143
+2026-10-04 11:30:23,253 | INFO | EMBEDDING track=32 sample=1/3
+2026-10-04 11:30:25,351 | INFO | EXIT_ALREADY_LOGGED face_id=2 track=22
+2026-10-04 11:30:25,853 | INFO | TRACK_STARTED track=33 frame=1161
+2026-10-04 11:30:28,334 | INFO | EMBEDDING track=33 sample=1/3
+2026-10-04 11:30:29,596 | INFO | TRACK_STARTED track=34 frame=1164
+2026-10-04 11:30:32,170 | INFO | EMBEDDING track=34 sample=1/3
+2026-10-04 11:30:33,427 | INFO | TRACK_STARTED track=35 frame=1167
+2026-10-04 11:30:35,974 | INFO | EMBEDDING track=35 sample=1/3
+2026-10-04 11:30:36,061 | INFO | RECOGNIZED face_id=9 track=31 similarity=0.698
+2026-10-04 11:30:36,067 | INFO | TRACK_MERGED face_id=9 old_track=30 new_track=31
+2026-10-04 11:30:36,078 | INFO | EXIT face_id=9 track=31 frame=1168 event_ts=2026-10-04T11:29:31.356 image=logs/exits/2026-10-04/face_0009_112931_356.jpg
+2026-10-04 11:30:40,070 | INFO | EMBEDDING track=35 sample=2/3
+2026-10-04 11:30:40,165 | INFO | REGISTERED face_id=11 track=32 embedding_dim=512 image=logs/registered/2026-10-04/face_0011_112931_596.jpg
+2026-10-04 11:30:40,171 | INFO | IDENTITY_CREATED face_id=11 track=32
+2026-10-04 11:30:40,182 | INFO | ENTRY face_id=11 track=32 frame=1143 event_ts=2026-10-04T11:29:31.596 image=logs/entries/2026-10-04/face_0011_112931_596.jpg
+2026-10-04 11:30:40,195 | INFO | EXIT face_id=11 track=32 frame=1174 event_ts=2026-10-04T11:29:31.596 image=logs/exits/2026-10-04/face_0011_112931_596.jpg
+2026-10-04 11:30:44,166 | INFO | EMBEDDING track=35 sample=3/3
+2026-10-04 11:30:44,172 | INFO | RECOGNIZED face_id=10 track=35 similarity=0.707
+2026-10-04 11:30:44,177 | INFO | RECONNECTED face_id=10 track=35 (no new entry)
+2026-10-04 11:30:45,430 | INFO | TRACK_STARTED track=36 frame=1182
+2026-10-04 11:30:47,967 | INFO | EMBEDDING track=36 sample=1/3
+2026-10-04 11:30:51,728 | INFO | EMBEDDING track=36 sample=2/3
+2026-10-04 11:30:55,880 | INFO | EMBEDDING track=36 sample=3/3
+2026-10-04 11:30:55,886 | INFO | RECOGNIZED face_id=2 track=36 similarity=0.534
+2026-10-04 11:30:55,892 | INFO | RECONNECTED face_id=2 track=36 (no new entry)
+2026-10-04 11:30:55,976 | INFO | RECOGNIZED face_id=9 track=33 similarity=0.669
+2026-10-04 11:30:55,981 | INFO | RECONNECTED face_id=9 track=33 (no new entry)
+2026-10-04 11:30:55,987 | INFO | EXIT_ALREADY_LOGGED face_id=9 track=33
+2026-10-04 11:30:57,186 | INFO | RECOGNIZED face_id=9 track=34 similarity=0.569
+2026-10-04 11:30:57,189 | INFO | RECONNECTED face_id=9 track=34 (no new entry)
+2026-10-04 11:30:57,189 | INFO | EXIT_ALREADY_LOGGED face_id=9 track=34
+2026-10-04 11:30:57,963 | INFO | TRACK_STARTED track=37 frame=1203
+2026-10-04 11:31:00,534 | INFO | EMBEDDING track=37 sample=1/3
+2026-10-04 11:31:03,482 | INFO | TRACK_STARTED track=38 frame=1224
+2026-10-04 11:31:05,992 | INFO | EMBEDDING track=38 sample=1/3
+2026-10-04 11:31:06,074 | INFO | EXIT_ALREADY_LOGGED face_id=10 track=35
+2026-10-04 11:31:10,153 | INFO | EMBEDDING track=38 sample=2/3
+2026-10-04 11:31:10,329 | INFO | EXIT face_id=6 track=11 frame=1228 event_ts=2026-10-04T11:29:34.951 image=logs/exits/2026-10-04/face_0006_112934_951.jpg
+2026-10-04 11:31:10,337 | INFO | EXIT_ALREADY_LOGGED face_id=2 track=36
+2026-10-04 11:31:10,344 | INFO | RECOGNIZED face_id=5 track=37 similarity=0.635
+2026-10-04 11:31:10,351 | INFO | RECONNECTED face_id=5 track=37 (no new entry)
+2026-10-04 11:31:10,358 | INFO | EXIT_ALREADY_LOGGED face_id=5 track=37
+2026-10-04 11:31:10,376 | INFO | REGISTERED face_id=12 track=38 embedding_dim=512 image=logs/registered/2026-10-04/face_0012_112934_832.jpg
+2026-10-04 11:31:10,383 | INFO | IDENTITY_CREATED face_id=12 track=38
+2026-10-04 11:31:10,395 | INFO | ENTRY face_id=12 track=38 frame=1224 event_ts=2026-10-04T11:29:34.832 image=logs/entries/2026-10-04/face_0012_112934_832.jpg
+2026-10-04 11:31:10,407 | INFO | EXIT face_id=12 track=38 frame=1228 event_ts=2026-10-04T11:29:34.951 image=logs/exits/2026-10-04/face_0012_112934_951.jpg
+2026-10-04 11:31:10,415 | INFO | PIPELINE_END unique_visitors=12 events={'entry': 12, 'exit': 12}
+2026-10-04 11:32:11,415 | INFO | CONFIG source=C:\Users\LENOVO\Downloads\dataset\record_20250620_184049.mp4 skip_frames=2
+2026-10-04 11:32:16,935 | INFO | PIPELINE_START known_faces=0 skip_frames=2
+2026-10-04 11:32:16,947 | INFO | SOURCE_OPENED source=C:\Users\LENOVO\Downloads\dataset\record_20250620_184049.mp4 fps=25.0 stream=False
+2026-10-04 11:32:19,268 | INFO | TRACK_STARTED track=1 frame=0
+2026-10-04 11:32:19,993 | INFO | EMBEDDING track=1 sample=1/3
+2026-10-04 11:32:20,772 | INFO | EMBEDDING track=1 sample=2/3
+2026-10-04 11:32:21,567 | INFO | EMBEDDING track=1 sample=3/3
+2026-10-04 11:32:21,599 | INFO | REGISTERED face_id=1 track=1 embedding_dim=512 image=logs/registered/2026-10-04/face_0001_113216_935.jpg
+2026-10-04 11:32:21,602 | INFO | IDENTITY_CREATED face_id=1 track=1
+2026-10-04 11:32:21,638 | INFO | ENTRY face_id=1 track=1 frame=0 event_ts=2026-10-04T11:32:16.935 image=logs/entries/2026-10-04/face_0001_113216_935.jpg
+2026-10-04 11:32:22,376 | INFO | TRACK_STARTED track=2 frame=15
+2026-10-04 11:32:23,007 | INFO | EMBEDDING track=2 sample=1/3
+2026-10-04 11:32:23,390 | INFO | TRACK_STARTED track=3 frame=18
+2026-10-04 11:32:23,859 | INFO | EMBEDDING track=3 sample=1/3
+2026-10-04 11:32:25,179 | INFO | EMBEDDING track=2 sample=2/3
+2026-10-04 11:32:25,906 | INFO | EMBEDDING track=3 sample=2/3
+2026-10-04 11:32:26,715 | INFO | EMBEDDING track=2 sample=3/3
+2026-10-04 11:32:26,726 | INFO | REGISTERED face_id=2 track=2 embedding_dim=512 image=logs/registered/2026-10-04/face_0002_113217_535.jpg
+2026-10-04 11:32:26,762 | INFO | IDENTITY_CREATED face_id=2 track=2
+2026-10-04 11:32:26,796 | INFO | ENTRY face_id=2 track=2 frame=15 event_ts=2026-10-04T11:32:17.535 image=logs/entries/2026-10-04/face_0002_113217_535.jpg
+2026-10-04 11:32:27,674 | INFO | EMBEDDING track=3 sample=3/3
+2026-10-04 11:32:27,684 | INFO | REGISTERED face_id=3 track=3 embedding_dim=512 image=logs/registered/2026-10-04/face_0003_113217_654.jpg
+2026-10-04 11:32:27,710 | INFO | IDENTITY_CREATED face_id=3 track=3
+2026-10-04 11:32:27,715 | INFO | ENTRY face_id=3 track=3 frame=18 event_ts=2026-10-04T11:32:17.654 image=logs/entries/2026-10-04/face_0003_113217_654.jpg
+2026-10-04 11:32:28,031 | INFO | TRACK_STARTED track=4 frame=39
+2026-10-04 11:32:28,383 | INFO | EMBEDDING track=4 sample=1/3
+2026-10-04 11:32:28,457 | INFO | EXIT face_id=1 track=1 frame=40 event_ts=2026-10-04T11:32:17.295 image=logs/exits/2026-10-04/face_0001_113217_295.jpg
+2026-10-04 11:32:28,852 | INFO | TRACK_STARTED track=5 frame=42
+2026-10-04 11:32:29,284 | INFO | EMBEDDING track=5 sample=1/3
+2026-10-04 11:32:30,123 | INFO | EMBEDDING track=5 sample=2/3
+2026-10-04 11:32:31,097 | INFO | EMBEDDING track=5 sample=3/3
+2026-10-04 11:32:31,143 | INFO | RECOGNIZED face_id=1 track=5 similarity=0.669
+2026-10-04 11:32:31,163 | INFO | RECONNECTED face_id=1 track=5 (no new entry)
+2026-10-04 11:32:32,118 | INFO | EXIT face_id=2 track=2 frame=64 event_ts=2026-10-04T11:32:18.254 image=logs/exits/2026-10-04/face_0002_113218_254.jpg
+2026-10-04 11:32:32,245 | INFO | EXIT face_id=3 track=3 frame=67 event_ts=2026-10-04T11:32:18.373 image=logs/exits/2026-10-04/face_0003_113218_373.jpg
+2026-10-04 11:32:32,370 | INFO | REGISTERED face_id=4 track=4 embedding_dim=512 image=logs/registered/2026-10-04/face_0004_113218_493.jpg
+2026-10-04 11:32:32,371 | INFO | IDENTITY_CREATED face_id=4 track=4
+2026-10-04 11:32:32,373 | INFO | ENTRY face_id=4 track=4 frame=39 event_ts=2026-10-04T11:32:18.493 image=logs/entries/2026-10-04/face_0004_113218_493.jpg
+2026-10-04 11:32:32,375 | INFO | EXIT face_id=4 track=4 frame=70 event_ts=2026-10-04T11:32:18.493 image=logs/exits/2026-10-04/face_0004_113218_493.jpg
+2026-10-04 11:32:33,135 | INFO | TRACK_STARTED track=6 frame=90
+2026-10-04 11:32:33,673 | INFO | EMBEDDING track=6 sample=1/3
+2026-10-04 11:32:34,856 | INFO | EMBEDDING track=6 sample=2/3
+2026-10-04 11:32:35,723 | INFO | EMBEDDING track=6 sample=3/3
+2026-10-04 11:32:35,726 | INFO | RECOGNIZED face_id=3 track=6 similarity=0.688
+2026-10-04 11:32:35,736 | INFO | RECONNECTED face_id=3 track=6 (no new entry)
+2026-10-04 11:32:40,780 | INFO | EXIT_ALREADY_LOGGED face_id=1 track=5
+2026-10-04 11:32:40,971 | INFO | TRACK_STARTED track=7 frame=237
+2026-10-04 11:32:41,457 | INFO | EMBEDDING track=7 sample=1/3
+2026-10-04 11:32:42,578 | INFO | EMBEDDING track=7 sample=2/3
+2026-10-04 11:32:43,239 | INFO | EMBEDDING track=7 sample=3/3
+2026-10-04 11:32:43,242 | INFO | RECOGNIZED face_id=1 track=7 similarity=0.642
+2026-10-04 11:32:43,249 | INFO | RECONNECTED face_id=1 track=7 (no new entry)
+2026-10-04 11:32:44,325 | INFO | TRACK_STARTED track=8 frame=264
+2026-10-04 11:32:44,856 | INFO | EMBEDDING track=8 sample=1/3
+2026-10-04 11:32:45,743 | INFO | EMBEDDING track=8 sample=2/3
+2026-10-04 11:32:46,656 | INFO | EMBEDDING track=8 sample=3/3
+2026-10-04 11:32:46,682 | INFO | REGISTERED face_id=5 track=8 embedding_dim=512 image=logs/registered/2026-10-04/face_0005_113227_481.jpg
+2026-10-04 11:32:46,690 | INFO | IDENTITY_CREATED face_id=5 track=8
+2026-10-04 11:32:46,716 | INFO | ENTRY face_id=5 track=8 frame=264 event_ts=2026-10-04T11:32:27.481 image=logs/entries/2026-10-04/face_0005_113227_481.jpg
+2026-10-04 11:32:48,323 | INFO | EXIT_ALREADY_LOGGED face_id=1 track=7
+2026-10-04 11:32:48,325 | INFO | EXIT face_id=5 track=8 frame=304 event_ts=2026-10-04T11:32:27.841 image=logs/exits/2026-10-04/face_0005_113227_841.jpg
+2026-10-04 11:32:49,589 | INFO | EXIT_ALREADY_LOGGED face_id=3 track=6
+2026-10-04 11:32:49,679 | INFO | TRACK_STARTED track=9 frame=342
+2026-10-04 11:32:50,304 | INFO | EMBEDDING track=9 sample=1/3
+2026-10-04 11:32:51,043 | INFO | EMBEDDING track=9 sample=2/3
+2026-10-04 11:32:52,155 | INFO | EMBEDDING track=9 sample=3/3
+2026-10-04 11:32:52,169 | INFO | RECOGNIZED face_id=1 track=9 similarity=0.546
+2026-10-04 11:32:52,190 | INFO | RECONNECTED face_id=1 track=9 (no new entry)
+2026-10-04 11:32:52,204 | INFO | TRACK_STARTED track=10 frame=348
+2026-10-04 11:32:52,840 | INFO | EMBEDDING track=10 sample=1/3
+2026-10-04 11:32:53,509 | INFO | EMBEDDING track=10 sample=2/3
+2026-10-04 11:32:53,518 | INFO | TRACK_STARTED track=11 frame=351
+2026-10-04 11:32:53,867 | INFO | EMBEDDING track=11 sample=1/3
+2026-10-04 11:32:54,820 | INFO | EMBEDDING track=11 sample=2/3
+2026-10-04 11:32:55,689 | INFO | EMBEDDING track=11 sample=3/3
+2026-10-04 11:32:55,697 | INFO | REGISTERED face_id=6 track=11 embedding_dim=512 image=logs/registered/2026-10-04/face_0006_113230_957.jpg
+2026-10-04 11:32:55,709 | INFO | IDENTITY_CREATED face_id=6 track=11
+2026-10-04 11:32:55,725 | INFO | ENTRY face_id=6 track=11 frame=351 event_ts=2026-10-04T11:32:30.957 image=logs/entries/2026-10-04/face_0006_113230_957.jpg
+2026-10-04 11:32:57,120 | INFO | RECOGNIZED face_id=5 track=10 similarity=0.805
+2026-10-04 11:32:57,120 | INFO | RECONNECTED face_id=5 track=10 (no new entry)
+2026-10-04 11:32:57,121 | INFO | EXIT_ALREADY_LOGGED face_id=5 track=10
+2026-10-04 11:32:58,891 | INFO | EXIT_ALREADY_LOGGED face_id=1 track=9
+2026-10-04 11:33:00,746 | INFO | TRACK_STARTED track=12 frame=480
+2026-10-04 11:33:01,106 | INFO | EMBEDDING track=12 sample=1/3
+2026-10-04 11:33:02,002 | INFO | EMBEDDING track=12 sample=2/3
+2026-10-04 11:33:03,136 | INFO | EMBEDDING track=12 sample=3/3
+2026-10-04 11:33:03,156 | INFO | RECOGNIZED face_id=2 track=12 similarity=0.663
+2026-10-04 11:33:03,170 | INFO | RECONNECTED face_id=2 track=12 (no new entry)
+2026-10-04 11:33:04,397 | INFO | TRACK_STARTED track=13 frame=513
+2026-10-04 11:33:04,708 | INFO | EMBEDDING track=13 sample=1/3
+2026-10-04 11:33:06,125 | INFO | EXIT_ALREADY_LOGGED face_id=2 track=12
+2026-10-04 11:33:06,466 | INFO | RECOGNIZED face_id=1 track=13 similarity=0.474
+2026-10-04 11:33:06,466 | INFO | RECONNECTED face_id=1 track=13 (no new entry)
+2026-10-04 11:33:06,466 | INFO | EXIT_ALREADY_LOGGED face_id=1 track=13
+2026-10-04 11:33:07,122 | INFO | TRACK_STARTED track=14 frame=561
+2026-10-04 11:33:07,489 | INFO | EMBEDDING track=14 sample=1/3
+2026-10-04 11:33:08,426 | INFO | EMBEDDING track=14 sample=2/3
+2026-10-04 11:33:09,292 | INFO | EMBEDDING track=14 sample=3/3
+2026-10-04 11:33:09,300 | INFO | RECOGNIZED face_id=1 track=14 similarity=0.591
+2026-10-04 11:33:09,303 | INFO | RECONNECTED face_id=1 track=14 (no new entry)
+2026-10-04 11:33:10,824 | INFO | EXIT_ALREADY_LOGGED face_id=1 track=14
+2026-10-04 11:33:12,170 | INFO | TRACK_STARTED track=15 frame=636
+2026-10-04 11:33:12,443 | INFO | EMBEDDING track=15 sample=1/3
+2026-10-04 11:33:13,352 | INFO | EMBEDDING track=15 sample=2/3
+2026-10-04 11:33:14,322 | INFO | EMBEDDING track=15 sample=3/3
+2026-10-04 11:33:14,339 | INFO | RECOGNIZED face_id=1 track=15 similarity=0.518
+2026-10-04 11:33:14,367 | INFO | RECONNECTED face_id=1 track=15 (no new entry)
+2026-10-04 11:33:15,924 | INFO | EXIT_ALREADY_LOGGED face_id=1 track=15
+2026-10-04 11:33:16,742 | INFO | TRACK_STARTED track=16 frame=699
+2026-10-04 11:33:17,102 | INFO | EMBEDDING track=16 sample=1/3
+2026-10-04 11:33:18,138 | INFO | TRACK_STARTED track=17 frame=714
+2026-10-04 11:33:18,737 | INFO | EMBEDDING track=17 sample=1/3
+2026-10-04 11:33:19,290 | INFO | EMBEDDING track=17 sample=2/3
+2026-10-04 11:33:20,204 | INFO | EMBEDDING track=17 sample=3/3
+2026-10-04 11:33:20,222 | INFO | RECOGNIZED face_id=2 track=17 similarity=0.553
+2026-10-04 11:33:20,238 | INFO | RECONNECTED face_id=2 track=17 (no new entry)
+2026-10-04 11:33:20,919 | INFO | REGISTERED face_id=7 track=16 embedding_dim=512 image=logs/registered/2026-10-04/face_0007_113244_858.jpg
+2026-10-04 11:33:20,919 | INFO | IDENTITY_CREATED face_id=7 track=16
+2026-10-04 11:33:20,922 | INFO | ENTRY face_id=7 track=16 frame=699 event_ts=2026-10-04T11:32:44.858 image=logs/entries/2026-10-04/face_0007_113244_858.jpg
+2026-10-04 11:33:20,923 | INFO | EXIT face_id=7 track=16 frame=730 event_ts=2026-10-04T11:32:44.858 image=logs/exits/2026-10-04/face_0007_113244_858.jpg
+2026-10-04 11:33:22,603 | INFO | TRACK_STARTED track=18 frame=777
+2026-10-04 11:33:22,923 | INFO | EMBEDDING track=18 sample=1/3
+2026-10-04 11:33:23,835 | INFO | TRACK_STARTED track=19 frame=789
+2026-10-04 11:33:24,082 | INFO | EMBEDDING track=19 sample=1/3
+2026-10-04 11:33:24,089 | INFO | TRACK_STARTED track=20 frame=789
+2026-10-04 11:33:24,664 | INFO | EMBEDDING track=20 sample=1/3
+2026-10-04 11:33:25,694 | INFO | RECOGNIZED face_id=4 track=18 similarity=0.550
+2026-10-04 11:33:25,695 | INFO | RECONNECTED face_id=4 track=18 (no new entry)
+2026-10-04 11:33:25,695 | INFO | EXIT_ALREADY_LOGGED face_id=4 track=18
+2026-10-04 11:33:26,149 | INFO | REGISTERED face_id=8 track=19 embedding_dim=512 image=logs/registered/2026-10-04/face_0008_113248_453.jpg
+2026-10-04 11:33:26,149 | INFO | IDENTITY_CREATED face_id=8 track=19
+2026-10-04 11:33:26,152 | INFO | ENTRY face_id=8 track=19 frame=789 event_ts=2026-10-04T11:32:48.453 image=logs/entries/2026-10-04/face_0008_113248_453.jpg
+2026-10-04 11:33:26,160 | INFO | EXIT face_id=8 track=19 frame=820 event_ts=2026-10-04T11:32:48.453 image=logs/exits/2026-10-04/face_0008_113248_453.jpg
+2026-10-04 11:33:26,161 | INFO | RECOGNIZED face_id=2 track=20 similarity=0.521
+2026-10-04 11:33:26,161 | INFO | TRACK_MERGED face_id=2 old_track=17 new_track=20
+2026-10-04 11:33:26,161 | INFO | EXIT_ALREADY_LOGGED face_id=2 track=20
+2026-10-04 11:33:27,589 | INFO | TRACK_STARTED track=21 frame=858
+2026-10-04 11:33:28,185 | INFO | EMBEDDING track=21 sample=1/3
+2026-10-04 11:33:28,875 | INFO | EMBEDDING track=21 sample=2/3
+2026-10-04 11:33:29,768 | INFO | EMBEDDING track=21 sample=3/3
+2026-10-04 11:33:29,786 | INFO | RECOGNIZED face_id=1 track=21 similarity=0.580
+2026-10-04 11:33:29,803 | INFO | RECONNECTED face_id=1 track=21 (no new entry)
+2026-10-04 11:33:33,734 | INFO | EXIT_ALREADY_LOGGED face_id=1 track=21
+2026-10-04 11:33:36,913 | INFO | TRACK_STARTED track=22 frame=1050
+2026-10-04 11:33:37,451 | INFO | EMBEDDING track=22 sample=1/3
+2026-10-04 11:33:38,369 | INFO | EMBEDDING track=22 sample=2/3
+2026-10-04 11:33:39,112 | INFO | EMBEDDING track=22 sample=3/3
+2026-10-04 11:33:39,123 | INFO | RECOGNIZED face_id=2 track=22 similarity=0.709
+2026-10-04 11:33:39,143 | INFO | RECONNECTED face_id=2 track=22 (no new entry)
+2026-10-04 11:33:40,189 | INFO | TRACK_STARTED track=23 frame=1074
+2026-10-04 11:33:40,745 | INFO | EMBEDDING track=23 sample=1/3
+2026-10-04 11:33:41,434 | INFO | EMBEDDING track=23 sample=2/3
+2026-10-04 11:33:41,936 | INFO | TRACK_STARTED track=24 frame=1080
+2026-10-04 11:33:42,437 | INFO | EMBEDDING track=24 sample=1/3
+2026-10-04 11:33:42,914 | INFO | TRACK_STARTED track=25 frame=1083
+2026-10-04 11:33:43,458 | INFO | EMBEDDING track=25 sample=1/3
+2026-10-04 11:33:43,495 | INFO | TRACK_STARTED track=26 frame=1083
+2026-10-04 11:33:44,012 | INFO | EMBEDDING track=26 sample=1/3
+2026-10-04 11:33:44,013 | INFO | TRACK_STARTED track=27 frame=1083
+2026-10-04 11:33:44,570 | INFO | EMBEDDING track=27 sample=1/3
+2026-10-04 11:33:45,362 | INFO | EMBEDDING track=25 sample=2/3
+2026-10-04 11:33:45,806 | INFO | EMBEDDING track=27 sample=2/3
+2026-10-04 11:33:45,838 | INFO | TRACK_STARTED track=28 frame=1086
+2026-10-04 11:33:46,399 | INFO | EMBEDDING track=28 sample=1/3
+2026-10-04 11:33:47,286 | INFO | EMBEDDING track=25 sample=3/3
+2026-10-04 11:33:47,298 | INFO | REGISTERED face_id=9 track=25 embedding_dim=512 image=logs/registered/2026-10-04/face_0009_113300_198.jpg
+2026-10-04 11:33:47,304 | INFO | IDENTITY_CREATED face_id=9 track=25
+2026-10-04 11:33:47,325 | INFO | ENTRY face_id=9 track=25 frame=1083 event_ts=2026-10-04T11:33:00.198 image=logs/entries/2026-10-04/face_0009_113300_198.jpg
+2026-10-04 11:33:47,915 | INFO | EMBEDDING track=27 sample=3/3
+2026-10-04 11:33:47,937 | INFO | RECOGNIZED face_id=5 track=27 similarity=0.628
+2026-10-04 11:33:47,942 | INFO | RECONNECTED face_id=5 track=27 (no new entry)
+2026-10-04 11:33:48,370 | INFO | EMBEDDING track=28 sample=2/3
+2026-10-04 11:33:49,004 | INFO | TRACK_STARTED track=29 frame=1095
+2026-10-04 11:33:49,604 | INFO | EMBEDDING track=29 sample=1/3
+2026-10-04 11:33:50,302 | INFO | EMBEDDING track=29 sample=2/3
+2026-10-04 11:33:51,201 | INFO | EMBEDDING track=29 sample=3/3
+2026-10-04 11:33:51,219 | INFO | RECOGNIZED face_id=9 track=29 similarity=0.895
+2026-10-04 11:33:51,224 | INFO | TRACK_MERGED face_id=9 old_track=25 new_track=29
+2026-10-04 11:33:51,818 | INFO | TRACK_STARTED track=30 frame=1107
+2026-10-04 11:33:52,045 | INFO | EMBEDDING track=30 sample=1/3
+2026-10-04 11:33:52,119 | INFO | REGISTERED face_id=10 track=23 embedding_dim=512 image=logs/registered/2026-10-04/face_0010_113259_838.jpg
+2026-10-04 11:33:52,163 | INFO | IDENTITY_CREATED face_id=10 track=23
+2026-10-04 11:33:52,177 | INFO | ENTRY face_id=10 track=23 frame=1074 event_ts=2026-10-04T11:32:59.838 image=logs/entries/2026-10-04/face_0010_113259_838.jpg
+2026-10-04 11:33:52,207 | INFO | EXIT face_id=10 track=23 frame=1108 event_ts=2026-10-04T11:32:59.958 image=logs/exits/2026-10-04/face_0010_113259_958.jpg
+2026-10-04 11:33:53,002 | INFO | EMBEDDING track=30 sample=2/3
+2026-10-04 11:33:53,040 | INFO | RECOGNIZED face_id=10 track=24 similarity=0.823
+2026-10-04 11:33:53,043 | INFO | RECONNECTED face_id=10 track=24 (no new entry)
+2026-10-04 11:33:53,049 | INFO | EXIT_ALREADY_LOGGED face_id=10 track=24
+2026-10-04 11:33:53,892 | INFO | EMBEDDING track=30 sample=3/3
+2026-10-04 11:33:53,914 | INFO | RECOGNIZED face_id=9 track=30 similarity=0.799
+2026-10-04 11:33:53,922 | INFO | TRACK_MERGED face_id=9 old_track=29 new_track=30
+2026-10-04 11:33:54,016 | INFO | RECOGNIZED face_id=10 track=26 similarity=0.793
+2026-10-04 11:33:54,016 | INFO | RECONNECTED face_id=10 track=26 (no new entry)
+2026-10-04 11:33:54,017 | INFO | EXIT_ALREADY_LOGGED face_id=10 track=26
+2026-10-04 11:33:54,563 | INFO | RECOGNIZED face_id=10 track=28 similarity=0.599
+2026-10-04 11:33:54,564 | INFO | RECONNECTED face_id=10 track=28 (no new entry)
+2026-10-04 11:33:54,564 | INFO | EXIT_ALREADY_LOGGED face_id=10 track=28
+2026-10-04 11:33:55,192 | INFO | EXIT_ALREADY_LOGGED face_id=5 track=27
+2026-10-04 11:33:55,297 | INFO | TRACK_STARTED track=31 frame=1137
+2026-10-04 11:33:55,875 | INFO | EMBEDDING track=31 sample=1/3
+2026-10-04 11:33:56,333 | INFO | TRACK_STARTED track=32 frame=1143
+2026-10-04 11:33:56,782 | INFO | EMBEDDING track=32 sample=1/3
+2026-10-04 11:33:57,676 | INFO | EXIT_ALREADY_LOGGED face_id=2 track=22
+2026-10-04 11:33:57,886 | INFO | TRACK_STARTED track=33 frame=1161
+2026-10-04 11:33:58,442 | INFO | EMBEDDING track=33 sample=1/3
+2026-10-04 11:33:58,804 | INFO | TRACK_STARTED track=34 frame=1164
+2026-10-04 11:33:59,250 | INFO | EMBEDDING track=34 sample=1/3
+2026-10-04 11:33:59,698 | INFO | TRACK_STARTED track=35 frame=1167
+2026-10-04 11:34:00,046 | INFO | EMBEDDING track=35 sample=1/3
+2026-10-04 11:34:00,084 | INFO | RECOGNIZED face_id=9 track=31 similarity=0.698
+2026-10-04 11:34:00,091 | INFO | TRACK_MERGED face_id=9 old_track=30 new_track=31
+2026-10-04 11:34:00,123 | INFO | EXIT face_id=9 track=31 frame=1168 event_ts=2026-10-04T11:33:02.355 image=logs/exits/2026-10-04/face_0009_113302_355.jpg
+2026-10-04 11:34:01,022 | INFO | EMBEDDING track=35 sample=2/3
+2026-10-04 11:34:01,116 | INFO | REGISTERED face_id=11 track=32 embedding_dim=512 image=logs/registered/2026-10-04/face_0011_113302_594.jpg
+2026-10-04 11:34:01,160 | INFO | IDENTITY_CREATED face_id=11 track=32
+2026-10-04 11:34:01,205 | INFO | ENTRY face_id=11 track=32 frame=1143 event_ts=2026-10-04T11:33:02.594 image=logs/entries/2026-10-04/face_0011_113302_594.jpg
+2026-10-04 11:34:01,245 | INFO | EXIT face_id=11 track=32 frame=1174 event_ts=2026-10-04T11:33:02.594 image=logs/exits/2026-10-04/face_0011_113302_594.jpg
+2026-10-04 11:34:02,053 | INFO | EMBEDDING track=35 sample=3/3
+2026-10-04 11:34:02,083 | INFO | RECOGNIZED face_id=10 track=35 similarity=0.707
+2026-10-04 11:34:02,123 | INFO | RECONNECTED face_id=10 track=35 (no new entry)
+2026-10-04 11:34:02,578 | INFO | TRACK_STARTED track=36 frame=1182
+2026-10-04 11:34:03,030 | INFO | EMBEDDING track=36 sample=1/3
+2026-10-04 11:34:03,862 | INFO | EMBEDDING track=36 sample=2/3
+2026-10-04 11:34:04,816 | INFO | EMBEDDING track=36 sample=3/3
+2026-10-04 11:34:04,846 | INFO | RECOGNIZED face_id=2 track=36 similarity=0.534
+2026-10-04 11:34:04,882 | INFO | RECONNECTED face_id=2 track=36 (no new entry)
+2026-10-04 11:34:04,941 | INFO | RECOGNIZED face_id=9 track=33 similarity=0.669
+2026-10-04 11:34:04,963 | INFO | RECONNECTED face_id=9 track=33 (no new entry)
+2026-10-04 11:34:04,988 | INFO | EXIT_ALREADY_LOGGED face_id=9 track=33
+2026-10-04 11:34:05,451 | INFO | RECOGNIZED face_id=9 track=34 similarity=0.569
+2026-10-04 11:34:05,452 | INFO | RECONNECTED face_id=9 track=34 (no new entry)
+2026-10-04 11:34:05,452 | INFO | EXIT_ALREADY_LOGGED face_id=9 track=34
+2026-10-04 11:34:05,780 | INFO | TRACK_STARTED track=37 frame=1203
+2026-10-04 11:34:06,344 | INFO | EMBEDDING track=37 sample=1/3
+2026-10-04 11:34:07,483 | INFO | TRACK_STARTED track=38 frame=1224
+2026-10-04 11:34:07,944 | INFO | EMBEDDING track=38 sample=1/3
+2026-10-04 11:34:08,039 | INFO | EXIT_ALREADY_LOGGED face_id=10 track=35
+2026-10-04 11:34:08,694 | INFO | EMBEDDING track=38 sample=2/3
+2026-10-04 11:34:09,567 | INFO | EMBEDDING track=38 sample=3/3
+2026-10-04 11:34:09,583 | INFO | REGISTERED face_id=12 track=38 embedding_dim=512 image=logs/registered/2026-10-04/face_0012_113305_830.jpg
+2026-10-04 11:34:09,603 | INFO | IDENTITY_CREATED face_id=12 track=38
+2026-10-04 11:34:09,617 | INFO | ENTRY face_id=12 track=38 frame=1224 event_ts=2026-10-04T11:33:05.830 image=logs/entries/2026-10-04/face_0012_113305_830.jpg
+2026-10-04 11:34:10,055 | INFO | TRACK_STARTED track=39 frame=1233
+2026-10-04 11:34:10,529 | INFO | EMBEDDING track=39 sample=1/3
+2026-10-04 11:34:10,588 | INFO | RECOGNIZED face_id=5 track=37 similarity=0.635
+2026-10-04 11:34:10,615 | INFO | RECONNECTED face_id=5 track=37 (no new entry)
+2026-10-04 11:34:10,622 | INFO | EXIT_ALREADY_LOGGED face_id=5 track=37
+2026-10-04 11:34:11,671 | INFO | EMBEDDING track=39 sample=2/3
+2026-10-04 11:34:12,492 | INFO | EMBEDDING track=39 sample=3/3
+2026-10-04 11:34:12,504 | INFO | RECOGNIZED face_id=12 track=39 similarity=0.780
+2026-10-04 11:34:12,516 | INFO | TRACK_MERGED face_id=12 old_track=38 new_track=39
+2026-10-04 11:34:12,575 | INFO | EXIT_ALREADY_LOGGED face_id=2 track=36
+2026-10-04 11:34:15,081 | INFO | TRACK_STARTED track=40 frame=1305
+2026-10-04 11:34:15,435 | INFO | EMBEDDING track=40 sample=1/3
+2026-10-04 11:34:16,416 | INFO | TRACK_STARTED track=41 frame=1320
+2026-10-04 11:34:17,016 | INFO | EMBEDDING track=41 sample=1/3
+2026-10-04 11:34:17,502 | INFO | EMBEDDING track=41 sample=2/3
+2026-10-04 11:34:18,617 | INFO | EMBEDDING track=41 sample=3/3
+2026-10-04 11:34:18,635 | INFO | RECOGNIZED face_id=12 track=41 similarity=0.676
+2026-10-04 11:34:18,636 | INFO | TRACK_MERGED face_id=12 old_track=39 new_track=41
+2026-10-04 11:34:19,258 | INFO | RECOGNIZED face_id=5 track=40 similarity=0.563
+2026-10-04 11:34:19,259 | INFO | RECONNECTED face_id=5 track=40 (no new entry)
+2026-10-04 11:34:19,259 | INFO | EXIT_ALREADY_LOGGED face_id=5 track=40
+2026-10-04 11:34:20,229 | INFO | EXIT face_id=12 track=41 frame=1363 event_ts=2026-10-04T11:33:10.144 image=logs/exits/2026-10-04/face_0012_113310_144.jpg
+2026-10-04 11:34:24,224 | INFO | TRACK_STARTED track=42 frame=1476
+2026-10-04 11:34:24,555 | INFO | EMBEDDING track=42 sample=1/3
+2026-10-04 11:34:25,496 | INFO | EMBEDDING track=42 sample=2/3
+2026-10-04 11:34:26,437 | INFO | EMBEDDING track=42 sample=3/3
+2026-10-04 11:34:26,603 | INFO | RECOGNIZED face_id=1 track=42 similarity=0.492
+2026-10-04 11:34:26,639 | INFO | RECONNECTED face_id=1 track=42 (no new entry)
+2026-10-04 11:34:27,541 | INFO | EXIT face_id=6 track=11 frame=1502 event_ts=2026-10-04T11:33:16.855 image=logs/exits/2026-10-04/face_0006_113316_855.jpg
+2026-10-04 11:34:27,541 | INFO | EXIT_ALREADY_LOGGED face_id=1 track=42
+2026-10-04 11:34:27,541 | INFO | PIPELINE_END unique_visitors=12 events={'entry': 12, 'exit': 12}

@@ -1,0 +1,7 @@
+numpy
+scipy
+opencv-python
+ultralytics
+onnxruntime
+insightface
+# GPU users: replace onnxruntime with onnxruntime-gpu and install a CUDA build of torch

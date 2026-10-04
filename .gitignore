@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+models/*.pt
+data/*.mp4
+data/*.db*
+*.db-wal
+*.db-shm
+.pytest_cache/
